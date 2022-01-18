@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Kodaskanna::ImageSource::Widget</class>
+ <widget class="QWidget" name="Kodaskanna::ImageSource::Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>387</width>
+    <height>303</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <layout class="QStackedLayout" name="widgetStackLayout"/>
+   </item>
+   <item>
+    <widget class="KMessageWidget" name="messageWidget">
+     <property name="visible">
+      <bool>false</bool>
+     </property>
+     <property name="closeButtonVisible">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>KMessageWidget</class>
+   <extends>QWidget</extends>
+   <header>kmessagewidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

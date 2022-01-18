@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Service
+MimeType=image/*;
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+Actions=scan-image;
+
+[Desktop Action scan-image]
+Name=Scan data code
+Icon=kodaskanna
+Exec=kodaskanna %F

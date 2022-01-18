@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Kodaskanna::Window</class>
+ <widget class="QDialog" name="Kodaskanna::Window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="2,1,0">
+   <item>
+    <layout class="QStackedLayout" name="sourceWidgetStackLayout"/>
+   </item>
+   <item>
+    <layout class="QStackedLayout" name="displayWidgetStackLayout"/>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

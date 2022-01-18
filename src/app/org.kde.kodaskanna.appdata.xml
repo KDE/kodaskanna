@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+SPDX-FileCopyrightText: none
+SPDX-License-Identifier: CC0-1.0
+-->
+<component type="desktop-application">
+  <id>org.kde.kodaskanna</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LGPL-2.1-or-later</project_license>
+  <name>Kodaskanna</name>
+  <summary>A multi-format 1D/2D code scanner</summary>
+  <description>
+    <p>Kodaskanna is a utility for reading data from 1D/2D codes (e.g. QR codes or bar codes) and making the data available for further processing.</p>
+  </description>
+  <url type="homepage">https://www.kde.org</url>
+  <url type="bugtracker">https://bugs.kde.org</url>
+  <url type="donation">https://www.kde.org/community/donations</url>
+  <categories>
+   <category>Utility</category>
+  </categories>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://kde.org/images/screenshots/kodaskanna.png</image>
+    </screenshot>
+  </screenshots>
+  <provides>
+    <binary>kodaskanna</binary>
+  </provides>
+  <launchable type="desktop-id">org.kde.kodaskanna.desktop</launchable>
+  <project_group>KDE</project_group>
+  <update_contact>kossebau_at_kde.org</update_contact>
+  <content_rating type="oars-1.1"/>
+</component>

@@ -1,0 +1,15 @@
+.*.swp
+tags
+.kdev4/
+*.kdev4
+/build*/
+CMakeLists.txt.user*
+.cmake/
+
+# LSP & IDE
+/.clang-format
+/compile_commands.json
+.clangd
+.cache
+.idea
+/cmake-build*

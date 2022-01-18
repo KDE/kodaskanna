@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+
+Name=Kodaskanna
+GenericName=A multi-format 1D/2D code scanner
+Icon=kodaskanna
+Categories=Qt;KDE;Utility
+
+Exec=kodaskanna
+StartupWMClass=kodaskanna
