@@ -31,6 +31,8 @@ find_package(KF5 ${KF_MIN_VERSION} REQUIRED COMPONENTS
     CoreAddons
     WidgetsAddons
     ConfigWidgets
+    KIO
+    Purpose
     I18n
 )
 

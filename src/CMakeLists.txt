@@ -12,4 +12,6 @@ add_subdirectory(clipboardexport)
 add_subdirectory(fileexport)
 
 add_subdirectory(konqpopupmenu)
+add_subdirectory(purposeplugin)
+
 add_subdirectory(app)

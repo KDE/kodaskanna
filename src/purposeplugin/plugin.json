@@ -1,0 +1,22 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Friedrich W. H. Kossebau"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "Scan Data Code with Kodaskanna",
+        "Icon": "kodaskanna",
+        "License": "LGPL-2.1-or-later",
+        "Name": "Kodaskanna",
+        "X-Purpose-ActionDisplay": "Scan Data Code with Kodaskanna..."
+    },
+    "X-Purpose-Configuration": [],
+    "X-Purpose-Constraints": [
+        "mimeType:image/*"
+    ],
+    "X-Purpose-PluginTypes": [
+        "Export"
+    ]
+}
