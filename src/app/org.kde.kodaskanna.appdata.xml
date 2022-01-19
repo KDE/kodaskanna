@@ -12,9 +12,9 @@ SPDX-License-Identifier: CC0-1.0
   <description>
     <p>Kodaskanna is a utility for reading data from 1D/2D codes (e.g. QR codes or bar codes) and making the data available for further processing.</p>
   </description>
-  <url type="homepage">https://www.kde.org</url>
-  <url type="bugtracker">https://bugs.kde.org</url>
-  <url type="donation">https://www.kde.org/community/donations</url>
+  <url type="homepage">https://commits.kde.org/kodaskanna</url>
+  <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?format=guided&amp;product=kodaskanna</url>
+  <url type="donation">https://www.kde.org/community/donations/?app=kodaskanna&amp;source=appdata</url>
   <categories>
    <category>Utility</category>
   </categories>

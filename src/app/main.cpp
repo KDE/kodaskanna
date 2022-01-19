@@ -26,7 +26,9 @@ int main(int argc, char **argv)
                          QStringLiteral(KODASKANNA_VERSION),
                          i18n("Utility to scan data from codes in graphical sources."),
                          KAboutLicense::LGPL_V2_1,
-                         i18n("Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"));
+                         i18n("Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"),
+                         QString(),
+                         QStringLiteral("https://commits.kde.org/kodaskanna"));
 
     aboutData.addAuthor(i18n("Friedrich W. H. Kossebau"), i18n("Author"), QStringLiteral("kossebau@kde.org"));
 
