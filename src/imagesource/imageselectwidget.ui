@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
+ <!--
+  SPDX-FileCopyrightText: 2022 Friedrich W. H. Kossebau <kossebau@kde.org>
+  SPDX-License-Identifier: LGPL-2.1-or-later
+ -->
  <class>Kodaskanna::ImageSource::ImageSelectWidget</class>
  <widget class="QWidget" name="Kodaskanna::ImageSource::ImageSelectWidget">
   <property name="geometry">
