@@ -18,5 +18,6 @@ target_link_libraries(kodaskannaplaintextpreview
     PUBLIC
         kodaskannawidgets
     PRIVATE
+        KF5::CoreAddons
         KF5::I18n
 )

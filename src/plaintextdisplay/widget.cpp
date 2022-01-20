@@ -6,6 +6,9 @@
 
 #include "widget.hpp"
 
+// KF
+#include <KTextToHTML>
+
 namespace Kodaskanna
 {
 namespace PlainTextDisplay
@@ -21,7 +24,10 @@ Widget::~Widget() = default;
 
 void Widget::setText(const QString &text)
 {
-    m_ui.plainTextView->setPlainText(text);
+    // Until we have proper MIME type detection, simply always try to add links to anything that could be linked
+    // TODO: does KTextToHTML change text only in a way that QTextEdit::toPlainText() still delivers the original one?
+    const QString textAsHtml = KTextToHTML::convertToHtml(text, {KTextToHTML::PreserveSpaces | KTextToHTML::ConvertPhoneNumbers});
+    m_ui.plainTextView->setHtml(textAsHtml);
 }
 
 }
