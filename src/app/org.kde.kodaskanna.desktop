@@ -5,7 +5,19 @@
 Type=Application
 
 Name=Kodaskanna
+Name[ca]=Kodaskanna
+Name[es]=Kodaskanna
+Name[nl]=Kodaskanna
+Name[sv]=Kodaskanna
+Name[uk]=Kodaskanna
+Name[x-test]=xxKodaskannaxx
 GenericName=A multi-format 1D/2D code scanner
+GenericName[ca]=Un escàner de codis 1D/2D multiformat
+GenericName[es]=Escáner de códigos 1D/2D multiformato
+GenericName[nl]=Een multi-format 1D/2D codescanner
+GenericName[sv]=En en- och tvådimensionell kodläsare för flera format
+GenericName[uk]=Багатоформатний сканер одно- і двовимірних кодів
+GenericName[x-test]=xxA multi-format 1D/2D code scannerxx
 Icon=kodaskanna
 Categories=Qt;KDE;Utility
 

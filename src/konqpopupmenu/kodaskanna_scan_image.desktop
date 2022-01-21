@@ -9,5 +9,11 @@ Actions=scan-image;
 
 [Desktop Action scan-image]
 Name=Scan data code
+Name[ca]=Escaneig de codi de dades
+Name[es]=Escanear código de datos
+Name[nl]=Gegevenscode scannen
+Name[sv]=Läs datakod
+Name[uk]=Сканування кодів даних
+Name[x-test]=xxScan data codexx
 Icon=kodaskanna
 Exec=kodaskanna %F

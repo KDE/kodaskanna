@@ -2,15 +2,39 @@
     "KPlugin": {
         "Authors": [
             {
-                "Name": "Friedrich W. H. Kossebau"
+                "Name": "Friedrich W. H. Kossebau",
+                "Name[ca]": "Friedrich W. H. Kossebau",
+                "Name[es]": "Friedrich W. H. Kossebau",
+                "Name[nl]": "Friedrich W. H. Kossebau",
+                "Name[sv]": "Friedrich W. H. Kossebau",
+                "Name[uk]": "Friedrich W. H. Kossebau",
+                "Name[x-test]": "xxFriedrich W. H. Kossebauxx"
             }
         ],
         "Category": "Utilities",
         "Description": "Scan Data Code with Kodaskanna",
+        "Description[ca]": "Escaneig de codi de dades amb el Kodaskanna",
+        "Description[es]": "Escanear código de datos con Kodaskanna",
+        "Description[nl]": "Gegevenscode scannen met Kodaskanna",
+        "Description[sv]": "Läs datakod med Kodaskanna",
+        "Description[uk]": "Сканувати дата-код за допомогою Kodaskanna",
+        "Description[x-test]": "xxScan Data Code with Kodaskannaxx",
         "Icon": "kodaskanna",
         "License": "LGPL-2.1-or-later",
         "Name": "Kodaskanna",
-        "X-Purpose-ActionDisplay": "Scan Data Code with Kodaskanna..."
+        "Name[ca]": "Kodaskanna",
+        "Name[es]": "Kodaskanna",
+        "Name[nl]": "Kodaskanna",
+        "Name[sv]": "Kodaskanna",
+        "Name[uk]": "Kodaskanna",
+        "Name[x-test]": "xxKodaskannaxx",
+        "X-Purpose-ActionDisplay": "Scan Data Code with Kodaskanna...",
+        "X-Purpose-ActionDisplay[ca]": "Escaneig de codi de dades amb el Kodaskanna...",
+        "X-Purpose-ActionDisplay[es]": "Escanear código de datos con Kodaskanna...",
+        "X-Purpose-ActionDisplay[nl]": "Gegevenscode scannen met Kodaskanna...",
+        "X-Purpose-ActionDisplay[sv]": "Läs datakod med Kodaskanna...",
+        "X-Purpose-ActionDisplay[uk]": "Сканувати дата-код за допомогою Kodaskanna…",
+        "X-Purpose-ActionDisplay[x-test]": "xxScan Data Code with Kodaskanna...xx"
     },
     "X-Purpose-Configuration": [],
     "X-Purpose-Constraints": [
