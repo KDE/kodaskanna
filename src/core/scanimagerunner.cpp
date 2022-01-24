@@ -50,7 +50,7 @@ ZXing::Result readBarcode(const QImage &image, ZXing::DecodeHints decodeHints)
 void ScanImageRunner::run()
 {
     ZXing::DecodeHints decodeHints;
-    decodeHints.setFormats(ZXing::BarcodeFormat::QRCode);
+    decodeHints.setFormats(ZXing::BarcodeFormat::Any);
     decodeHints.setTryRotate(false);
     decodeHints.setBinarizer(ZXing::Binarizer::FixedThreshold);
 
