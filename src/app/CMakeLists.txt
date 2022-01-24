@@ -22,6 +22,7 @@ target_link_libraries(kodaskanna
     kodaskannafileexport
     kodaskannawidgets
     kodaskannacore
+    KF5::ConfigWidgets
     KF5::CoreAddons
     KF5::I18n
     Qt5::Widgets

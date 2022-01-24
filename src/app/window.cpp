@@ -17,6 +17,7 @@
 #include <abstractsourcetool.hpp>
 // KF
 #include <KLocalizedString>
+#include <KStandardAction>
 // Qt
 #include <QUrl>
 
@@ -42,6 +43,11 @@ Window::Window()
     for (auto *tool : std::as_const(m_exportTools)) {
         tool->setupButtonBox(m_ui.buttonBox);
     }
+
+    // Allow Ctrl+Q to quit the app
+    QAction *quitAction = KStandardAction::quit(qApp, &QApplication::quit, this);
+    quitAction->setShortcut(QKeySequence::Quit);
+    addAction(quitAction);
 
     connect(m_ui.buttonBox, &QDialogButtonBox::accepted, this, &QDialog::accepted);
     connect(m_ui.buttonBox, &QDialogButtonBox::rejected, this, &QDialog::rejected);
