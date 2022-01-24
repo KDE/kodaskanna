@@ -17,6 +17,8 @@
 #include <abstractsourcetool.hpp>
 // KF
 #include <KLocalizedString>
+// Qt
+#include <QUrl>
 
 namespace Kodaskanna
 {
@@ -47,9 +49,9 @@ Window::Window()
 
 Window::~Window() = default;
 
-void Window::scanFromFile(const QString &fileName)
+void Window::scanFromFile(const QUrl &fileUrl)
 {
-    m_sourceTool->setOrigin(fileName);
+    m_sourceTool->setOrigin(fileUrl);
 }
 
 void Window::handleScanFinished(const ScanResult &scanResult)

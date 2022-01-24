@@ -11,7 +11,7 @@
 #include <QObject>
 
 class QWidget;
-class QString;
+class QUrl;
 
 namespace Kodaskanna
 {
@@ -27,7 +27,7 @@ public:
     ~AbstractSourceTool() override;
 
 public: // API to implement
-    virtual void setOrigin(const QString &origin) = 0;
+    virtual void setOrigin(const QUrl &origin) = 0;
     virtual QWidget *widget() = 0;
 
 Q_SIGNALS:

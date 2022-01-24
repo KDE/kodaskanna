@@ -36,7 +36,7 @@ bool ImageSelectTool::canHandleMimeData(const QMimeData *mimeData) const
 
     if (mimeData->hasUrls()) {
         const QList<QUrl> urls = mimeData->urls();
-        if ((urls.size() == 1) && urls.first().isLocalFile()) {
+        if (urls.size() == 1) {
             return true;
         }
     }
@@ -54,8 +54,8 @@ bool ImageSelectTool::handleDroppedMimeData(const QMimeData *mimeData)
 
     if (mimeData->hasUrls()) {
         const QList<QUrl> urls = mimeData->urls();
-        if ((urls.size() == 1) && urls.first().isLocalFile()) {
-            m_tool->setOrigin(urls.first().toLocalFile());
+        if (urls.size() == 1) {
+            m_tool->setOrigin(urls.first());
             return true;
         }
     }
@@ -65,12 +65,12 @@ bool ImageSelectTool::handleDroppedMimeData(const QMimeData *mimeData)
 
 void ImageSelectTool::openFile()
 {
-    const QString localFileName = QFileDialog::getOpenFileName(nullptr, i18nc("@title:window", "Open Image"));
-    if (localFileName.isEmpty()) {
+    const QUrl fileUrl = QFileDialog::getOpenFileUrl(nullptr, i18nc("@title:window", "Open Image"));
+    if (fileUrl.isEmpty()) {
         return;
     }
 
-    m_tool->setOrigin(localFileName);
+    m_tool->setOrigin(fileUrl);
 }
 
 void ImageSelectTool::pasteFromClipboard()

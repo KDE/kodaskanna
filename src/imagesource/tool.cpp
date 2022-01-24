@@ -7,6 +7,7 @@
 #include "tool.hpp"
 
 // own
+#include "loadimagejob.hpp"
 #include "imageselecttool.hpp"
 #include "widget.hpp"
 // core
@@ -14,7 +15,6 @@
 #include <scanresult.hpp>
 // Qt
 #include <QImage>
-#include <QImageReader>
 #include <QThreadPool>
 
 namespace Kodaskanna
@@ -35,7 +35,7 @@ QWidget *Tool::widget()
     return m_widget;
 }
 
-void Tool::setOrigin(const QString &origin)
+void Tool::setOrigin(const QUrl &origin)
 {
     if (origin.isEmpty()) {
         if (!m_imageSelectTool) {
@@ -45,14 +45,12 @@ void Tool::setOrigin(const QString &origin)
         return;
     }
 
-    QImageReader reader(origin);
-    reader.setAutoTransform(true);
-    const QImage loadedImage = reader.read();
-    if (loadedImage.isNull()) {
-        m_widget->showError(i18n("Could not load image from file %1.", origin));
-        return;
-    }
-    setImage(loadedImage);
+    m_widget->setEnabled(false);
+
+    auto *loadImageJob = new LoadImageJob(origin);
+    connect(loadImageJob, &LoadImageJob::result, this, &Tool::handleImageLoadResult);
+
+    loadImageJob->start();
 }
 
 void Tool::setImage(const QImage &image)
@@ -64,6 +62,19 @@ void Tool::setImage(const QImage &image)
     connect(scanImageRunner, &ScanImageRunner::scanFinished, this, &Tool::handleScanFinished);
 
     QThreadPool::globalInstance()->start(scanImageRunner);
+}
+
+void Tool::handleImageLoadResult(KJob *job)
+{
+    m_widget->setEnabled(true);
+
+    auto *loadImageJob = static_cast<LoadImageJob*>(job);
+    if (loadImageJob->error() != 0) {
+        m_widget->showError(loadImageJob->errorString());
+        return;
+    }
+
+    setImage(loadImageJob->image());
 }
 
 void Tool::handleScanFinished(const ScanResult &scanResult)

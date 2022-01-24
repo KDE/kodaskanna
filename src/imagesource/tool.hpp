@@ -12,10 +12,14 @@
 // Std
 #include <memory>
 
+class KJob;
 class QImage;
 
 namespace Kodaskanna
 {
+
+class ScanResult;
+
 namespace ImageSource
 {
 class ImageSelectTool;
@@ -34,10 +38,11 @@ public:
     void setImage(const QImage &image);
 
 public: // AbstractSourceTool API
-    void setOrigin(const QString &origin) override;
+    void setOrigin(const QUrl &origin) override;
     QWidget *widget() override;
 
 private:
+    void handleImageLoadResult(KJob *job);
     void handleScanFinished(const ScanResult &scanResult);
 
 private:

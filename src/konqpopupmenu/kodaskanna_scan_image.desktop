@@ -18,4 +18,4 @@ Name[sv]=Läs datakod
 Name[uk]=Сканування кодів даних
 Name[x-test]=xxScan data codexx
 Icon=kodaskanna
-Exec=kodaskanna %F
+Exec=kodaskanna %u

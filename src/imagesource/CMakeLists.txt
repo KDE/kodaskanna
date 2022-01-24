@@ -12,6 +12,9 @@ ki18n_wrap_ui(kodaskannaimagesource
 target_sources(kodaskannaimagesource PRIVATE
     plugin.cpp
     tool.cpp
+    loadimagejob.cpp
+    readimagefilerunner.cpp
+    imagereadresult.cpp
     imageselecttool.cpp
     imageselectwidget.cpp
     imageview.cpp
@@ -22,6 +25,7 @@ target_link_libraries(kodaskannaimagesource
     PUBLIC
         kodaskannawidgets
     PRIVATE
+        KF5::KIOCore
         KF5::WidgetsAddons
         KF5::I18n
 )

@@ -13,6 +13,8 @@
 // Qt
 #include <QApplication>
 #include <QCommandLineParser>
+#include <QDir>
+#include <QUrl>
 #include <QIcon>
 
 int main(int argc, char **argv)
@@ -37,22 +39,23 @@ int main(int argc, char **argv)
 
     QCommandLineParser parser;
     aboutData.setupCommandLine(&parser);
-    parser.addPositionalArgument(QStringLiteral("file"), i18n("Image file to open."));
+    parser.addPositionalArgument(QStringLiteral("URL"), i18n("Image file to open."), QStringLiteral("[URL}"));
 
     parser.process(application);
     aboutData.processCommandLine(&parser);
 
     // empty name: show image select input
-    QString sourceFileName;
+    QUrl sourceFileUrl;
     const QStringList positionalArguments = parser.positionalArguments();
     if (positionalArguments.size() > 0) {
-        sourceFileName = positionalArguments.first();
+        const QString currentPath = QDir::currentPath();
+        sourceFileUrl = QUrl::fromUserInput(positionalArguments.first(), currentPath, QUrl::AssumeLocalFile);
     }
 
     auto *window = new Kodaskanna::Window;
     window->show();
 
-    window->scanFromFile(sourceFileName);
+    window->scanFromFile(sourceFileUrl);
 
     return application.exec();
 }

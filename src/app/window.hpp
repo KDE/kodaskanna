@@ -14,6 +14,8 @@
 #include <QDialog>
 #include <QList>
 
+class QUrl;
+
 namespace Kodaskanna
 {
 class AbstractSourceTool;
@@ -35,7 +37,7 @@ public:
     ~Window() override;
 
 public:
-    void scanFromFile(const QString &fileName);
+    void scanFromFile(const QUrl &fileUrl);
 
 private:
     void handleScanFinished(const ScanResult &scanResult);
