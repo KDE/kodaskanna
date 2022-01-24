@@ -52,6 +52,9 @@ SPDX-License-Identifier: CC0-1.0
   </provides>
   <launchable type="desktop-id">org.kde.kodaskanna.desktop</launchable>
   <project_group>KDE</project_group>
+  <releases>
+    <release version="0.1.0" date="2022-01-24"/>
+  </releases>
   <update_contact>kossebau_at_kde.org</update_contact>
   <content_rating type="oars-1.1"/>
 </component>
