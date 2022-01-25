@@ -22,6 +22,7 @@ GenericName[sl]=Optični bralnik eno- in dvodimenzionalnih kod
 GenericName[sv]=En en- och tvådimensionell kodläsare för flera format
 GenericName[uk]=Багатоформатний сканер одно- і двовимірних кодів
 GenericName[x-test]=xxA multi-format 1D/2D code scannerxx
+Keywords=QR;Barcode;Code;Scanner;Decoder;Reader
 Icon=kodaskanna
 Categories=Qt;KDE;Utility
 
