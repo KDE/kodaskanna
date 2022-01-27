@@ -10,6 +10,7 @@ Actions=scan-image;
 [Desktop Action scan-image]
 Name=Scan data code
 Name[ca]=Escaneig de codi de dades
+Name[ca@valencia]=Escaneig de codi de dades
 Name[es]=Escanear código de datos
 Name[nl]=Gegevenscode scannen
 Name[pl]=Skanuj kody danych
