@@ -9,6 +9,7 @@ SPDX-License-Identifier: CC0-1.0
   <project_license>LGPL-2.1-or-later</project_license>
   <name>Kodaskanna</name>
   <name xml:lang="ca">Kodaskanna</name>
+  <name xml:lang="ca-valencia">Kodaskanna</name>
   <name xml:lang="es">Kodaskanna</name>
   <name xml:lang="nl">Kodaskanna</name>
   <name xml:lang="pl">Kodaskanna</name>
@@ -19,6 +20,7 @@ SPDX-License-Identifier: CC0-1.0
   <name xml:lang="x-test">xxKodaskannaxx</name>
   <summary>A multi-format 1D/2D code scanner</summary>
   <summary xml:lang="ca">Un escàner de codis 1D/2D multiformat</summary>
+  <summary xml:lang="ca-valencia">Un escàner de codis 1D/2D multiformat</summary>
   <summary xml:lang="es">Escáner de códigos 1D/2D multiformato</summary>
   <summary xml:lang="nl">Een multi-format 1D/2D codescanner</summary>
   <summary xml:lang="pl">Wieloformatowy skaner kodów 1D/2D</summary>
@@ -30,6 +32,7 @@ SPDX-License-Identifier: CC0-1.0
   <description>
     <p>Kodaskanna is a utility for reading data from 1D/2D codes (e.g. QR codes or bar codes) and making the data available for further processing.</p>
     <p xml:lang="ca">El Kodaskanna és una utilitat per llegir dades a partir de codis 1D/2D (p. ex. codis QR o codis de barres) i fer que les dades estiguin disponibles per a un processat posterior.</p>
+    <p xml:lang="ca-valencia">El Kodaskanna és una utilitat per llegir dades a partir de codis 1D/2D (p. ex. codis QR o codis de barres) i fer que les dades estiguen disponibles per a un processat posterior.</p>
     <p xml:lang="es">Kodaskanna es una utilidad para leer datos a partir de códigos 1D/2D (por ejemplo, códigos QR o códigos de barras) y hacer que los datos estén disponibles para su posterior procesamiento.</p>
     <p xml:lang="nl">Kodaskanna is een hulpmiddel om gegevens uit 1D/2D codes te lezen (bijv. QR- of barcodes) en de gegevens beschikbaar te maken voor verdere bewerking.</p>
     <p xml:lang="pl">Kodaskanna jest narzędziem do odczytu danych z kodów 1D/2D (np. kodów QR lub kreskowych) i udostępniania tych danych do dalszego przetwarzania.</p>
