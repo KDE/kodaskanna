@@ -3,6 +3,7 @@
         "Authors": [
             {
                 "Name": "Friedrich W. H. Kossebau",
+                "Name[ar]": "Friedrich W. H. Kossebau",
                 "Name[ca@valencia]": "Friedrich W. H. Kossebau",
                 "Name[ca]": "Friedrich W. H. Kossebau",
                 "Name[es]": "Friedrich W. H. Kossebau",
@@ -19,6 +20,7 @@
         ],
         "Category": "Utilities",
         "Description": "Scan Data Code with Kodaskanna",
+        "Description[ar]": "اسمح رمز البيانات بماسح الرمز",
         "Description[ca@valencia]": "Escaneig de codi de dades amb el Kodaskanna",
         "Description[ca]": "Escaneig de codi de dades amb el Kodaskanna",
         "Description[es]": "Escanear código de datos con Kodaskanna",
@@ -34,6 +36,7 @@
         "Icon": "kodaskanna",
         "License": "LGPL-2.1-or-later",
         "Name": "Kodaskanna",
+        "Name[ar]": "ماسح الرمز",
         "Name[ca@valencia]": "Kodaskanna",
         "Name[ca]": "Kodaskanna",
         "Name[es]": "Kodaskanna",
@@ -47,6 +50,7 @@
         "Name[uk]": "Kodaskanna",
         "Name[x-test]": "xxKodaskannaxx",
         "X-Purpose-ActionDisplay": "Scan Data Code with Kodaskanna...",
+        "X-Purpose-ActionDisplay[ar]": "اسمح رمز البيانات بماسح الرمز...",
         "X-Purpose-ActionDisplay[ca@valencia]": "Escaneig de codi de dades amb el Kodaskanna...",
         "X-Purpose-ActionDisplay[ca]": "Escaneig de codi de dades amb el Kodaskanna...",
         "X-Purpose-ActionDisplay[es]": "Escanear código de datos con Kodaskanna...",

@@ -5,6 +5,7 @@
 Type=Application
 
 Name=Kodaskanna
+Name[ar]=ماسح الرمز
 Name[ca]=Kodaskanna
 Name[ca@valencia]=Kodaskanna
 Name[es]=Kodaskanna
@@ -18,6 +19,7 @@ Name[sv]=Kodaskanna
 Name[uk]=Kodaskanna
 Name[x-test]=xxKodaskannaxx
 GenericName=A multi-format 1D/2D code scanner
+GenericName[ar]=ماسح ضوئي للرمز متعدد التنسيقات 1D / 2D
 GenericName[ca]=Un escàner de codis 1D/2D multiformat
 GenericName[ca@valencia]=Un escàner de codis 1D/2D multiformat
 GenericName[es]=Escáner de códigos 1D/2D multiformato
@@ -31,6 +33,7 @@ GenericName[sv]=En en- och tvådimensionell kodläsare för flera format
 GenericName[uk]=Багатоформатний сканер одно- і двовимірних кодів
 GenericName[x-test]=xxA multi-format 1D/2D code scannerxx
 Keywords=QR;Barcode;Code;Scanner;Decoder;Reader
+Keywords[ar]=قارئ;ماسح;كود;رمز;شفرة
 Keywords[ca]=QR;Codi de barres;Codi;Escàner;Descodificador;Lector
 Keywords[ca@valencia]=QR;Codi de barres;Codi;Escàner;Descodificador;Lector
 Keywords[es]=QR;Código de barras;Código;Escáner;Descodificador;Decodificador;Lector
