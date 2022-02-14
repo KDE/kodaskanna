@@ -40,6 +40,7 @@ Keywords[es]=QR;Código de barras;Código;Escáner;Descodificador;Decodificador;
 Keywords[fi]=QR;viivakoodi;koodi;skanneri;dekooderi;lukija
 Keywords[it]=QR;codice a barre;codice;scanner;decodificatore;lettore
 Keywords[nl]=QR;Barcode;Code;Scanner;Decodeerder;Lezer
+Keywords[pl]=QR;kod kreskowy;kod;skaner;dekoder;czytnik
 Keywords[sl]=QR;Črtna koda;Koda;Scaner;Dekodirnik;Bralnik
 Keywords[sv]=QR;streckkod;kod;läsare;avkodare
 Keywords[uk]=QR;Barcode;Code;Scanner;Decoder;Reader;куар;баркод;штрихкод;код;сканер;декодер;зчитувач;
