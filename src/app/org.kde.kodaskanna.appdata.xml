@@ -16,6 +16,7 @@ SPDX-License-Identifier: CC0-1.0
   <name xml:lang="fi">Kodaskanna</name>
   <name xml:lang="fr">Kodaskanna</name>
   <name xml:lang="it">Kodaskanna</name>
+  <name xml:lang="ko">Kodaskanna</name>
   <name xml:lang="nl">Kodaskanna</name>
   <name xml:lang="pl">Kodaskanna</name>
   <name xml:lang="sk">Kodaskanna</name>
@@ -32,6 +33,7 @@ SPDX-License-Identifier: CC0-1.0
   <summary xml:lang="fi">Eri muotoja tukeva 1D/2D-koodinlukija</summary>
   <summary xml:lang="fr">Un périphérique de numéro de codes 1D / 2D multi-format</summary>
   <summary xml:lang="it">Uno scanner di codici 1D/2D a più fattori</summary>
+  <summary xml:lang="ko">다중 형식 1D/2D 코드 스캐너</summary>
   <summary xml:lang="nl">Een multi-format 1D/2D codescanner</summary>
   <summary xml:lang="pl">Wieloformatowy skaner kodów 1D/2D</summary>
   <summary xml:lang="sk">Viacformátový 1D/2D skener kódov</summary>
@@ -49,6 +51,7 @@ SPDX-License-Identifier: CC0-1.0
     <p xml:lang="fi">Kodaskanna on työkalu 1D/2D-koodien (esim. QR- tai viivakoodien) tiedon lukemiseksi ja saattamiseksi jälkikäsittelyyn.</p>
     <p xml:lang="fr">Kodaskanna est un utilitaire pour la lecture de données pour des codes 1D / 2D codes (Par exemple de codes « QR » ou des codes barres) et la mise à disposition des données pour traitement ultérieur.</p>
     <p xml:lang="it">Kodaskanna è uno strumento per leggere i dati da codici 1D/2D (ad es. codici QR o codici a barre) e rendere i dati disponibili per ulteriori elaborazioni.</p>
+    <p xml:lang="ko">Kodaskanna는 1D/2D 코드(예: 바코드, QR 코드)에서 데이터를 읽고 추가로 처리할 수 있는 유틸리티입니다.</p>
     <p xml:lang="nl">Kodaskanna is een hulpmiddel om gegevens uit 1D/2D codes te lezen (bijv. QR- of barcodes) en de gegevens beschikbaar te maken voor verdere bewerking.</p>
     <p xml:lang="pl">Kodaskanna jest narzędziem do odczytu danych z kodów 1D/2D (np. kodów QR lub kreskowych) i udostępniania tych danych do dalszego przetwarzania.</p>
     <p xml:lang="sk">Kodaskanna je nástroj na čítanie dát z 1D/2D kódov (QR kódov alebo čiarových kódov) a sprístupnenie dát na ďalšie spracovanie.</p>
