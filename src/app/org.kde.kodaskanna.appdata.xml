@@ -20,6 +20,7 @@ SPDX-License-Identifier: CC0-1.0
   <name xml:lang="ko">Kodaskanna</name>
   <name xml:lang="nl">Kodaskanna</name>
   <name xml:lang="pl">Kodaskanna</name>
+  <name xml:lang="pt">Kodaskanna</name>
   <name xml:lang="sk">Kodaskanna</name>
   <name xml:lang="sl">Kodaskanna</name>
   <name xml:lang="sv">Kodaskanna</name>
@@ -37,6 +38,7 @@ SPDX-License-Identifier: CC0-1.0
   <summary xml:lang="ko">다중 형식 1D/2D 코드 스캐너</summary>
   <summary xml:lang="nl">Een multi-format 1D/2D codescanner</summary>
   <summary xml:lang="pl">Wieloformatowy skaner kodów 1D/2D</summary>
+  <summary xml:lang="pt">Um digitalizador/analisador de códigos 1D/2D multi-formatos</summary>
   <summary xml:lang="sk">Viacformátový 1D/2D skener kódov</summary>
   <summary xml:lang="sl">Optični bralnik eno- in dvodimenzionalnih kod</summary>
   <summary xml:lang="sv">En en- och tvådimensionell kodläsare för flera format</summary>
@@ -55,6 +57,7 @@ SPDX-License-Identifier: CC0-1.0
     <p xml:lang="ko">Kodaskanna는 1D/2D 코드(예: 바코드, QR 코드)에서 데이터를 읽고 추가로 처리할 수 있는 유틸리티입니다.</p>
     <p xml:lang="nl">Kodaskanna is een hulpmiddel om gegevens uit 1D/2D codes te lezen (bijv. QR- of barcodes) en de gegevens beschikbaar te maken voor verdere bewerking.</p>
     <p xml:lang="pl">Kodaskanna jest narzędziem do odczytu danych z kodów 1D/2D (np. kodów QR lub kreskowych) i udostępniania tych danych do dalszego przetwarzania.</p>
+    <p xml:lang="pt">O Kodaskanna é um utilitário para ler dados de códigos 1D/2D (p.ex., códigos QR ou códigos de barras) e tornar os dados disponíveis para processamentos posteriores.</p>
     <p xml:lang="sk">Kodaskanna je nástroj na čítanie dát z 1D/2D kódov (QR kódov alebo čiarových kódov) a sprístupnenie dát na ďalšie spracovanie.</p>
     <p xml:lang="sl">Kodaskanna je pripomoček za branje podatkov iz 1-D/2-D kod (npr. QR-kode ali črtne kode) in dajanja podatkov na voljo za nadaljnjo obdelavo.</p>
     <p xml:lang="sv">Kodaskanna är ett verktyg för att läsa data från en- och tvådimensionella koder (t.ex. QR-koder eller streckkoder) och göra data tillgängligt för ytterligare behandling.</p>
