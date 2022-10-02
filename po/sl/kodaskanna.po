@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kodaskanna package.
+#
+# Martin Srebotnjak <miles@filmsi.net>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kodaskanna\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-25 00:41+0000\n"
+"PO-Revision-Date: 2022-01-21 18:51+0100\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Martin Srebotnjak"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "miles@filmsi.net"
+
+#: src/app/main.cpp:27
+#, kde-format
+msgid "Kodaskanna"
+msgstr "Kodaskanna"
+
+#: src/app/main.cpp:29
+#, kde-format
+msgid "Utility to scan data from codes in graphical sources."
+msgstr "Pripomoček za optično branje podatkov iz kod v grafičnih virih."
+
+#: src/app/main.cpp:31
+#, kde-format
+msgid "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+msgstr ""
+"Avtorske pravice zaščitene 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+
+#: src/app/main.cpp:35
+#, kde-format
+msgid "Friedrich W. H. Kossebau"
+msgstr "Friedrich W. H. Kossebau"
+
+#: src/app/main.cpp:35
+#, kde-format
+msgid "Author"
+msgstr "Avtor"
+
+#: src/app/main.cpp:42
+#, kde-format
+msgid "Image file to open."
+msgstr "Slikovna datoteka za odprtje."
+
+#: src/clipboardexport/tool.cpp:38
+#, kde-format
+msgctxt "@action"
+msgid "Copy Text to Clipboard"
+msgstr "Kopiraj besedilo na odložišče"
+
+#: src/clipboardexport/tool.cpp:41
+#, kde-format
+msgctxt "@action"
+msgid "Copy Data to Clipboard"
+msgstr "Kopiraj podatke na odložišče"
+
+#: src/fileexport/tool.cpp:37
+#, kde-format
+msgctxt "@action"
+msgid "Save Text As..."
+msgstr "Shrani besedilo kot ..."
+
+#: src/fileexport/tool.cpp:40
+#, kde-format
+msgctxt "@action"
+msgid "Save Data As..."
+msgstr "Shrani podatke kot ..."
+
+#: src/fileexport/tool.cpp:65
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Text As"
+msgstr "Shrani besedilo kot"
+
+#: src/fileexport/tool.cpp:82
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Data As"
+msgstr "Shrani podatke kot"
+
+#: src/imagesource/imageselecttool.cpp:68
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Image"
+msgstr "Odpri sliko"
+
+#. i18n: ectx: property (text), widget (QPushButton, openFileButton)
+#: src/imagesource/imageselectwidget.ui:49
+#, kde-format
+msgid "Select a File"
+msgstr "Izberite datoteko"
+
+#. i18n: ectx: property (text), widget (QPushButton, pasteFromClipboardButton)
+#: src/imagesource/imageselectwidget.ui:89
+#, kde-format
+msgid "Paste from Clipboard"
+msgstr "Prilepi iz odložišča"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/imagesource/imageselectwidget.ui:114
+#, kde-format
+msgid "or"
+msgstr "ali"
+
+#. i18n: ectx: property (text), widget (QLabel, dropMessage)
+#: src/imagesource/imageselectwidget.ui:121
+#, kde-format
+msgid "Drop an image here"
+msgstr "Sliko spustite semkaj"
+
+#: src/imagesource/loadimagejob.cpp:88
+#, kde-format
+msgid "Could not load image from file %1."
+msgstr "Ni moč naložiti slike iz datoteke %1."
+
+#: src/imagesource/tool.cpp:83
+#, kde-format
+msgid "Could not scan code in the image."
+msgstr "Kode na sliki ni bilo mogoče optično prebrati."
+
+#: src/imagesource/tool.cpp:85
+#, kde-format
+msgid "Code in the image successfully scanned."
+msgstr "Koda na sliki je uspešno optično prebrana."
+
+#: src/purposeplugin/launchjob.cpp:33
+#, kde-format
+msgid "Need one URL."
+msgstr "Potrebujete URL."
+
+#: src/purposeplugin/launchjob.cpp:42
+#, kde-format
+msgid "Could not find Kodaskanna."
+msgstr "Kodaskanne ni bilo mogoče najti."

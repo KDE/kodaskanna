@@ -1,0 +1,151 @@
+# Translation of kodaskanna.po to Catalan (Valencian)
+# Copyright (C) 2022 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Josep M. Ferrer <txemaq@gmail.com>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: kodaskanna\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-25 00:41+0000\n"
+"PO-Revision-Date: 2022-01-20 09:05+0100\n"
+"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca@valencia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 20.12.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Josep M. Ferrer"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "txemaq@gmail.com"
+
+#: src/app/main.cpp:27
+#, kde-format
+msgid "Kodaskanna"
+msgstr "Kodaskanna"
+
+#: src/app/main.cpp:29
+#, kde-format
+msgid "Utility to scan data from codes in graphical sources."
+msgstr "Utilitat per a escanejar dades a partir de codis de fonts gràfiques."
+
+#: src/app/main.cpp:31
+#, kde-format
+msgid "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+msgstr "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+
+#: src/app/main.cpp:35
+#, kde-format
+msgid "Friedrich W. H. Kossebau"
+msgstr "Friedrich W. H. Kossebau"
+
+#: src/app/main.cpp:35
+#, kde-format
+msgid "Author"
+msgstr "Autoria"
+
+#: src/app/main.cpp:42
+#, kde-format
+msgid "Image file to open."
+msgstr "Fitxer d'imatge a obrir."
+
+#: src/clipboardexport/tool.cpp:38
+#, kde-format
+msgctxt "@action"
+msgid "Copy Text to Clipboard"
+msgstr "Copia el text en el porta-retalls"
+
+#: src/clipboardexport/tool.cpp:41
+#, kde-format
+msgctxt "@action"
+msgid "Copy Data to Clipboard"
+msgstr "Copia les dades al porta-retalls"
+
+#: src/fileexport/tool.cpp:37
+#, kde-format
+msgctxt "@action"
+msgid "Save Text As..."
+msgstr "Guarda el text com a..."
+
+#: src/fileexport/tool.cpp:40
+#, kde-format
+msgctxt "@action"
+msgid "Save Data As..."
+msgstr "Guarda les dades com a..."
+
+#: src/fileexport/tool.cpp:65
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Text As"
+msgstr "Guarda el text com a"
+
+#: src/fileexport/tool.cpp:82
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Data As"
+msgstr "Guarda les dades com a"
+
+#: src/imagesource/imageselecttool.cpp:68
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Image"
+msgstr "Obri una imatge"
+
+#. i18n: ectx: property (text), widget (QPushButton, openFileButton)
+#: src/imagesource/imageselectwidget.ui:49
+#, kde-format
+msgid "Select a File"
+msgstr "Seleccioneu un fitxer"
+
+#. i18n: ectx: property (text), widget (QPushButton, pasteFromClipboardButton)
+#: src/imagesource/imageselectwidget.ui:89
+#, kde-format
+msgid "Paste from Clipboard"
+msgstr "Apega des del porta-retalls"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/imagesource/imageselectwidget.ui:114
+#, kde-format
+msgid "or"
+msgstr "o"
+
+#. i18n: ectx: property (text), widget (QLabel, dropMessage)
+#: src/imagesource/imageselectwidget.ui:121
+#, kde-format
+msgid "Drop an image here"
+msgstr "Deixeu anar ací una imatge"
+
+#: src/imagesource/loadimagejob.cpp:88
+#, kde-format
+msgid "Could not load image from file %1."
+msgstr "No s'ha pogut carregar la imatge des del fitxer %1."
+
+#: src/imagesource/tool.cpp:83
+#, kde-format
+msgid "Could not scan code in the image."
+msgstr "No s'ha pogut escanejar el codi de la imatge."
+
+#: src/imagesource/tool.cpp:85
+#, kde-format
+msgid "Code in the image successfully scanned."
+msgstr "El codi de la imatge s'ha escanejat correctament."
+
+#: src/purposeplugin/launchjob.cpp:33
+#, kde-format
+msgid "Need one URL."
+msgstr "Cal un URL."
+
+#: src/purposeplugin/launchjob.cpp:42
+#, kde-format
+msgid "Could not find Kodaskanna."
+msgstr "No s'ha pogut trobar Kodaskanna."

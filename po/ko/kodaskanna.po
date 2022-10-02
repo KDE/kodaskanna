@@ -1,0 +1,149 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kodaskanna package.
+# Shinjo Park <kde@peremen.name>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kodaskanna\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-25 00:41+0000\n"
+"PO-Revision-Date: 2022-02-20 22:32+0100\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 21.08.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "박신조"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde@peremen.name"
+
+#: src/app/main.cpp:27
+#, kde-format
+msgid "Kodaskanna"
+msgstr "Kodaskanna"
+
+#: src/app/main.cpp:29
+#, kde-format
+msgid "Utility to scan data from codes in graphical sources."
+msgstr "그래픽 데이터에 있는 코드를 스캔하는 유틸리티입니다."
+
+#: src/app/main.cpp:31
+#, kde-format
+msgid "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+msgstr "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+
+#: src/app/main.cpp:35
+#, kde-format
+msgid "Friedrich W. H. Kossebau"
+msgstr "Friedrich W. H. Kossebau"
+
+#: src/app/main.cpp:35
+#, kde-format
+msgid "Author"
+msgstr "작성자"
+
+#: src/app/main.cpp:42
+#, kde-format
+msgid "Image file to open."
+msgstr "열 그림 파일입니다."
+
+#: src/clipboardexport/tool.cpp:38
+#, kde-format
+msgctxt "@action"
+msgid "Copy Text to Clipboard"
+msgstr "문자열을 클립보드에 복사"
+
+#: src/clipboardexport/tool.cpp:41
+#, kde-format
+msgctxt "@action"
+msgid "Copy Data to Clipboard"
+msgstr "데이터를 클립보드에 복사"
+
+#: src/fileexport/tool.cpp:37
+#, kde-format
+msgctxt "@action"
+msgid "Save Text As..."
+msgstr "다른 이름으로 텍스트 저장..."
+
+#: src/fileexport/tool.cpp:40
+#, kde-format
+msgctxt "@action"
+msgid "Save Data As..."
+msgstr "다른 이름으로 데이터 저장..."
+
+#: src/fileexport/tool.cpp:65
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Text As"
+msgstr "다른 이름으로 텍스트 저장"
+
+#: src/fileexport/tool.cpp:82
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Data As"
+msgstr "다른 이름으로 데이터 저장"
+
+#: src/imagesource/imageselecttool.cpp:68
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Image"
+msgstr "그림 열기"
+
+#. i18n: ectx: property (text), widget (QPushButton, openFileButton)
+#: src/imagesource/imageselectwidget.ui:49
+#, kde-format
+msgid "Select a File"
+msgstr "파일 선택"
+
+#. i18n: ectx: property (text), widget (QPushButton, pasteFromClipboardButton)
+#: src/imagesource/imageselectwidget.ui:89
+#, kde-format
+msgid "Paste from Clipboard"
+msgstr "클립보드에서 붙여넣기"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/imagesource/imageselectwidget.ui:114
+#, kde-format
+msgid "or"
+msgstr "또는"
+
+#. i18n: ectx: property (text), widget (QLabel, dropMessage)
+#: src/imagesource/imageselectwidget.ui:121
+#, kde-format
+msgid "Drop an image here"
+msgstr "여기에 그림 끌어다 놓기"
+
+#: src/imagesource/loadimagejob.cpp:88
+#, kde-format
+msgid "Could not load image from file %1."
+msgstr "%1 파일에서 그림을 불러올 수 없습니다."
+
+#: src/imagesource/tool.cpp:83
+#, kde-format
+msgid "Could not scan code in the image."
+msgstr "그림의 코드를 스캔할 수 없습니다."
+
+#: src/imagesource/tool.cpp:85
+#, kde-format
+msgid "Code in the image successfully scanned."
+msgstr "그림의 코드를 스캔했습니다."
+
+#: src/purposeplugin/launchjob.cpp:33
+#, kde-format
+msgid "Need one URL."
+msgstr "URL이 필요합니다."
+
+#: src/purposeplugin/launchjob.cpp:42
+#, kde-format
+msgid "Could not find Kodaskanna."
+msgstr "Kodaskanna를 찾을 수 없습니다."

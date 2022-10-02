@@ -1,0 +1,148 @@
+# Xavier Besnard <xavier.besnard@neuf.fr>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: kodaskanna\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-25 00:41+0000\n"
+"PO-Revision-Date: 2022-03-05 20:16+0100\n"
+"Last-Translator: Xavier Besnard <xavier.besnard@neuf.fr>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 21.12.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Xavier Besnard"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "xavier.besnard@neuf.fr"
+
+#: src/app/main.cpp:27
+#, kde-format
+msgid "Kodaskanna"
+msgstr "Kodaskanna"
+
+#: src/app/main.cpp:29
+#, kde-format
+msgid "Utility to scan data from codes in graphical sources."
+msgstr ""
+"Utilitaire pour analyser des données à partir de codes dans des sources "
+"graphiques."
+
+#: src/app/main.cpp:31
+#, kde-format
+msgid "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+msgstr "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+
+#: src/app/main.cpp:35
+#, kde-format
+msgid "Friedrich W. H. Kossebau"
+msgstr "Friedrich W. H. Kossebau"
+
+#: src/app/main.cpp:35
+#, kde-format
+msgid "Author"
+msgstr "Auteur"
+
+#: src/app/main.cpp:42
+#, kde-format
+msgid "Image file to open."
+msgstr "Fichier d'image à ouvrir."
+
+#: src/clipboardexport/tool.cpp:38
+#, kde-format
+msgctxt "@action"
+msgid "Copy Text to Clipboard"
+msgstr "Copier du texte vers le presse-papier"
+
+#: src/clipboardexport/tool.cpp:41
+#, kde-format
+msgctxt "@action"
+msgid "Copy Data to Clipboard"
+msgstr "Copier des données vers le presse-papier"
+
+#: src/fileexport/tool.cpp:37
+#, kde-format
+msgctxt "@action"
+msgid "Save Text As..."
+msgstr "Enregistrer le texte sous..."
+
+#: src/fileexport/tool.cpp:40
+#, kde-format
+msgctxt "@action"
+msgid "Save Data As..."
+msgstr "Enregistrer les données sous..."
+
+#: src/fileexport/tool.cpp:65
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Text As"
+msgstr "Enregistrer le texte sous"
+
+#: src/fileexport/tool.cpp:82
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Data As"
+msgstr "Enregistrer les données sous"
+
+#: src/imagesource/imageselecttool.cpp:68
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Image"
+msgstr "Ouvrir une image"
+
+#. i18n: ectx: property (text), widget (QPushButton, openFileButton)
+#: src/imagesource/imageselectwidget.ui:49
+#, kde-format
+msgid "Select a File"
+msgstr "Sélectionner un fichier"
+
+#. i18n: ectx: property (text), widget (QPushButton, pasteFromClipboardButton)
+#: src/imagesource/imageselectwidget.ui:89
+#, kde-format
+msgid "Paste from Clipboard"
+msgstr "Copier à partir du presse-papier"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/imagesource/imageselectwidget.ui:114
+#, kde-format
+msgid "or"
+msgstr "ou"
+
+#. i18n: ectx: property (text), widget (QLabel, dropMessage)
+#: src/imagesource/imageselectwidget.ui:121
+#, kde-format
+msgid "Drop an image here"
+msgstr "Placer une image ici"
+
+#: src/imagesource/loadimagejob.cpp:88
+#, kde-format
+msgid "Could not load image from file %1."
+msgstr "Impossible de charger une image à partir du fichier %1."
+
+#: src/imagesource/tool.cpp:83
+#, kde-format
+msgid "Could not scan code in the image."
+msgstr "Impossible d'analyser le code de l'image."
+
+#: src/imagesource/tool.cpp:85
+#, kde-format
+msgid "Code in the image successfully scanned."
+msgstr "Analyse du code dans l'image effectuée avec succès."
+
+#: src/purposeplugin/launchjob.cpp:33
+#, kde-format
+msgid "Need one URL."
+msgstr "Nécessite une URL."
+
+#: src/purposeplugin/launchjob.cpp:42
+#, kde-format
+msgid "Could not find Kodaskanna."
+msgstr "Impossible de trouver Kodaskanna."
