@@ -1,31 +1,32 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kodaskanna package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: kdeorg\n"
+"Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-01-25 00:41+0000\n"
-"PO-Revision-Date: 2022-10-02 15:50\n"
-"Last-Translator: \n"
-"Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
+"PO-Revision-Date: 2022-10-02 07:50+0200\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
+"Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: kdeorg\n"
-"X-Crowdin-Project-ID: 269464\n"
-"X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /kf5-trunk/messages/kodaskanna/kodaskanna.pot\n"
-"X-Crowdin-File-ID: 26857\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Shi Lei"
+msgstr "Temuri Doghonadze"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "slreycn@outlook.com"
+msgstr "Temuri.doghonadze@gmail.com"
 
 #: src/app/main.cpp:27
 #, kde-format
@@ -35,115 +36,115 @@ msgstr "Kodaskanna"
 #: src/app/main.cpp:29
 #, kde-format
 msgid "Utility to scan data from codes in graphical sources."
-msgstr "扫描图形源码数据的工具。"
+msgstr "ხელსაწყო გრაფიკულ წყაროებში მონაცემების კოდების სკანირებისთვის."
 
 #: src/app/main.cpp:31
 #, kde-format
 msgid "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
-msgstr "版权所有 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+msgstr "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
 
 #: src/app/main.cpp:35
 #, kde-format
 msgid "Friedrich W. H. Kossebau"
-msgstr "Friedrich W. H. Kossebau"
+msgstr "ფრიდრიჰ კოსებაუ"
 
 #: src/app/main.cpp:35
 #, kde-format
 msgid "Author"
-msgstr "作者"
+msgstr "ავტორი"
 
 #: src/app/main.cpp:42
 #, kde-format
 msgid "Image file to open."
-msgstr "要打开的图像文件。"
+msgstr "გასახსნელი გამოსახულების ფაილი."
 
 #: src/clipboardexport/tool.cpp:38
 #, kde-format
 msgctxt "@action"
 msgid "Copy Text to Clipboard"
-msgstr "复制文本到剪贴板"
+msgstr "ტექსტის კოპირება გაცვლის ბუფერში"
 
 #: src/clipboardexport/tool.cpp:41
 #, kde-format
 msgctxt "@action"
 msgid "Copy Data to Clipboard"
-msgstr "复制数据到剪贴板"
+msgstr "მონაცემების კოპირება გაცვლის ბუფერში"
 
 #: src/fileexport/tool.cpp:37
 #, kde-format
 msgctxt "@action"
 msgid "Save Text As..."
-msgstr "文本另存为..."
+msgstr "ტექსტის შენახვა, როგორც..."
 
 #: src/fileexport/tool.cpp:40
 #, kde-format
 msgctxt "@action"
 msgid "Save Data As..."
-msgstr "数据另存为..."
+msgstr "მონაცემების შენახვა, როგორც..."
 
 #: src/fileexport/tool.cpp:65
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Text As"
-msgstr "文本另存为"
+msgstr "ტექსტის შენახვა, როგორც"
 
 #: src/fileexport/tool.cpp:82
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Data As"
-msgstr "数据另存为"
+msgstr "მონაცემების შენახვა, როგორც"
 
 #: src/imagesource/imageselecttool.cpp:68
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Image"
-msgstr "打开图像"
+msgstr "გამოსახულების გახსნა"
 
 #. i18n: ectx: property (text), widget (QPushButton, openFileButton)
 #: src/imagesource/imageselectwidget.ui:49
 #, kde-format
 msgid "Select a File"
-msgstr "选择一个文件"
+msgstr "ფაილის არჩევა"
 
 #. i18n: ectx: property (text), widget (QPushButton, pasteFromClipboardButton)
 #: src/imagesource/imageselectwidget.ui:89
 #, kde-format
 msgid "Paste from Clipboard"
-msgstr "从剪贴板中粘贴"
+msgstr "გაცვლის ბუფერიდან ჩასმა"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/imagesource/imageselectwidget.ui:114
 #, kde-format
 msgid "or"
-msgstr "或"
+msgstr "ან"
 
 #. i18n: ectx: property (text), widget (QLabel, dropMessage)
 #: src/imagesource/imageselectwidget.ui:121
 #, kde-format
 msgid "Drop an image here"
-msgstr "将图像拖放到这里"
+msgstr "დააგდეთ გამოსახულება აქ"
 
 #: src/imagesource/loadimagejob.cpp:88
 #, kde-format
 msgid "Could not load image from file %1."
-msgstr "无法从文件 %1 加载图像。"
+msgstr "გამოსახულების ჩატვირთვის შეცდომა ფაილიდან %1."
 
 #: src/imagesource/tool.cpp:83
 #, kde-format
 msgid "Could not scan code in the image."
-msgstr "无法扫描图像中的代码。"
+msgstr "გამოსახულებიდან კოდის სკანირება შეუძლებელია."
 
 #: src/imagesource/tool.cpp:85
 #, kde-format
 msgid "Code in the image successfully scanned."
-msgstr "图像中的代码扫描成功。"
+msgstr "გამოსახულებიდან კოდი წარმატებით წავიკითხე."
 
 #: src/purposeplugin/launchjob.cpp:33
 #, kde-format
 msgid "Need one URL."
-msgstr "需要一个URL。"
+msgstr "საჭიროა ერთი URL."
 
 #: src/purposeplugin/launchjob.cpp:42
 #, kde-format
 msgid "Could not find Kodaskanna."
-msgstr "未找到 Kodaskanna。"
+msgstr "Kodaskanna ვერ ვიპოვე."
