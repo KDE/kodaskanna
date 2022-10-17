@@ -57,7 +57,7 @@ msgstr "Autoria"
 #: src/app/main.cpp:42
 #, kde-format
 msgid "Image file to open."
-msgstr "Fitxer d'imatge a obrir."
+msgstr "Fitxer d'imatge que s'obrirà."
 
 #: src/clipboardexport/tool.cpp:38
 #, kde-format
