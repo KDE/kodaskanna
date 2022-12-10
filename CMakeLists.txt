@@ -16,6 +16,7 @@ include(KDEInstallDirs)
 include(KDECMakeSettings)
 include(KDECompilerSettings NO_POLICY_SCOPE)
 
+include(ECMDeprecationSettings)
 include(ECMInstallIcons)
 include(KDEClangFormat)
 include(FeatureSummary)
@@ -37,6 +38,11 @@ find_package(KF5 ${KF_MIN_VERSION} REQUIRED COMPONENTS
 )
 
 find_package(ZXing 1.2 REQUIRED)
+
+ecm_set_disabled_deprecation_versions(
+    QT 5.15.2
+    KF 5.91
+)
 
 add_subdirectory(src)
 add_subdirectory(icons)

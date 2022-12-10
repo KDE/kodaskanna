@@ -26,7 +26,6 @@ public:
     }
 };
 
-EXPORT_SHARE_VERSION // Purpose define needed to specify the plugin version
 K_PLUGIN_CLASS_WITH_JSON(KodaskannaPurposePlugin, "plugin.json")
 
 #include "plugin.moc"
