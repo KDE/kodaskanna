@@ -44,7 +44,7 @@ ZXing::ImageFormat zxingImageFormatFromQImage(const QImage &image)
 
 ZXing::Result readBarcode(const QImage &image, ZXing::DecodeHints decodeHints)
 {
-    return ZXing::ReadBarcode({image.bits(), image.width(), image.height(), zxingImageFormatFromQImage(image), image.bytesPerLine()}, decodeHints);
+    return ZXing::ReadBarcode({image.bits(), image.width(), image.height(), zxingImageFormatFromQImage(image), static_cast<int>(image.bytesPerLine())}, decodeHints);
 }
 
 void ScanImageRunner::run()
