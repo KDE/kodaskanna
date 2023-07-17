@@ -63,3 +63,5 @@ void LaunchJob::handleApplicationLaunchJobResult(KJob *job)
 
 }
 }
+
+#include "moc_launchjob.cpp"

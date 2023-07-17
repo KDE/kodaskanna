@@ -98,3 +98,5 @@ void ImageView::setImage(const QImage &image)
 
 }
 }
+
+#include "moc_imageview.cpp"

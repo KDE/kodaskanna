@@ -64,3 +64,5 @@ void Window::handleScanFinished(const ScanResult &scanResult)
 }
 
 }
+
+#include "moc_window.cpp"

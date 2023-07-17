@@ -76,3 +76,5 @@ void ImageSelectWidget::pasteFromClipboard()
 
 }
 }
+
+#include "moc_imageselectwidget.cpp"

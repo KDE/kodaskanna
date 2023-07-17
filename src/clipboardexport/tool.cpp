@@ -74,3 +74,5 @@ void Tool::copyData()
 
 }
 }
+
+#include "moc_tool.cpp"

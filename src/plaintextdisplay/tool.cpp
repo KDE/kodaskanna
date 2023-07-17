@@ -38,3 +38,5 @@ QWidget *Tool::widget()
 
 }
 }
+
+#include "moc_tool.cpp"

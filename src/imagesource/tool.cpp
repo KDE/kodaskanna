@@ -90,3 +90,5 @@ void Tool::handleScanFinished(const ScanResult &scanResult)
 
 }
 }
+
+#include "moc_tool.cpp"

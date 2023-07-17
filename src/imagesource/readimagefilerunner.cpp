@@ -44,3 +44,5 @@ void ReadImageFileRunner::run()
 
 }
 }
+
+#include "moc_readimagefilerunner.cpp"

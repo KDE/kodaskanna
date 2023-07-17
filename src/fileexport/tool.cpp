@@ -96,3 +96,5 @@ void Tool::saveDataAs()
 
 }
 }
+
+#include "moc_tool.cpp"

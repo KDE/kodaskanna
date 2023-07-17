@@ -79,3 +79,5 @@ void ScanImageRunner::run()
 }
 
 }
+
+#include "moc_scanimagerunner.cpp"

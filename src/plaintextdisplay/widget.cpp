@@ -32,3 +32,5 @@ void Widget::setText(const QString &text)
 
 }
 }
+
+#include "moc_widget.cpp"
