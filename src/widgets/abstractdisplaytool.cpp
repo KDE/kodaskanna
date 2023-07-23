@@ -17,3 +17,5 @@ AbstractDisplayTool::AbstractDisplayTool(QObject *parent)
 AbstractDisplayTool::~AbstractDisplayTool() = default;
 
 }
+
+#include "moc_abstractdisplaytool.cpp"

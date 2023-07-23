@@ -93,3 +93,5 @@ void LoadImageJob::handleReadFinished(const ImageReadResult &imageReadResult)
 
 }
 }
+
+#include "moc_loadimagejob.cpp"

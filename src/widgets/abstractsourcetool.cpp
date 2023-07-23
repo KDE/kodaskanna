@@ -17,3 +17,5 @@ AbstractSourceTool::AbstractSourceTool(QObject *parent)
 AbstractSourceTool::~AbstractSourceTool() = default;
 
 }
+
+#include "moc_abstractsourcetool.cpp"

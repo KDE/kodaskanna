@@ -60,3 +60,5 @@ void Widget::showError(const QString &messageText)
 
 }
 }
+
+#include "moc_widget.cpp"

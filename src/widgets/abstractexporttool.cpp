@@ -22,3 +22,5 @@ void AbstractExportTool::setupButtonBox(QDialogButtonBox *buttonBox)
 }
 
 }
+
+#include "moc_abstractexporttool.cpp"
