@@ -126,12 +126,12 @@ msgstr "Soltar unha imaxe aquí"
 #: src/imagesource/loadimagejob.cpp:88
 #, kde-format
 msgid "Could not load image from file %1."
-msgstr "Non se puido cargar a imaxe do ficheiro %1."
+msgstr "Non foi posíbel cargar a imaxe do ficheiro %1."
 
 #: src/imagesource/tool.cpp:83
 #, kde-format
 msgid "Could not scan code in the image."
-msgstr "Non se puido escanear o código da imaxe."
+msgstr "Non foi posíbel escanear o código da imaxe."
 
 #: src/imagesource/tool.cpp:85
 #, kde-format
@@ -146,4 +146,4 @@ msgstr "Necesítase un URL."
 #: src/purposeplugin/launchjob.cpp:42
 #, kde-format
 msgid "Could not find Kodaskanna."
-msgstr "Non se puido atopar Kodaskanna."
+msgstr "Non foi posíbel atopar Kodaskanna."
