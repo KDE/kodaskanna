@@ -33,7 +33,6 @@ SPDX-License-Identifier: CC0-1.0
   <name xml:lang="sv">Kodaskanna</name>
   <name xml:lang="tr">Kodaskanna</name>
   <name xml:lang="uk">Kodaskanna</name>
-  <name xml:lang="x-test">xxKodaskannaxx</name>
   <name xml:lang="zh-CN">Kodaskanna</name>
   <summary>A multi-format 1D/2D code scanner</summary>
   <summary xml:lang="ar">ماسح ضوئي للرمز متعدد التنسيقات 1D / 2D</summary>
@@ -59,7 +58,6 @@ SPDX-License-Identifier: CC0-1.0
   <summary xml:lang="sv">En en- och tvådimensionell kodläsare för flera format</summary>
   <summary xml:lang="tr">Çok Biçimli Bir 1B/2B Kod Tarayıcısı</summary>
   <summary xml:lang="uk">Багатоформатний сканер одно- і двовимірних кодів</summary>
-  <summary xml:lang="x-test">xxA multi-format 1D/2D code scannerxx</summary>
   <summary xml:lang="zh-CN">多格式 1D/2D 扫码器</summary>
   <description>
     <p>Kodaskanna is a utility for reading data from 1D/2D codes (e.g. QR codes or bar codes) and making the data available for further processing.</p>
@@ -86,7 +84,6 @@ SPDX-License-Identifier: CC0-1.0
     <p xml:lang="sv">Kodaskanna är ett verktyg för att läsa data från en- och tvådimensionella koder (t.ex. QR-koder eller streckkoder) och göra data tillgängligt för ytterligare behandling.</p>
     <p xml:lang="tr">Kodaskanna, 1B/2B kodlardan veri okumak için bir programdır (örn. kare kodlar veya barkodlar). Veri işlemeyi sürdürmek için dışa aktarabilir.</p>
     <p xml:lang="uk">Kodaskanna — програма для читання даних з одно- і двовимірних кодів (наприклад QR-кодів або штрих-кодів) і перетворення їх на дані, доступні для подальшої обробки.</p>
-    <p xml:lang="x-test">xxKodaskanna is a utility for reading data from 1D/2D codes (e.g. QR codes or bar codes) and making the data available for further processing.xx</p>
     <p xml:lang="zh-CN">Kodaskanna 是一个用于从一维/二维码（如QR码或条形码）中读取数据并使数据可用于进一步处理的工具。</p>
   </description>
   <url type="homepage">https://commits.kde.org/kodaskanna</url>
