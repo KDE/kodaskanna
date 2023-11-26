@@ -80,7 +80,7 @@ Keywords[sv]=QR;streckkod;kod;läsare;avkodare
 Keywords[tr]=QR;kare kod;barkod;tarayıcı;çözücü;okuyucu
 Keywords[uk]=QR;Barcode;Code;Scanner;Decoder;Reader;куар;баркод;штрихкод;код;сканер;декодер;зчитувач;
 Keywords[x-test]=xxQRxx;xxBarcodexx;xxCodexx;xxScannerxx;xxDecoderxx;xxReaderxx
-Keywords[zh_CN]=QR;Barcode;Code;Scanner;Decoder;Reader
+Keywords[zh_CN]=QR;Barcode;Code;Scanner;Decoder;Reader;条码;二维码;扫码;扫描器;tiaoma;erweima;saoma;saomiaoqi;
 Icon=kodaskanna
 Categories=Qt;KDE;Utility
 
