@@ -69,7 +69,7 @@ msgstr "Copia el text en el porta-retalls"
 #, kde-format
 msgctxt "@action"
 msgid "Copy Data to Clipboard"
-msgstr "Copia les dades al porta-retalls"
+msgstr "Copia les dades a dins del porta-retalls"
 
 #: src/fileexport/tool.cpp:37
 #, kde-format
