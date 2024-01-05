@@ -35,6 +35,7 @@ SPDX-License-Identifier: CC0-1.0
   <name xml:lang="uk">Kodaskanna</name>
   <name xml:lang="x-test">xxKodaskannaxx</name>
   <name xml:lang="zh-CN">Kodaskanna</name>
+  <name xml:lang="zh-TW">Kodaskanna 條碼掃描</name>
   <summary>A multi-format 1D/2D code scanner</summary>
   <summary xml:lang="ar">ماسح ضوئي للرمز متعدد التنسيقات 1D / 2D</summary>
   <summary xml:lang="ca">Un escàner de codis 1D/2D multiformat</summary>
@@ -61,6 +62,7 @@ SPDX-License-Identifier: CC0-1.0
   <summary xml:lang="uk">Багатоформатний сканер одно- і двовимірних кодів</summary>
   <summary xml:lang="x-test">xxA multi-format 1D/2D code scannerxx</summary>
   <summary xml:lang="zh-CN">多格式 1D/2D 扫码器</summary>
+  <summary xml:lang="zh-TW">支援多種格式的一維/二維條碼掃描器</summary>
   <description>
     <p>Kodaskanna is a utility for reading data from 1D/2D codes (e.g. QR codes or bar codes) and making the data available for further processing.</p>
     <p xml:lang="ar">ماسح الرمز هي أداة مساعدة لقراءة البيانات من رموز 1D / 2D (مثل رموز QR أو الرموز الشريطية) وإتاحة البيانات لمزيد من المعالجة.</p>
@@ -88,6 +90,7 @@ SPDX-License-Identifier: CC0-1.0
     <p xml:lang="uk">Kodaskanna — програма для читання даних з одно- і двовимірних кодів (наприклад QR-кодів або штрих-кодів) і перетворення їх на дані, доступні для подальшої обробки.</p>
     <p xml:lang="x-test">xxKodaskanna is a utility for reading data from 1D/2D codes (e.g. QR codes or bar codes) and making the data available for further processing.xx</p>
     <p xml:lang="zh-CN">Kodaskanna 是一个用于从一维/二维码（如QR码或条形码）中读取数据并使数据可用于进一步处理的工具。</p>
+    <p xml:lang="zh-TW">《Kodaskanna 條碼掃描》是用來從一維/二維條碼（如 QR Code 或商品條碼）讀取資料的工具，讓資料可以之後進行處理。</p>
   </description>
   <url type="homepage">https://commits.kde.org/kodaskanna</url>
   <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?format=guided&amp;product=kodaskanna</url>
