@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-05 12:26+0000\n"
-"PO-Revision-Date: 2024-02-26 21:30+0100\n"
+"PO-Revision-Date: 2024-03-24 10:34+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: Esperanto <kde-i18n-eo.org>\n"
 "Language: eo\n"
@@ -36,12 +36,12 @@ msgstr "Kodaskanna"
 #: src/app/main.cpp:29
 #, kde-format
 msgid "Utility to scan data from codes in graphical sources."
-msgstr ""
+msgstr "Utilo por skani datumojn de kodoj en grafikaj fontoj."
 
 #: src/app/main.cpp:31
 #, kde-format
 msgid "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
-msgstr ""
+msgstr "Kopirajto 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
 
 #: src/app/main.cpp:35
 #, kde-format
@@ -56,7 +56,7 @@ msgstr "Aŭtoro"
 #: src/app/main.cpp:42
 #, kde-format
 msgid "Image file to open."
-msgstr ""
+msgstr "Bilddosiero por malfermi."
 
 #: src/clipboardexport/tool.cpp:38
 #, kde-format
@@ -68,31 +68,31 @@ msgstr "Kopii tekston al tondujo"
 #, kde-format
 msgctxt "@action"
 msgid "Copy Data to Clipboard"
-msgstr ""
+msgstr "Kopii Datumojn al Tondujo"
 
 #: src/fileexport/tool.cpp:37
 #, kde-format
 msgctxt "@action"
 msgid "Save Text As..."
-msgstr ""
+msgstr "Konservi tekston kiel..."
 
 #: src/fileexport/tool.cpp:40
 #, kde-format
 msgctxt "@action"
 msgid "Save Data As..."
-msgstr ""
+msgstr "Konservi datumojn kiel..."
 
 #: src/fileexport/tool.cpp:65
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Text As"
-msgstr ""
+msgstr "Konservi Tekston Kiel"
 
 #: src/fileexport/tool.cpp:82
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Data As"
-msgstr ""
+msgstr "Konservi Datumojn Kiel"
 
 #: src/imagesource/imageselecttool.cpp:68
 #, kde-format
@@ -122,29 +122,29 @@ msgstr "aŭ"
 #: src/imagesource/imageselectwidget.ui:121
 #, kde-format
 msgid "Drop an image here"
-msgstr ""
+msgstr "Faligi bildon ĉi tie"
 
 #: src/imagesource/loadimagejob.cpp:88
 #, kde-format
 msgid "Could not load image from file %1."
-msgstr ""
+msgstr "Ne eblis ŝargi bildon el dosiero %1."
 
 #: src/imagesource/tool.cpp:83
 #, kde-format
 msgid "Could not scan code in the image."
-msgstr ""
+msgstr "Ne eblis skani kodon en la bildo."
 
 #: src/imagesource/tool.cpp:85
 #, kde-format
 msgid "Code in the image successfully scanned."
-msgstr ""
+msgstr "Kodo en la bildo sukcese skanita."
 
 #: src/purposeplugin/launchjob.cpp:33
 #, kde-format
 msgid "Need one URL."
-msgstr ""
+msgstr "Bezonas unu URL."
 
 #: src/purposeplugin/launchjob.cpp:42
 #, kde-format
 msgid "Could not find Kodaskanna."
-msgstr ""
+msgstr "Ne eblis trovi Kodaskanna."
