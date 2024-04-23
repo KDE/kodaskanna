@@ -4,13 +4,13 @@
 Dependencies:
 - 'on': ['Linux/Qt5', 'FreeBSD/Qt5']
   'require':
-    'frameworks/extra-cmake-modules': '@same'
-    'frameworks/kconfigwidgets': '@same'
-    'frameworks/kcoreaddons': '@same'
-    'frameworks/ki18n': '@same'
-    'frameworks/kwidgetsaddons': '@same'
-    'frameworks/kio': '@same'
-    'frameworks/purpose': '@same'
+    'frameworks/extra-cmake-modules': '@stable'
+    'frameworks/kconfigwidgets': '@stable'
+    'frameworks/kcoreaddons': '@stable'
+    'frameworks/ki18n': '@stable'
+    'frameworks/kwidgetsaddons': '@stable'
+    'frameworks/kio': '@stable'
+    'frameworks/purpose': '@stable'
 
 - 'on': ['Linux/Qt6', 'FreeBSD/Qt6']
   'require':
