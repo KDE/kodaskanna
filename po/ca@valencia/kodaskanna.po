@@ -75,13 +75,13 @@ msgstr "Copia les dades a dins del porta-retalls"
 #, kde-format
 msgctxt "@action"
 msgid "Save Text As..."
-msgstr "Guarda el text com a..."
+msgstr "Anomena i guarda el text…"
 
 #: src/fileexport/tool.cpp:40
 #, kde-format
 msgctxt "@action"
 msgid "Save Data As..."
-msgstr "Guarda les dades com a..."
+msgstr "Anomena i guarda les dades…"
 
 #: src/fileexport/tool.cpp:65
 #, kde-format
