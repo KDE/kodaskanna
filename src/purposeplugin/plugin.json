@@ -54,7 +54,7 @@
         "Description[sk]": "Skenovať dátový kód pomocou Kodaskanna",
         "Description[sl]": "Optično preberite podatkovno kodo s Kodaskanno",
         "Description[sv]": "Läs datakod med Kodaskanna",
-        "Description[tr]": "Kodaskanna ile Veri Kodu Tarayın",
+        "Description[tr]": "Kodaskanna ile veri kodu tarayın",
         "Description[uk]": "Сканувати дата-код за допомогою Kodaskanna",
         "Description[x-test]": "xxScan Data Code with Kodaskannaxx",
         "Description[zh_CN]": "通过 Kodaskanna 扫描数据码",
@@ -89,7 +89,14 @@
         "Name[x-test]": "xxKodaskannaxx",
         "Name[zh_CN]": "Kodaskanna",
         "Name[zh_TW]": "Kodaskanna 條碼掃描",
-        "X-Purpose-ActionDisplay": "Scan Data Code with Kodaskanna..."
+        "X-Purpose-ActionDisplay": "Scan Data Code with Kodaskanna...",
+        "X-Purpose-ActionDisplay[es]": "Escanear código de datos con Kodaskanna...",
+        "X-Purpose-ActionDisplay[nl]": "Gegevenscode scannen met Kodaskanna...",
+        "X-Purpose-ActionDisplay[sl]": "Optično preberi podatkovno kodo s Kodaskanno …",
+        "X-Purpose-ActionDisplay[sv]": "Läs datakod med Kodaskanna...",
+        "X-Purpose-ActionDisplay[tr]": "Kodaskanna ile Veri Kodu Tara…",
+        "X-Purpose-ActionDisplay[uk]": "Сканувати дата-код за допомогою Kodaskanna…",
+        "X-Purpose-ActionDisplay[x-test]": "xxScan Data Code with Kodaskanna...xx"
     },
     "X-Purpose-Configuration": [],
     "X-Purpose-Constraints": [
