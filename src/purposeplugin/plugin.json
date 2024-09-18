@@ -3,7 +3,7 @@
         "Authors": [
             {
                 "Name": "Friedrich W. H. Kossebau",
-                "Name[ar]": "Friedrich W. H. Kossebau",
+                "Name[ar]": "فريدريش دبليو اتش كوسباو",
                 "Name[ca@valencia]": "Friedrich W. H. Kossebau",
                 "Name[ca]": "Friedrich W. H. Kossebau",
                 "Name[cs]": "Friedrich W. H. Kossebau",
@@ -90,6 +90,7 @@
         "Name[zh_CN]": "Kodaskanna",
         "Name[zh_TW]": "Kodaskanna 條碼掃描",
         "X-Purpose-ActionDisplay": "Scan Data Code with Kodaskanna...",
+        "X-Purpose-ActionDisplay[ar]": "امسح رمز البيانات بماسح الرمز...",
         "X-Purpose-ActionDisplay[ca@valencia]": "Escaneig de codi de dades amb Kodaskanna…",
         "X-Purpose-ActionDisplay[ca]": "Escaneig de codi de dades amb el Kodaskanna...",
         "X-Purpose-ActionDisplay[en_GB]": "Scan Data Code with Kodaskanna...",
