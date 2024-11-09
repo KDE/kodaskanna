@@ -13,5 +13,5 @@ target_sources(kodaskannawidgets PRIVATE
 target_link_libraries(kodaskannawidgets
     PUBLIC
         kodaskannacore
-        Qt${QT_MAJOR_VERSION}::Widgets
+        Qt6::Widgets
 )

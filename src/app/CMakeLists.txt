@@ -22,9 +22,9 @@ target_link_libraries(kodaskanna
     kodaskannafileexport
     kodaskannawidgets
     kodaskannacore
-    KF5::CoreAddons
-    KF5::I18n
-    Qt${QT_MAJOR_VERSION}::Widgets
+    KF6::CoreAddons
+    KF6::I18n
+    Qt6::Widgets
 )
 
 install(TARGETS kodaskanna ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

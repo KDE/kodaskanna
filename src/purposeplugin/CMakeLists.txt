@@ -15,9 +15,9 @@ target_sources(purposeplugin PRIVATE
 )
 
 target_link_libraries(purposeplugin
-    KF5::Purpose
-    KF5::KIOGui
-    KF5::I18n
+    KF6::Purpose
+    KF6::KIOGui
+    KF6::I18n
 )
 
-install(TARGETS purposeplugin DESTINATION ${KDE_INSTALL_PLUGINDIR}/kf5/purpose)
+install(TARGETS purposeplugin DESTINATION ${KDE_INSTALL_PLUGINDIR}/kf6/purpose)

@@ -2,6 +2,6 @@
 #
 # SPDX-License-Identifier: BSD-3-Clause
 
-install(FILES kodaskanna_scan_image.desktop
-    DESTINATION ${KDE_INSTALL_KSERVICESDIR}/ServiceMenus
+install(PROGRAMS kodaskanna_scan_image.desktop
+    DESTINATION ${KDE_INSTALL_DATADIR}/kio/servicemenus
 )

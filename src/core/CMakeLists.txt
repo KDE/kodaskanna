@@ -11,7 +11,7 @@ target_sources(kodaskannacore PRIVATE
 
 target_link_libraries(kodaskannacore
     PUBLIC
-        Qt${QT_MAJOR_VERSION}::Gui
+        Qt6::Gui
     PRIVATE
         ZXing::Core
 )

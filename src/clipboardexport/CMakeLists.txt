@@ -13,7 +13,7 @@ target_link_libraries(kodaskannaclipboardexport
     PUBLIC
         kodaskannawidgets
     PRIVATE
-        KF5::WidgetsAddons
-        KF5::ConfigWidgets
-        KF5::I18n
+        KF6::WidgetsAddons
+        KF6::ConfigWidgets
+        KF6::I18n
 )

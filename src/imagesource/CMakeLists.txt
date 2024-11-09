@@ -25,7 +25,7 @@ target_link_libraries(kodaskannaimagesource
     PUBLIC
         kodaskannawidgets
     PRIVATE
-        KF5::KIOCore
-        KF5::WidgetsAddons
-        KF5::I18n
+        KF6::KIOCore
+        KF6::WidgetsAddons
+        KF6::I18n
 )

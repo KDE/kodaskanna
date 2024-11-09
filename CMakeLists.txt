@@ -6,8 +6,8 @@ cmake_minimum_required(VERSION 3.16)
 
 project(Kodaskanna VERSION "0.1.0")
 
-set(QT_MIN_VERSION "5.15.2")
-set(KF_MIN_VERSION "5.91.0")
+set(QT_MIN_VERSION "6.5")
+set(KF_MIN_VERSION "6.0")
 
 find_package(ECM ${KF_MIN_VERSION} REQUIRED NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
@@ -21,14 +21,14 @@ include(ECMInstallIcons)
 include(KDEClangFormat)
 include(FeatureSummary)
 
-find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} REQUIRED COMPONENTS
+find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS
     Core
     Gui
     Widgets
     MultimediaWidgets
 )
 
-find_package(KF5 ${KF_MIN_VERSION} REQUIRED COMPONENTS
+find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS
     CoreAddons
     WidgetsAddons
     ConfigWidgets
@@ -43,8 +43,8 @@ if (NOT TARGET ZXing::ZXing)
 endif()
 
 ecm_set_disabled_deprecation_versions(
-    QT 5.15.2
-    KF 5.91
+    QT 6.5
+    KF 6.8
 )
 
 add_subdirectory(src)
