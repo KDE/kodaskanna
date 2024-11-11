@@ -34,10 +34,10 @@ void Tool::setupButtonBox(QDialogButtonBox *buttonBox)
     m_saveAsMenu = new QMenu(buttonBox);
 
     m_saveTextAsAction = KStandardAction::saveAs(this, &Tool::saveTextAs, m_saveAsMenu);
-    m_saveTextAsAction->setText(i18nc("@action", "Save Text As..."));
+    m_saveTextAsAction->setText(i18nc("@action", "Save Text As…"));
     m_saveTextAsAction->setEnabled(false);
 
-    m_saveDataAsAction = new QAction(m_saveTextAsAction->icon(), i18nc("@action", "Save Data As..."), m_saveAsMenu);
+    m_saveDataAsAction = new QAction(m_saveTextAsAction->icon(), i18nc("@action", "Save Data As…"), m_saveAsMenu);
     m_saveDataAsAction->setEnabled(false);
     connect(m_saveDataAsAction, &QAction::triggered, this, &Tool::saveDataAs);
     m_saveAsMenu->addAction(m_saveTextAsAction);
