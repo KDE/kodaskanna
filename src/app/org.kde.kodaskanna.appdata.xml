@@ -7,6 +7,9 @@ SPDX-License-Identifier: CC0-1.0
   <id>org.kde.kodaskanna</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LGPL-2.1-or-later</project_license>
+  <developer id="org.kde">
+    <name translate="no">KDE</name>
+  </developer>
   <name>Kodaskanna</name>
   <name xml:lang="ar">ماسح الرمز</name>
   <name xml:lang="ca">Kodaskanna</name>
@@ -95,6 +98,7 @@ SPDX-License-Identifier: CC0-1.0
   <url type="homepage">https://commits.kde.org/kodaskanna</url>
   <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?format=guided&amp;product=kodaskanna</url>
   <url type="donation">https://www.kde.org/community/donations/?app=kodaskanna&amp;source=appdata</url>
+  <url type="vcs-browser">https://commits.kde.org/kodaskanna</url>
   <categories>
     <category>Utility</category>
   </categories>
