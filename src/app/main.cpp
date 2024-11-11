@@ -9,6 +9,7 @@
 #include "window.hpp"
 // KF
 #include <KAboutData>
+#include <KCrash>
 #include <KLocalizedString>
 // Qt
 #include <QApplication>
@@ -21,7 +22,7 @@ int main(int argc, char **argv)
 {
     QApplication application(argc, argv);
 
-    KLocalizedString::setApplicationDomain("kodaskanna");
+    KLocalizedString::setApplicationDomain(QByteArrayLiteral("kodaskanna"));
 
     KAboutData aboutData(QStringLiteral("kodaskanna"),
                          i18n("Kodaskanna"),
@@ -36,6 +37,8 @@ int main(int argc, char **argv)
 
     KAboutData::setApplicationData(aboutData);
     application.setWindowIcon(QIcon::fromTheme(QStringLiteral("kodaskanna")));
+
+    KCrash::initialize();
 
     QCommandLineParser parser;
     aboutData.setupCommandLine(&parser);

@@ -23,6 +23,7 @@ target_link_libraries(kodaskanna
     kodaskannawidgets
     kodaskannacore
     KF6::CoreAddons
+    KF6::Crash
     KF6::I18n
     Qt6::Widgets
 )
