@@ -86,7 +86,7 @@ SPDX-License-Identifier: CC0-1.0
     <p xml:lang="sk">Kodaskanna je nástroj na čítanie dát z 1D/2D kódov (QR kódov alebo čiarových kódov) a sprístupnenie dát na ďalšie spracovanie.</p>
     <p xml:lang="sl">Kodaskanna je pripomoček za branje podatkov iz 1-D/2-D kod (npr. QR-kode ali črtne kode) in dajanja podatkov na voljo za nadaljnjo obdelavo.</p>
     <p xml:lang="sv">Kodaskanna är ett verktyg för att läsa data från en- och tvådimensionella koder (t.ex. QR-koder eller streckkoder) och göra data tillgängligt för ytterligare behandling.</p>
-    <p xml:lang="tr">Kodaskanna, 1B/2B kodlardan veri okumak için bir programdır (örn. kare kodlar veya barkodlar). Veri işlemeyi sürdürmek için dışa aktarabilir.</p>
+    <p xml:lang="tr">Kodaskanna, 1B/2B kodlardan veri okumak için bir programdır (örn. kare kodlar veya barkodlar). Veri, işlemeyi sürdürmek için dışa aktarabilir.</p>
     <p xml:lang="uk">Kodaskanna — програма для читання даних з одно- і двовимірних кодів (наприклад QR-кодів або штрих-кодів) і перетворення їх на дані, доступні для подальшої обробки.</p>
     <p xml:lang="x-test">xxKodaskanna is a utility for reading data from 1D/2D codes (e.g. QR codes or bar codes) and making the data available for further processing.xx</p>
     <p xml:lang="zh-CN">Kodaskanna 是一个用于从一维/二维码（如QR码或条形码）中读取数据并使数据可用于进一步处理的工具。</p>
