@@ -11,6 +11,9 @@
 #include "scanresult_p.hpp"
 // ZXing
 #include <ZXing/ReadBarcode.h>
+#include <ZXing/ZXVersion.h>
+
+#define ZXING_VERSION ((ZXING_VERSION_MAJOR<<16)|(ZXING_VERSION_MINOR<<8)|(ZXING_VERSION_PATCH))
 
 namespace Kodaskanna
 {
@@ -42,13 +45,30 @@ ZXing::ImageFormat zxingImageFormatFromQImage(const QImage &image)
     }
 }
 
+#if ZXING_VERSION >= QT_VERSION_CHECK(2, 2, 0)
+ZXing::Result readBarcode(const QImage &image, const ZXing::ReaderOptions &readerOptions)
+{
+    return ZXing::ReadBarcode({image.bits(), image.width(), image.height(), zxingImageFormatFromQImage(image), static_cast<int>(image.bytesPerLine())}, readerOptions);
+}
+#else
 ZXing::Result readBarcode(const QImage &image, ZXing::DecodeHints decodeHints)
 {
     return ZXing::ReadBarcode({image.bits(), image.width(), image.height(), zxingImageFormatFromQImage(image), static_cast<int>(image.bytesPerLine())}, decodeHints);
 }
+#endif
 
 void ScanImageRunner::run()
 {
+#if ZXING_VERSION >= QT_VERSION_CHECK(2, 2, 0)
+    ZXing::ReaderOptions readerOptions;
+    readerOptions.setFormats(ZXing::BarcodeFormat::Any);
+    readerOptions.setTryRotate(false);
+    readerOptions.setBinarizer(ZXing::Binarizer::FixedThreshold);
+
+    const bool isSupportedQImageFormat = (zxingImageFormatFromQImage(m_image) == ZXing::ImageFormat::None);
+    ZXing::Result result =
+        isSupportedQImageFormat ? readBarcode(m_image.convertToFormat(QImage::Format_RGBX8888), readerOptions) : readBarcode(m_image, readerOptions);
+#else
     ZXing::DecodeHints decodeHints;
     decodeHints.setFormats(ZXing::BarcodeFormat::Any);
     decodeHints.setTryRotate(false);
@@ -57,6 +77,7 @@ void ScanImageRunner::run()
     const bool isSupportedQImageFormat = (zxingImageFormatFromQImage(m_image) == ZXing::ImageFormat::None);
     ZXing::Result result =
         isSupportedQImageFormat ? readBarcode(m_image.convertToFormat(QImage::Format_RGBX8888), decodeHints) : readBarcode(m_image, decodeHints);
+#endif
 
     auto *resultData = new ScanResultPrivate;
     ScanResult scanResult(resultData);
