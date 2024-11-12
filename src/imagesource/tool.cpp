@@ -39,7 +39,7 @@ void Tool::setOrigin(const QUrl &origin)
 {
     if (origin.isEmpty()) {
         if (!m_imageSelectTool) {
-            m_imageSelectTool.reset(new ImageSelectTool(this));
+            m_imageSelectTool = std::make_unique<ImageSelectTool>(this);
             m_widget->showImageSelect(m_imageSelectTool.get());
         }
         return;
