@@ -12,7 +12,10 @@
 // KF
 #include <KLocalizedString>
 // Qt
+#include <QFile>
 #include <QImageReader>
+// Std
+#include <unistd.h>
 
 namespace Kodaskanna
 {
@@ -27,7 +30,14 @@ ReadImageFileRunner::ReadImageFileRunner(const QString &localFileName)
 
 void ReadImageFileRunner::run()
 {
-    QImageReader reader(m_localFileName);
+    QFile input;
+    if (m_localFileName.isEmpty()) {
+        input.open(stdin, QIODevice::ReadOnly | QIODevice::Unbuffered);
+    } else {
+        input.setFileName(m_localFileName);
+        input.open(QIODevice::ReadOnly);
+    }
+    QImageReader reader(&input);
     reader.setAutoTransform(true);
     const QImage loadedImage = reader.read();
 

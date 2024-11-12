@@ -36,6 +36,10 @@ LoadImageJob::~LoadImageJob()
 
 void LoadImageJob::start()
 {
+    if (m_fileUrl.scheme() == QLatin1String("stdin")) {
+        startFileReading(QString());
+        return;
+    }
     if (m_fileUrl.isLocalFile()) {
         startFileReading(m_fileUrl.toLocalFile());
         return;
@@ -85,7 +89,11 @@ void LoadImageJob::handleReadFinished(const ImageReadResult &imageReadResult)
         m_image = imageReadResult.image();
     } else {
         setError(KJob::UserDefinedError);
-        setErrorText(i18n("Could not load image from file %1.", m_fileUrl.toDisplayString()));
+        if (m_fileUrl.scheme() == QLatin1String("stdin")) {
+            setErrorText(i18n("Could not load image from stdin."));
+        } else {
+            setErrorText(i18n("Could not load image from file %1.", m_fileUrl.toDisplayString()));
+        }
     }
 
     emitResult();

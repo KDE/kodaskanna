@@ -17,6 +17,8 @@
 #include <QDir>
 #include <QUrl>
 #include <QIcon>
+// Std
+#include <unistd.h>
 
 int main(int argc, char **argv)
 {
@@ -53,6 +55,10 @@ int main(int argc, char **argv)
     if (positionalArguments.size() > 0) {
         const QString currentPath = QDir::currentPath();
         sourceFileUrl = QUrl::fromUserInput(positionalArguments.first(), currentPath, QUrl::AssumeLocalFile);
+    } else {
+        if (!isatty(STDIN_FILENO)) {
+            sourceFileUrl = QUrl(QStringLiteral("stdin:/"));
+        }
     }
 
     auto *window = new Kodaskanna::Window;

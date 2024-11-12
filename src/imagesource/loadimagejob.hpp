@@ -47,6 +47,7 @@ private Q_SLOTS:
     void handleFileCopyFinished(KJob *job);
 
 private:
+    /// @param localFileName empty string refers to stdin
     void startFileReading(const QString &localFileName);
 
 private:

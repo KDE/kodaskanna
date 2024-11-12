@@ -25,6 +25,7 @@ class ReadImageFileRunner : public QObject, public QRunnable
     Q_OBJECT
 
 public:
+    /// @param localFileName empty string refers to stdin
     explicit ReadImageFileRunner(const QString &localFileName);
 
 public: // QRunnable API
