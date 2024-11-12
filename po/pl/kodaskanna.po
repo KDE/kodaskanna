@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:26+0000\n"
+"POT-Creation-Date: 2024-11-12 00:39+0000\n"
 "PO-Revision-Date: 2022-01-25 20:47+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -70,16 +70,20 @@ msgid "Copy Data to Clipboard"
 msgstr "Skopiuj dane do schowka"
 
 #: src/fileexport/tool.cpp:37
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Save Text As"
 msgctxt "@action"
-msgid "Save Text As..."
-msgstr "Zapisz tekst jako..."
+msgid "Save Text As…"
+msgstr "Zapisz tekst jako"
 
 #: src/fileexport/tool.cpp:40
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Save Data As"
 msgctxt "@action"
-msgid "Save Data As..."
-msgstr "Zapisz dane jako..."
+msgid "Save Data As…"
+msgstr "Zapisz dane jako"
 
 #: src/fileexport/tool.cpp:65
 #, kde-format
@@ -147,3 +151,11 @@ msgstr "Potrzeba jednego adresu URL."
 #, kde-format
 msgid "Could not find Kodaskanna."
 msgstr "Nie można znaleźć Kodaskanna."
+
+#~ msgctxt "@action"
+#~ msgid "Save Text As..."
+#~ msgstr "Zapisz tekst jako..."
+
+#~ msgctxt "@action"
+#~ msgid "Save Data As..."
+#~ msgstr "Zapisz dane jako..."

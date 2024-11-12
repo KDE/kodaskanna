@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:26+0000\n"
+"POT-Creation-Date: 2024-11-12 00:39+0000\n"
 "PO-Revision-Date: 2023-09-12 20:22+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -73,16 +73,20 @@ msgid "Copy Data to Clipboard"
 msgstr "Kopiatu datuak arbelera"
 
 #: src/fileexport/tool.cpp:37
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Save Text As"
 msgctxt "@action"
-msgid "Save Text As..."
-msgstr "Gorde testua honela..."
+msgid "Save Text As…"
+msgstr "Gorde testua honela"
 
 #: src/fileexport/tool.cpp:40
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Save Data As"
 msgctxt "@action"
-msgid "Save Data As..."
-msgstr "Gorde datuak honela..."
+msgid "Save Data As…"
+msgstr "Gorde datuak honela"
 
 #: src/fileexport/tool.cpp:65
 #, kde-format
@@ -150,3 +154,11 @@ msgstr "URL bat behar da."
 #, kde-format
 msgid "Could not find Kodaskanna."
 msgstr "Ezin izan du «Kodaskanna» aurkitu."
+
+#~ msgctxt "@action"
+#~ msgid "Save Text As..."
+#~ msgstr "Gorde testua honela..."
+
+#~ msgctxt "@action"
+#~ msgid "Save Data As..."
+#~ msgstr "Gorde datuak honela..."

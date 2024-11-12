@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:26+0000\n"
+"POT-Creation-Date: 2024-11-12 00:39+0000\n"
 "PO-Revision-Date: 2022-01-20 09:05+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -72,16 +72,20 @@ msgid "Copy Data to Clipboard"
 msgstr "Copia les dades a dins del porta-retalls"
 
 #: src/fileexport/tool.cpp:37
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Save Text As"
 msgctxt "@action"
-msgid "Save Text As..."
-msgstr "Anomena i guarda el text…"
+msgid "Save Text As…"
+msgstr "Guarda el text com a"
 
 #: src/fileexport/tool.cpp:40
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Save Data As"
 msgctxt "@action"
-msgid "Save Data As..."
-msgstr "Anomena i guarda les dades…"
+msgid "Save Data As…"
+msgstr "Guarda les dades com a"
 
 #: src/fileexport/tool.cpp:65
 #, kde-format
@@ -149,3 +153,11 @@ msgstr "Cal un URL."
 #, kde-format
 msgid "Could not find Kodaskanna."
 msgstr "No s'ha pogut trobar Kodaskanna."
+
+#~ msgctxt "@action"
+#~ msgid "Save Text As..."
+#~ msgstr "Anomena i guarda el text…"
+
+#~ msgctxt "@action"
+#~ msgid "Save Data As..."
+#~ msgstr "Anomena i guarda les dades…"

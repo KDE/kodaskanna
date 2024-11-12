@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:26+0000\n"
+"POT-Creation-Date: 2024-11-12 00:39+0000\n"
 "PO-Revision-Date: 2022-01-21 18:51+0100\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language: sl\n"
@@ -73,16 +73,20 @@ msgid "Copy Data to Clipboard"
 msgstr "Kopiraj podatke na odložišče"
 
 #: src/fileexport/tool.cpp:37
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Save Text As"
 msgctxt "@action"
-msgid "Save Text As..."
-msgstr "Shrani besedilo kot ..."
+msgid "Save Text As…"
+msgstr "Shrani besedilo kot"
 
 #: src/fileexport/tool.cpp:40
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Save Data As"
 msgctxt "@action"
-msgid "Save Data As..."
-msgstr "Shrani podatke kot ..."
+msgid "Save Data As…"
+msgstr "Shrani podatke kot"
 
 #: src/fileexport/tool.cpp:65
 #, kde-format
@@ -150,3 +154,11 @@ msgstr "Potrebujete URL."
 #, kde-format
 msgid "Could not find Kodaskanna."
 msgstr "Kodaskanne ni bilo mogoče najti."
+
+#~ msgctxt "@action"
+#~ msgid "Save Text As..."
+#~ msgstr "Shrani besedilo kot ..."
+
+#~ msgctxt "@action"
+#~ msgid "Save Data As..."
+#~ msgstr "Shrani podatke kot ..."

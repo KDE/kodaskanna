@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:26+0000\n"
+"POT-Creation-Date: 2024-11-12 00:39+0000\n"
 "PO-Revision-Date: 2022-03-25 16:18+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -71,16 +71,20 @@ msgid "Copy Data to Clipboard"
 msgstr "Copiar os Dados para a Área de Transferência"
 
 #: src/fileexport/tool.cpp:37
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Save Text As"
 msgctxt "@action"
-msgid "Save Text As..."
-msgstr "Gravar o Texto Como..."
+msgid "Save Text As…"
+msgstr "Gravar o Texto Como"
 
 #: src/fileexport/tool.cpp:40
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Save Data As"
 msgctxt "@action"
-msgid "Save Data As..."
-msgstr "Gravar os Dados Como..."
+msgid "Save Data As…"
+msgstr "Gravar os Dados Como"
 
 #: src/fileexport/tool.cpp:65
 #, kde-format
@@ -148,3 +152,11 @@ msgstr "É necessário um URL."
 #, kde-format
 msgid "Could not find Kodaskanna."
 msgstr "Não foi possível encontrar o Kodaskanna."
+
+#~ msgctxt "@action"
+#~ msgid "Save Text As..."
+#~ msgstr "Gravar o Texto Como..."
+
+#~ msgctxt "@action"
+#~ msgid "Save Data As..."
+#~ msgstr "Gravar os Dados Como..."

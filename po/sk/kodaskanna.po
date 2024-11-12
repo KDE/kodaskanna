@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:26+0000\n"
+"POT-Creation-Date: 2024-11-12 00:39+0000\n"
 "PO-Revision-Date: 2022-01-21 17:08+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -68,16 +68,20 @@ msgid "Copy Data to Clipboard"
 msgstr "Kopírovať dáta do schránky"
 
 #: src/fileexport/tool.cpp:37
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Save Text As"
 msgctxt "@action"
-msgid "Save Text As..."
-msgstr "Uložiť text ako..."
+msgid "Save Text As…"
+msgstr "Uložiť text ako"
 
 #: src/fileexport/tool.cpp:40
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Save Data As"
 msgctxt "@action"
-msgid "Save Data As..."
-msgstr "Uložiť dáta ako..."
+msgid "Save Data As…"
+msgstr "Uložiť dáta ako"
 
 #: src/fileexport/tool.cpp:65
 #, kde-format
@@ -145,3 +149,11 @@ msgstr "Potrebujem jedno URL."
 #, kde-format
 msgid "Could not find Kodaskanna."
 msgstr "Nemôžem nájsť Kodaskanna."
+
+#~ msgctxt "@action"
+#~ msgid "Save Text As..."
+#~ msgstr "Uložiť text ako..."
+
+#~ msgctxt "@action"
+#~ msgid "Save Data As..."
+#~ msgstr "Uložiť dáta ako..."

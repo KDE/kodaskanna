@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:26+0000\n"
+"POT-Creation-Date: 2024-11-12 00:39+0000\n"
 "PO-Revision-Date: 2022-02-12 19:31+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: Arabic <kde-l10n-ar@kde.org>\n"
@@ -70,16 +70,20 @@ msgid "Copy Data to Clipboard"
 msgstr "انسخ البيانات للحافظة"
 
 #: src/fileexport/tool.cpp:37
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Save Text As"
 msgctxt "@action"
-msgid "Save Text As..."
+msgid "Save Text As…"
 msgstr "احفظ النص كـ…"
 
 #: src/fileexport/tool.cpp:40
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Save Data As"
 msgctxt "@action"
-msgid "Save Data As..."
-msgstr "احفظ البيانات كـ…"
+msgid "Save Data As…"
+msgstr "احفظ البيانات كـ"
 
 #: src/fileexport/tool.cpp:65
 #, kde-format
@@ -147,3 +151,11 @@ msgstr "بحاجة لعنوان واحد."
 #, kde-format
 msgid "Could not find Kodaskanna."
 msgstr "لا يمكن العثور على ماسح الرمز."
+
+#~ msgctxt "@action"
+#~ msgid "Save Text As..."
+#~ msgstr "احفظ النص كـ…"
+
+#~ msgctxt "@action"
+#~ msgid "Save Data As..."
+#~ msgstr "احفظ البيانات كـ…"
