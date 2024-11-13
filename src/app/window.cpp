@@ -26,6 +26,8 @@ namespace Kodaskanna
 Window::Window()
     : QDialog()
 {
+    setAttribute(Qt::WA_DeleteOnClose);
+
     m_ui.setupUi(this);
 
     m_sourceTool = ImageSource::createSourceTool(this);
