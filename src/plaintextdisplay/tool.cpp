@@ -16,9 +16,8 @@ namespace Kodaskanna
 namespace PlainTextDisplay
 {
 
-Tool::Tool(QObject *parent)
-    : AbstractDisplayTool(parent)
-    , m_widget(std::make_unique<Widget>())
+Tool::Tool()
+    : m_widget(std::make_unique<Widget>())
 {
     m_widget->setEnabled(false);
 }

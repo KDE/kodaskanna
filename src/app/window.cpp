@@ -34,7 +34,7 @@ Window::Window()
     connect(m_sourceTool.get(), &AbstractSourceTool::scanFinished, this, &Window::handleScanFinished);
     m_ui.sourceWidgetStackLayout->addWidget(m_sourceTool->widget());
 
-    m_displayTool = PlainTextDisplay::createDisplayTool(this);
+    m_displayTool = PlainTextDisplay::createDisplayTool();
     m_ui.displayWidgetStackLayout->addWidget(m_displayTool->widget());
 
     m_exportTools = {

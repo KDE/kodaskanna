@@ -25,7 +25,7 @@ class Tool : public AbstractDisplayTool
     Q_OBJECT
 
 public:
-    explicit Tool(QObject *parent = nullptr);
+    explicit Tool();
 
     ~Tool() override;
 

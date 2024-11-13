@@ -15,9 +15,9 @@ namespace Kodaskanna
 namespace PlainTextDisplay
 {
 
-AbstractDisplayTool *createDisplayTool(QObject *parent)
+std::unique_ptr<AbstractDisplayTool> createDisplayTool()
 {
-    return new Tool(parent);
+    return std::make_unique<Tool>();
 }
 
 }

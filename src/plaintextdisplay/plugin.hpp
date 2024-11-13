@@ -7,7 +7,8 @@
 #ifndef KODASKANNA_PLAINTEXTPREVIEW_PLUGIN_HPP
 #define KODASKANNA_PLAINTEXTPREVIEW_PLUGIN_HPP
 
-class QObject;
+// Std
+#include <memory>
 
 namespace Kodaskanna
 {
@@ -16,7 +17,7 @@ class AbstractDisplayTool;
 namespace PlainTextDisplay
 {
 
-AbstractDisplayTool *createDisplayTool(QObject *parent = nullptr);
+std::unique_ptr<AbstractDisplayTool> createDisplayTool();
 
 }
 }

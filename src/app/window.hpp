@@ -48,7 +48,7 @@ private:
     Ui::Window m_ui;
 
     std::unique_ptr<AbstractSourceTool> m_sourceTool;
-    AbstractDisplayTool *m_displayTool;
+    std::unique_ptr<AbstractDisplayTool> m_displayTool;
     QList<AbstractExportTool *> m_exportTools;
 
     ScanResult m_scanResult;
