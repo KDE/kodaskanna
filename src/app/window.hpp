@@ -12,9 +12,9 @@
 #include <scanresult.hpp>
 // Qt
 #include <QDialog>
-#include <QList>
 // Std
 #include <memory>
+#include <vector>
 
 class QUrl;
 
@@ -49,7 +49,7 @@ private:
 
     std::unique_ptr<AbstractSourceTool> m_sourceTool;
     std::unique_ptr<AbstractDisplayTool> m_displayTool;
-    QList<AbstractExportTool *> m_exportTools;
+    std::vector<AbstractExportTool *> m_exportTools;
 
     ScanResult m_scanResult;
 };
