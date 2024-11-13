@@ -12,8 +12,6 @@
 // core
 #include <scanresult.hpp>
 
-class QToolButton;
-class QMenu;
 class QAction;
 
 namespace Kodaskanna
@@ -39,10 +37,8 @@ private:
     void saveDataAs();
 
 private:
-    QToolButton *m_saveAsButton;
-    QMenu *m_saveAsMenu;
-    QAction *m_saveTextAsAction;
-    QAction *m_saveDataAsAction;
+    QAction *m_saveTextAsAction = nullptr;
+    QAction *m_saveDataAsAction = nullptr;
 
     ScanResult m_scanResult;
 };

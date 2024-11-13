@@ -29,24 +29,29 @@ Tool::~Tool() = default;
 
 void Tool::setupButtonBox(QDialogButtonBox *buttonBox)
 {
-    m_clipboardMenu = new QMenu(buttonBox);
+    auto *clipboardMenu = new QMenu(buttonBox);
 
-    m_copyTextToClipboardAction = KStandardAction::copy(this, &Tool::copyText, m_clipboardMenu);
-    m_copyTextToClipboardAction->setText(i18nc("@action", "Copy Text to Clipboard"));
-    m_copyTextToClipboardAction->setEnabled(false);
+    if (!m_copyTextToClipboardAction) {
+        m_copyTextToClipboardAction = KStandardAction::copy(this, &Tool::copyText, this);
+        m_copyTextToClipboardAction->setText(i18nc("@action", "Copy Text to Clipboard"));
+        m_copyTextToClipboardAction->setEnabled(false);
+    }
+    if (!m_copyDataToClipboardAction) {
+        m_copyDataToClipboardAction = new QAction(m_copyTextToClipboardAction->icon(), i18nc("@action", "Copy Data to Clipboard"), this);
+        m_copyDataToClipboardAction->setEnabled(false);
+        connect(m_copyDataToClipboardAction, &QAction::triggered, this, &Tool::copyData);
+    }
 
-    m_copyDataToClipboardAction = new QAction(m_copyTextToClipboardAction->icon(), i18nc("@action", "Copy Data to Clipboard"), m_clipboardMenu);
-    m_copyDataToClipboardAction->setEnabled(false);
-    connect(m_copyDataToClipboardAction, &QAction::triggered, this, &Tool::copyData);
-    m_clipboardMenu->addAction(m_copyTextToClipboardAction);
-    m_clipboardMenu->addAction(m_copyDataToClipboardAction);
+    clipboardMenu->addAction(m_copyTextToClipboardAction);
+    clipboardMenu->addAction(m_copyDataToClipboardAction);
 
-    m_clipboardButton = new QToolButton(buttonBox);
-    m_clipboardButton->setMenu(m_clipboardMenu);
-    m_clipboardButton->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
-    m_clipboardButton->setPopupMode(QToolButton::MenuButtonPopup);
-    m_clipboardButton->setDefaultAction(m_copyTextToClipboardAction);
-    buttonBox->addButton(m_clipboardButton, QDialogButtonBox::ActionRole);
+    auto *clipboardButton = new QToolButton(buttonBox);
+    clipboardButton->setMenu(clipboardMenu);
+    clipboardButton->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
+    clipboardButton->setPopupMode(QToolButton::MenuButtonPopup);
+    clipboardButton->setDefaultAction(m_copyTextToClipboardAction);
+
+    buttonBox->addButton(clipboardButton, QDialogButtonBox::ActionRole);
 }
 
 void Tool::setScanResult(const ScanResult &scanResult)

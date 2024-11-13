@@ -28,24 +28,29 @@ Tool::~Tool() = default;
 
 void Tool::setupButtonBox(QDialogButtonBox *buttonBox)
 {
-    m_saveAsMenu = new QMenu(buttonBox);
+    auto *saveAsMenu = new QMenu(buttonBox);
 
-    m_saveTextAsAction = KStandardAction::saveAs(this, &Tool::saveTextAs, m_saveAsMenu);
-    m_saveTextAsAction->setText(i18nc("@action", "Save Text As…"));
-    m_saveTextAsAction->setEnabled(false);
+    if (!m_saveTextAsAction) {
+        m_saveTextAsAction = KStandardAction::saveAs(this, &Tool::saveTextAs, this);
+        m_saveTextAsAction->setText(i18nc("@action", "Save Text As…"));
+        m_saveTextAsAction->setEnabled(false);
+    }
+    if (!m_saveDataAsAction) {
+        m_saveDataAsAction = new QAction(m_saveTextAsAction->icon(), i18nc("@action", "Save Data As…"), this);
+        m_saveDataAsAction->setEnabled(false);
+        connect(m_saveDataAsAction, &QAction::triggered, this, &Tool::saveDataAs);
+    }
 
-    m_saveDataAsAction = new QAction(m_saveTextAsAction->icon(), i18nc("@action", "Save Data As…"), m_saveAsMenu);
-    m_saveDataAsAction->setEnabled(false);
-    connect(m_saveDataAsAction, &QAction::triggered, this, &Tool::saveDataAs);
-    m_saveAsMenu->addAction(m_saveTextAsAction);
-    m_saveAsMenu->addAction(m_saveDataAsAction);
+    saveAsMenu->addAction(m_saveTextAsAction);
+    saveAsMenu->addAction(m_saveDataAsAction);
 
-    m_saveAsButton = new QToolButton(buttonBox);
-    m_saveAsButton->setMenu(m_saveAsMenu);
-    m_saveAsButton->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
-    m_saveAsButton->setPopupMode(QToolButton::MenuButtonPopup);
-    m_saveAsButton->setDefaultAction(m_saveTextAsAction);
-    buttonBox->addButton(m_saveAsButton, QDialogButtonBox::ActionRole);
+    auto *saveAsButton = new QToolButton(buttonBox);
+    saveAsButton->setMenu(saveAsMenu);
+    saveAsButton->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
+    saveAsButton->setPopupMode(QToolButton::MenuButtonPopup);
+    saveAsButton->setDefaultAction(m_saveTextAsAction);
+
+    buttonBox->addButton(saveAsButton, QDialogButtonBox::ActionRole);
 }
 
 void Tool::setScanResult(const ScanResult &scanResult)

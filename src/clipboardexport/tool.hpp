@@ -12,8 +12,6 @@
 // core
 #include <scanresult.hpp>
 
-class QToolButton;
-class QMenu;
 class QAction;
 
 namespace Kodaskanna
@@ -39,10 +37,8 @@ private:
     void copyData();
 
 private:
-    QToolButton *m_clipboardButton;
-    QMenu *m_clipboardMenu;
-    QAction *m_copyTextToClipboardAction;
-    QAction *m_copyDataToClipboardAction;
+    QAction *m_copyTextToClipboardAction = nullptr;
+    QAction *m_copyDataToClipboardAction = nullptr;
 
     ScanResult m_scanResult;
 };
