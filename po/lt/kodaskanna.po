@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-12 00:39+0000\n"
-"PO-Revision-Date: 2022-01-25 00:41+0000\n"
+"POT-Creation-Date: 2024-11-13 00:38+0000\n"
+"PO-Revision-Date: 2024-11-12 23:41+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: lt\n"
@@ -17,134 +17,142 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Moo"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "<>"
 
-#: src/app/main.cpp:27
+#: src/app/main.cpp:30
 #, kde-format
 msgid "Kodaskanna"
-msgstr ""
+msgstr "Kodaskanna"
 
-#: src/app/main.cpp:29
+#: src/app/main.cpp:32
 #, kde-format
 msgid "Utility to scan data from codes in graphical sources."
 msgstr ""
+"Paslaugų programa, skirta skenuoti duomenis iš kodų grafiniuose ištekliuose."
 
-#: src/app/main.cpp:31
+#: src/app/main.cpp:34
 #, kde-format
 msgid "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
-msgstr ""
+msgstr "Autorių teisės 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
 
-#: src/app/main.cpp:35
+#: src/app/main.cpp:38
 #, kde-format
 msgid "Friedrich W. H. Kossebau"
-msgstr ""
+msgstr "Friedrich W. H. Kossebau"
 
-#: src/app/main.cpp:35
+#: src/app/main.cpp:38
 #, kde-format
 msgid "Author"
-msgstr ""
+msgstr "Autorius"
 
-#: src/app/main.cpp:42
+#: src/app/main.cpp:47
 #, kde-format
 msgid "Image file to open."
-msgstr ""
+msgstr "Paveikslo failas, kurį atverti."
 
 #: src/clipboardexport/tool.cpp:38
 #, kde-format
 msgctxt "@action"
 msgid "Copy Text to Clipboard"
-msgstr ""
+msgstr "Kopijuoti tekstą į iškarpinę"
 
 #: src/clipboardexport/tool.cpp:41
 #, kde-format
 msgctxt "@action"
 msgid "Copy Data to Clipboard"
-msgstr ""
+msgstr "Kopijuoti duomenis į iškarpinę"
 
 #: src/fileexport/tool.cpp:37
 #, kde-format
 msgctxt "@action"
 msgid "Save Text As…"
-msgstr ""
+msgstr "Įrašyti tekstą kaip…"
 
 #: src/fileexport/tool.cpp:40
 #, kde-format
 msgctxt "@action"
 msgid "Save Data As…"
-msgstr ""
+msgstr "Įrašyti duomenis kaip…"
 
 #: src/fileexport/tool.cpp:65
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Text As"
-msgstr ""
+msgstr "Įrašyti tekstą kaip"
 
 #: src/fileexport/tool.cpp:82
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Data As"
-msgstr ""
+msgstr "Įrašyti duomenis kaip"
 
 #: src/imagesource/imageselecttool.cpp:68
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Image"
-msgstr ""
+msgstr "Atverti paveikslą"
 
 #. i18n: ectx: property (text), widget (QPushButton, openFileButton)
 #: src/imagesource/imageselectwidget.ui:49
 #, kde-format
 msgid "Select a File"
-msgstr ""
+msgstr "Pasirinkti failą"
 
 #. i18n: ectx: property (text), widget (QPushButton, pasteFromClipboardButton)
 #: src/imagesource/imageselectwidget.ui:89
 #, kde-format
 msgid "Paste from Clipboard"
-msgstr ""
+msgstr "Įdėkite iš iškarpinės"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/imagesource/imageselectwidget.ui:114
 #, kde-format
 msgid "or"
-msgstr ""
+msgstr "arba"
 
 #. i18n: ectx: property (text), widget (QLabel, dropMessage)
 #: src/imagesource/imageselectwidget.ui:121
 #, kde-format
 msgid "Drop an image here"
-msgstr ""
+msgstr "Tempkite čia paveikslą"
 
-#: src/imagesource/loadimagejob.cpp:88
+#: src/imagesource/loadimagejob.cpp:93
+#, fuzzy, kde-format
+#| msgid "Could not load image from file %1."
+msgid "Could not load image from stdin."
+msgstr "Nepavyko įkelti paveikslo iš failo %1."
+
+#: src/imagesource/loadimagejob.cpp:95
 #, kde-format
 msgid "Could not load image from file %1."
-msgstr ""
+msgstr "Nepavyko įkelti paveikslo iš failo %1."
 
 #: src/imagesource/tool.cpp:83
 #, kde-format
 msgid "Could not scan code in the image."
-msgstr ""
+msgstr "Nepavyko nuskenuoti paveiksle esančio kodo."
 
 #: src/imagesource/tool.cpp:85
 #, kde-format
 msgid "Code in the image successfully scanned."
-msgstr ""
+msgstr "Paveiksle esantis kodas sėkmingai nuskenuotas."
 
 #: src/purposeplugin/launchjob.cpp:33
 #, kde-format
 msgid "Need one URL."
-msgstr ""
+msgstr "Reikia vieno URL."
 
 #: src/purposeplugin/launchjob.cpp:42
 #, kde-format
 msgid "Could not find Kodaskanna."
-msgstr ""
+msgstr "Nepavyko rasti Kodaskanna."

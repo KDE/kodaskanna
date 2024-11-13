@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the kodaskanna package.
 #
 # Automatically generated, 2022.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2022.
+# SPDX-FileCopyrightText: 2022, 2024 Eloy Cuadra <ecuadra@eloihr.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-12 00:39+0000\n"
-"PO-Revision-Date: 2022-01-20 12:29+0100\n"
+"POT-Creation-Date: 2024-11-13 00:38+0000\n"
+"PO-Revision-Date: 2024-11-12 12:08+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.12.1\n"
+"X-Generator: Lokalize 24.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -29,32 +29,32 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ecuadra@eloihr.net"
 
-#: src/app/main.cpp:27
+#: src/app/main.cpp:30
 #, kde-format
 msgid "Kodaskanna"
 msgstr "Kodaskanna"
 
-#: src/app/main.cpp:29
+#: src/app/main.cpp:32
 #, kde-format
 msgid "Utility to scan data from codes in graphical sources."
 msgstr "Utilidad para escanear datos a partir de códigos en fuentes gráficas."
 
-#: src/app/main.cpp:31
+#: src/app/main.cpp:34
 #, kde-format
 msgid "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
 msgstr "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
 
-#: src/app/main.cpp:35
+#: src/app/main.cpp:38
 #, kde-format
 msgid "Friedrich W. H. Kossebau"
 msgstr "Friedrich W. H. Kossebau"
 
-#: src/app/main.cpp:35
+#: src/app/main.cpp:38
 #, kde-format
 msgid "Author"
 msgstr "Autor"
 
-#: src/app/main.cpp:42
+#: src/app/main.cpp:47
 #, kde-format
 msgid "Image file to open."
 msgstr "Archivo de imagen para abrir."
@@ -72,20 +72,16 @@ msgid "Copy Data to Clipboard"
 msgstr "Copiar datos al portapapeles"
 
 #: src/fileexport/tool.cpp:37
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Save Text As"
+#, kde-format
 msgctxt "@action"
 msgid "Save Text As…"
-msgstr "Guardar texto como"
+msgstr "Guardar texto como..."
 
 #: src/fileexport/tool.cpp:40
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Save Data As"
+#, kde-format
 msgctxt "@action"
 msgid "Save Data As…"
-msgstr "Guardar datos como"
+msgstr "Guardar datos como..."
 
 #: src/fileexport/tool.cpp:65
 #, kde-format
@@ -129,7 +125,13 @@ msgstr "o"
 msgid "Drop an image here"
 msgstr "Suelte una imagen aquí"
 
-#: src/imagesource/loadimagejob.cpp:88
+#: src/imagesource/loadimagejob.cpp:93
+#, fuzzy, kde-format
+#| msgid "Could not load image from file %1."
+msgid "Could not load image from stdin."
+msgstr "No se ha podido cargar la imagen del archivo %1."
+
+#: src/imagesource/loadimagejob.cpp:95
 #, kde-format
 msgid "Could not load image from file %1."
 msgstr "No se ha podido cargar la imagen del archivo %1."

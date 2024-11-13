@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-12 00:39+0000\n"
+"POT-Creation-Date: 2024-11-13 00:38+0000\n"
 "PO-Revision-Date: 2022-01-27 21:18+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -27,32 +27,32 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "translator@legisign.org"
 
-#: src/app/main.cpp:27
+#: src/app/main.cpp:30
 #, kde-format
 msgid "Kodaskanna"
 msgstr "Kodaskanna"
 
-#: src/app/main.cpp:29
+#: src/app/main.cpp:32
 #, kde-format
 msgid "Utility to scan data from codes in graphical sources."
 msgstr "Työkalu kuvalähteiden koodien lukemiseksi."
 
-#: src/app/main.cpp:31
+#: src/app/main.cpp:34
 #, kde-format
 msgid "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
 msgstr "Tekijänoikeudet 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
 
-#: src/app/main.cpp:35
+#: src/app/main.cpp:38
 #, kde-format
 msgid "Friedrich W. H. Kossebau"
 msgstr "Friedrich W. H. Kossebau"
 
-#: src/app/main.cpp:35
+#: src/app/main.cpp:38
 #, kde-format
 msgid "Author"
 msgstr "Tekijä"
 
-#: src/app/main.cpp:42
+#: src/app/main.cpp:47
 #, kde-format
 msgid "Image file to open."
 msgstr "Avattava kuvatiedosto."
@@ -127,7 +127,13 @@ msgstr "tai"
 msgid "Drop an image here"
 msgstr "Pudota kuva tähän"
 
-#: src/imagesource/loadimagejob.cpp:88
+#: src/imagesource/loadimagejob.cpp:93
+#, fuzzy, kde-format
+#| msgid "Could not load image from file %1."
+msgid "Could not load image from stdin."
+msgstr "Tiedostosta %1 ei voitu avata kuvaa."
+
+#: src/imagesource/loadimagejob.cpp:95
 #, kde-format
 msgid "Could not load image from file %1."
 msgstr "Tiedostosta %1 ei voitu avata kuvaa."

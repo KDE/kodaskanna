@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-12 00:39+0000\n"
-"PO-Revision-Date: 2022-10-02 07:50+0200\n"
+"POT-Creation-Date: 2024-11-13 00:38+0000\n"
+"PO-Revision-Date: 2024-11-12 03:21+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -28,32 +28,32 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "Temuri.doghonadze@gmail.com"
 
-#: src/app/main.cpp:27
+#: src/app/main.cpp:30
 #, kde-format
 msgid "Kodaskanna"
 msgstr "Kodaskanna"
 
-#: src/app/main.cpp:29
+#: src/app/main.cpp:32
 #, kde-format
 msgid "Utility to scan data from codes in graphical sources."
 msgstr "ხელსაწყო გრაფიკულ წყაროებში მონაცემების კოდების სკანირებისთვის."
 
-#: src/app/main.cpp:31
+#: src/app/main.cpp:34
 #, kde-format
 msgid "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
 msgstr "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
 
-#: src/app/main.cpp:35
+#: src/app/main.cpp:38
 #, kde-format
 msgid "Friedrich W. H. Kossebau"
 msgstr "ფრიდრიჰ კოსებაუ"
 
-#: src/app/main.cpp:35
+#: src/app/main.cpp:38
 #, kde-format
 msgid "Author"
 msgstr "ავტორი"
 
-#: src/app/main.cpp:42
+#: src/app/main.cpp:47
 #, kde-format
 msgid "Image file to open."
 msgstr "გასახსნელი გამოსახულების ფაილი."
@@ -71,20 +71,16 @@ msgid "Copy Data to Clipboard"
 msgstr "მონაცემების კოპირება გაცვლის ბუფერში"
 
 #: src/fileexport/tool.cpp:37
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Save Text As"
+#, kde-format
 msgctxt "@action"
 msgid "Save Text As…"
-msgstr "ტექსტის შენახვა, როგორც"
+msgstr "ტექსტის შენახვა, როგორც…"
 
 #: src/fileexport/tool.cpp:40
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Save Data As"
+#, kde-format
 msgctxt "@action"
 msgid "Save Data As…"
-msgstr "მონაცემების შენახვა, როგორც"
+msgstr "მონაცემების შენახვა, როგორც…"
 
 #: src/fileexport/tool.cpp:65
 #, kde-format
@@ -128,7 +124,13 @@ msgstr "ან"
 msgid "Drop an image here"
 msgstr "დააგდეთ გამოსახულება აქ"
 
-#: src/imagesource/loadimagejob.cpp:88
+#: src/imagesource/loadimagejob.cpp:93
+#, fuzzy, kde-format
+#| msgid "Could not load image from file %1."
+msgid "Could not load image from stdin."
+msgstr "გამოსახულების ჩატვირთვის შეცდომა ფაილიდან %1."
+
+#: src/imagesource/loadimagejob.cpp:95
 #, kde-format
 msgid "Could not load image from file %1."
 msgstr "გამოსახულების ჩატვირთვის შეცდომა ფაილიდან %1."

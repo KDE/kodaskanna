@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-12 00:39+0000\n"
+"POT-Creation-Date: 2024-11-13 00:38+0000\n"
 "PO-Revision-Date: 2024-01-04 23:04+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -30,32 +30,32 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mail@kisaragi-hiu.com"
 
-#: src/app/main.cpp:27
+#: src/app/main.cpp:30
 #, kde-format
 msgid "Kodaskanna"
 msgstr "Kodaskanna 條碼掃描"
 
-#: src/app/main.cpp:29
+#: src/app/main.cpp:32
 #, kde-format
 msgid "Utility to scan data from codes in graphical sources."
 msgstr "從圖形來源中的條碼掃描資料的工具程式。"
 
-#: src/app/main.cpp:31
+#: src/app/main.cpp:34
 #, kde-format
 msgid "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
 msgstr "版權所有 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
 
-#: src/app/main.cpp:35
+#: src/app/main.cpp:38
 #, kde-format
 msgid "Friedrich W. H. Kossebau"
 msgstr "Friedrich W. H. Kossebau"
 
-#: src/app/main.cpp:35
+#: src/app/main.cpp:38
 #, kde-format
 msgid "Author"
 msgstr "作者"
 
-#: src/app/main.cpp:42
+#: src/app/main.cpp:47
 #, kde-format
 msgid "Image file to open."
 msgstr "要開啟的影像檔案"
@@ -130,7 +130,13 @@ msgstr "或"
 msgid "Drop an image here"
 msgstr "拖曳影像至此"
 
-#: src/imagesource/loadimagejob.cpp:88
+#: src/imagesource/loadimagejob.cpp:93
+#, fuzzy, kde-format
+#| msgid "Could not load image from file %1."
+msgid "Could not load image from stdin."
+msgstr "無法從檔案 %1 載入影像。"
+
+#: src/imagesource/loadimagejob.cpp:95
 #, kde-format
 msgid "Could not load image from file %1."
 msgstr "無法從檔案 %1 載入影像。"
