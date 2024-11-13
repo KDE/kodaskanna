@@ -30,7 +30,7 @@ class Tool : public AbstractSourceTool
     Q_OBJECT
 
 public:
-    explicit Tool(QObject *parent = nullptr);
+    explicit Tool();
 
     ~Tool() override;
 

@@ -15,9 +15,9 @@ namespace Kodaskanna
 namespace ImageSource
 {
 
-AbstractSourceTool *createSourceTool(QObject *parent)
+std::unique_ptr<AbstractSourceTool> createSourceTool()
 {
-    return new Tool(parent);
+    return std::make_unique<Tool>();
 }
 
 }

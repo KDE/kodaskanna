@@ -13,6 +13,8 @@
 // Qt
 #include <QDialog>
 #include <QList>
+// Std
+#include <memory>
 
 class QUrl;
 
@@ -45,7 +47,7 @@ private:
 private:
     Ui::Window m_ui;
 
-    AbstractSourceTool *m_sourceTool;
+    std::unique_ptr<AbstractSourceTool> m_sourceTool;
     AbstractDisplayTool *m_displayTool;
     QList<AbstractExportTool *> m_exportTools;
 

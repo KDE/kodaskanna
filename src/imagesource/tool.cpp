@@ -22,9 +22,8 @@ namespace Kodaskanna
 namespace ImageSource
 {
 
-Tool::Tool(QObject *parent)
-    : AbstractSourceTool(parent)
-    , m_widget(std::make_unique<Widget>())
+Tool::Tool()
+    : m_widget(std::make_unique<Widget>())
 {
 }
 

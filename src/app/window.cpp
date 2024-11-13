@@ -30,8 +30,8 @@ Window::Window()
 
     m_ui.setupUi(this);
 
-    m_sourceTool = ImageSource::createSourceTool(this);
-    connect(m_sourceTool, &AbstractSourceTool::scanFinished, this, &Window::handleScanFinished);
+    m_sourceTool = ImageSource::createSourceTool();
+    connect(m_sourceTool.get(), &AbstractSourceTool::scanFinished, this, &Window::handleScanFinished);
     m_ui.sourceWidgetStackLayout->addWidget(m_sourceTool->widget());
 
     m_displayTool = PlainTextDisplay::createDisplayTool(this);

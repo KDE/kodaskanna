@@ -7,7 +7,8 @@
 #ifndef KODASKANNA_IMAGESOURCE_PLUGIN_HPP
 #define KODASKANNA_IMAGESOURCE_PLUGIN_HPP
 
-class QObject;
+// Std
+#include <memory>
 
 namespace Kodaskanna
 {
@@ -16,7 +17,7 @@ class AbstractSourceTool;
 namespace ImageSource
 {
 
-AbstractSourceTool *createSourceTool(QObject *parent = nullptr);
+std::unique_ptr<AbstractSourceTool> createSourceTool();
 
 }
 }
