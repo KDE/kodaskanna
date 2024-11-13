@@ -46,7 +46,7 @@ void LoadImageJob::start()
     }
 
     // create a unique temporary file we use for the download
-    m_tmpFile = new QTemporaryFile(this);
+    m_tmpFile = std::make_unique<QTemporaryFile>();
     m_tmpFile->open();
 
     m_fileCopyJob = KIO::file_copy(m_fileUrl, QUrl::fromLocalFile(m_tmpFile->fileName()), -1, KIO::Overwrite);

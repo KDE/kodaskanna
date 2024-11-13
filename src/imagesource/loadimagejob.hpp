@@ -13,6 +13,8 @@
 #include <QImage>
 #include <QObject>
 #include <QUrl>
+// Std
+#include <memory>
 
 namespace KIO { class FileCopyJob; }
 class QTemporaryFile;
@@ -56,7 +58,7 @@ private:
     QImage m_image;
 
     KIO::FileCopyJob* m_fileCopyJob = nullptr;
-    QTemporaryFile *m_tmpFile = nullptr;
+    std::unique_ptr<QTemporaryFile> m_tmpFile;
 };
 
 }
