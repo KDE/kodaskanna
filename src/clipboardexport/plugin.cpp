@@ -15,9 +15,9 @@ namespace Kodaskanna
 namespace ClipboardExport
 {
 
-AbstractExportTool *createExportTool(QObject *parent)
+std::unique_ptr<AbstractExportTool> createExportTool()
 {
-    return new Tool(parent);
+    return std::make_unique<Tool>();
 }
 
 }

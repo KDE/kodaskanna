@@ -22,10 +22,7 @@ namespace Kodaskanna
 namespace FileExport
 {
 
-Tool::Tool(QObject *parent)
-    : AbstractExportTool(parent)
-{
-}
+Tool::Tool() = default;
 
 Tool::~Tool() = default;
 

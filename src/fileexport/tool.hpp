@@ -26,7 +26,7 @@ class Tool : public AbstractExportTool
     Q_OBJECT
 
 public:
-    explicit Tool(QObject *parent = nullptr);
+    explicit Tool();
 
     ~Tool() override;
 

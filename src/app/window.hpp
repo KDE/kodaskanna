@@ -49,7 +49,7 @@ private:
 
     std::unique_ptr<AbstractSourceTool> m_sourceTool;
     std::unique_ptr<AbstractDisplayTool> m_displayTool;
-    std::vector<AbstractExportTool *> m_exportTools;
+    std::vector<std::unique_ptr<AbstractExportTool>> m_exportTools;
 
     ScanResult m_scanResult;
 };

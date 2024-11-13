@@ -37,11 +37,10 @@ Window::Window()
     m_displayTool = PlainTextDisplay::createDisplayTool();
     m_ui.displayWidgetStackLayout->addWidget(m_displayTool->widget());
 
-    m_exportTools = {
-        ClipboardExport::createExportTool(this),
-        FileExport::createExportTool(this),
-    };
-    for (auto *tool : std::as_const(m_exportTools)) {
+    m_exportTools.reserve(2);
+    m_exportTools.emplace_back(ClipboardExport::createExportTool());
+    m_exportTools.emplace_back(FileExport::createExportTool());
+    for (const auto& tool : std::as_const(m_exportTools)) {
         tool->setupButtonBox(m_ui.buttonBox);
     }
 
@@ -69,7 +68,7 @@ void Window::handleScanFinished(const ScanResult &scanResult)
 {
     m_scanResult = scanResult;
     m_displayTool->setScanResult(scanResult);
-    for (auto *tool : std::as_const(m_exportTools)) {
+    for (const auto& tool : std::as_const(m_exportTools)) {
         tool->setScanResult(scanResult);
     }
 }

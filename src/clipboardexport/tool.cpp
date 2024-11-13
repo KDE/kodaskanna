@@ -23,10 +23,7 @@ namespace Kodaskanna
 namespace ClipboardExport
 {
 
-Tool::Tool(QObject *parent)
-    : AbstractExportTool(parent)
-{
-}
+Tool::Tool() = default;
 
 Tool::~Tool() = default;
 

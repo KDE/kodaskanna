@@ -7,7 +7,8 @@
 #ifndef KODASKANNA_CLIPBOARDEXPORT_PLUGIN_HPP
 #define KODASKANNA_CLIPBOARDEXPORT_PLUGIN_HPP
 
-class QObject;
+// Std
+#include <memory>
 
 namespace Kodaskanna
 {
@@ -16,7 +17,7 @@ class AbstractExportTool;
 namespace ClipboardExport
 {
 
-AbstractExportTool *createExportTool(QObject *parent = nullptr);
+std::unique_ptr<AbstractExportTool> createExportTool();
 
 }
 }
