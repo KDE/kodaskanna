@@ -29,11 +29,6 @@ class Window : public QDialog
     Q_OBJECT
 
 public:
-    enum OperationMode {
-
-    };
-
-public:
     Window();
 
     ~Window() override;
