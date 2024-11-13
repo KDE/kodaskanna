@@ -11,6 +11,8 @@
 #include <abstractdisplaytool.hpp>
 // Qt
 #include <QImage>
+// Std
+#include <memory>
 
 namespace Kodaskanna
 {
@@ -29,10 +31,10 @@ public:
 
 public: // AbstractDisplayTool API
     void setScanResult(const ScanResult &scanResult) override;
-    QWidget *widget() override;
+    QWidget *widget() const override;
 
 private:
-    Widget *m_widget;
+    const std::unique_ptr<Widget> m_widget;
 };
 
 }

@@ -27,7 +27,7 @@ public:
 
 public: // API to implement
     virtual void setScanResult(const ScanResult &scanResult) = 0;
-    virtual QWidget *widget() = 0;
+    virtual QWidget *widget() const = 0;
 
 private:
 };

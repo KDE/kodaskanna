@@ -24,15 +24,15 @@ namespace ImageSource
 
 Tool::Tool(QObject *parent)
     : AbstractSourceTool(parent)
-    , m_widget(new Widget)
+    , m_widget(std::make_unique<Widget>())
 {
 }
 
 Tool::~Tool() = default;
 
-QWidget *Tool::widget()
+QWidget *Tool::widget() const
 {
-    return m_widget;
+    return m_widget.get();
 }
 
 void Tool::setOrigin(const QUrl &origin)

@@ -39,7 +39,7 @@ public:
 
 public: // AbstractSourceTool API
     void setOrigin(const QUrl &origin) override;
-    QWidget *widget() override;
+    QWidget *widget() const override;
 
 private:
     void handleImageLoadResult(KJob *job);
@@ -47,7 +47,7 @@ private:
 
 private:
     std::unique_ptr<ImageSelectTool> m_imageSelectTool;
-    Widget *m_widget;
+    const std::unique_ptr<Widget> m_widget;
 };
 
 }

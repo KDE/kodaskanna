@@ -18,7 +18,7 @@ namespace PlainTextDisplay
 
 Tool::Tool(QObject *parent)
     : AbstractDisplayTool(parent)
-    , m_widget(new Widget)
+    , m_widget(std::make_unique<Widget>())
 {
     m_widget->setEnabled(false);
 }
@@ -31,9 +31,9 @@ void Tool::setScanResult(const ScanResult &scanResult)
     m_widget->setText(scanResult.text());
 }
 
-QWidget *Tool::widget()
+QWidget *Tool::widget() const
 {
-    return m_widget;
+    return m_widget.get();
 }
 
 }

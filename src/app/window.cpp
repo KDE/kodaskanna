@@ -49,7 +49,16 @@ Window::Window()
     connect(m_ui.buttonBox, &QDialogButtonBox::rejected, this, &QDialog::rejected);
 }
 
-Window::~Window() = default;
+Window::~Window()
+{
+    QWidget *displayWidget = m_displayTool->widget();
+    m_ui.displayWidgetStackLayout->removeWidget(displayWidget);
+    displayWidget->setParent(nullptr);
+
+    QWidget *sourceWidget = m_sourceTool->widget();
+    m_ui.sourceWidgetStackLayout->removeWidget(sourceWidget);
+    sourceWidget->setParent(nullptr);
+}
 
 void Window::scanFromFile(const QUrl &fileUrl)
 {
