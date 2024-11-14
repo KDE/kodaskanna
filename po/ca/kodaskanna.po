@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-13 00:38+0000\n"
-"PO-Revision-Date: 2024-11-12 10:07+0100\n"
+"POT-Creation-Date: 2024-11-14 00:39+0000\n"
+"PO-Revision-Date: 2024-11-13 10:32+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -59,37 +59,37 @@ msgstr "Autor"
 msgid "Image file to open."
 msgstr "Fitxer d'imatge a obrir."
 
-#: src/clipboardexport/tool.cpp:38
+#: src/clipboardexport/tool.cpp:36
 #, kde-format
 msgctxt "@action"
 msgid "Copy Text to Clipboard"
 msgstr "Copia el text al porta-retalls"
 
-#: src/clipboardexport/tool.cpp:41
+#: src/clipboardexport/tool.cpp:40
 #, kde-format
 msgctxt "@action"
 msgid "Copy Data to Clipboard"
 msgstr "Copia les dades al porta-retalls"
 
-#: src/fileexport/tool.cpp:37
+#: src/fileexport/tool.cpp:35
 #, kde-format
 msgctxt "@action"
 msgid "Save Text As…"
 msgstr "Desa el text com a…"
 
-#: src/fileexport/tool.cpp:40
+#: src/fileexport/tool.cpp:39
 #, kde-format
 msgctxt "@action"
 msgid "Save Data As…"
 msgstr "Desa les dades com a…"
 
-#: src/fileexport/tool.cpp:65
+#: src/fileexport/tool.cpp:67
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Text As"
 msgstr "Desa el text com a"
 
-#: src/fileexport/tool.cpp:82
+#: src/fileexport/tool.cpp:84
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Data As"
@@ -126,22 +126,21 @@ msgid "Drop an image here"
 msgstr "Deixeu anar aquí una imatge"
 
 #: src/imagesource/loadimagejob.cpp:93
-#, fuzzy, kde-format
-#| msgid "Could not load image from file %1."
+#, kde-format
 msgid "Could not load image from stdin."
-msgstr "No s'ha pogut carregar la imatge des del fitxer %1."
+msgstr "No s'ha pogut carregar la imatge des de «stdin»."
 
 #: src/imagesource/loadimagejob.cpp:95
 #, kde-format
 msgid "Could not load image from file %1."
 msgstr "No s'ha pogut carregar la imatge des del fitxer %1."
 
-#: src/imagesource/tool.cpp:83
+#: src/imagesource/tool.cpp:82
 #, kde-format
 msgid "Could not scan code in the image."
 msgstr "No s'ha pogut escanejar el codi de la imatge."
 
-#: src/imagesource/tool.cpp:85
+#: src/imagesource/tool.cpp:84
 #, kde-format
 msgid "Code in the image successfully scanned."
 msgstr "El codi de la imatge s'ha escanejat correctament."

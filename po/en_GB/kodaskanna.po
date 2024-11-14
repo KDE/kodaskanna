@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-13 00:38+0000\n"
+"POT-Creation-Date: 2024-11-14 00:39+0000\n"
 "PO-Revision-Date: 2022-04-02 17:18+0100\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English <kde-l10n-en_gb@kde.org>\n"
@@ -57,19 +57,19 @@ msgstr "Author"
 msgid "Image file to open."
 msgstr "Image file to open."
 
-#: src/clipboardexport/tool.cpp:38
+#: src/clipboardexport/tool.cpp:36
 #, kde-format
 msgctxt "@action"
 msgid "Copy Text to Clipboard"
 msgstr "Copy Text to Clipboard"
 
-#: src/clipboardexport/tool.cpp:41
+#: src/clipboardexport/tool.cpp:40
 #, kde-format
 msgctxt "@action"
 msgid "Copy Data to Clipboard"
 msgstr "Copy Data to Clipboard"
 
-#: src/fileexport/tool.cpp:37
+#: src/fileexport/tool.cpp:35
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Save Text As"
@@ -77,7 +77,7 @@ msgctxt "@action"
 msgid "Save Text As…"
 msgstr "Save Text As"
 
-#: src/fileexport/tool.cpp:40
+#: src/fileexport/tool.cpp:39
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Save Data As"
@@ -85,13 +85,13 @@ msgctxt "@action"
 msgid "Save Data As…"
 msgstr "Save Data As"
 
-#: src/fileexport/tool.cpp:65
+#: src/fileexport/tool.cpp:67
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Text As"
 msgstr "Save Text As"
 
-#: src/fileexport/tool.cpp:82
+#: src/fileexport/tool.cpp:84
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Data As"
@@ -138,12 +138,12 @@ msgstr "Could not load image from file %1."
 msgid "Could not load image from file %1."
 msgstr "Could not load image from file %1."
 
-#: src/imagesource/tool.cpp:83
+#: src/imagesource/tool.cpp:82
 #, kde-format
 msgid "Could not scan code in the image."
 msgstr "Could not scan code in the image."
 
-#: src/imagesource/tool.cpp:85
+#: src/imagesource/tool.cpp:84
 #, kde-format
 msgid "Code in the image successfully scanned."
 msgstr "Code in the image successfully scanned."

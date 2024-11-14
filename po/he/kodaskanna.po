@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-13 00:38+0000\n"
-"PO-Revision-Date: 2024-11-12 07:29+0200\n"
+"POT-Creation-Date: 2024-11-14 00:39+0000\n"
+"PO-Revision-Date: 2024-11-13 06:25+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -58,37 +58,37 @@ msgstr "יוצר"
 msgid "Image file to open."
 msgstr "קובץ תמונה לפתיחה."
 
-#: src/clipboardexport/tool.cpp:38
+#: src/clipboardexport/tool.cpp:36
 #, kde-format
 msgctxt "@action"
 msgid "Copy Text to Clipboard"
 msgstr "העתקת טקסט ללוח הגזירים"
 
-#: src/clipboardexport/tool.cpp:41
+#: src/clipboardexport/tool.cpp:40
 #, kde-format
 msgctxt "@action"
 msgid "Copy Data to Clipboard"
 msgstr "העתקת נתונים ללוח הגזירים"
 
-#: src/fileexport/tool.cpp:37
+#: src/fileexport/tool.cpp:35
 #, kde-format
 msgctxt "@action"
 msgid "Save Text As…"
 msgstr "שמירת טקסט בתור…"
 
-#: src/fileexport/tool.cpp:40
+#: src/fileexport/tool.cpp:39
 #, kde-format
 msgctxt "@action"
 msgid "Save Data As…"
 msgstr "שמירת נתונים בתור…"
 
-#: src/fileexport/tool.cpp:65
+#: src/fileexport/tool.cpp:67
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Text As"
 msgstr "שמירת טקסט בתור"
 
-#: src/fileexport/tool.cpp:82
+#: src/fileexport/tool.cpp:84
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Data As"
@@ -125,22 +125,21 @@ msgid "Drop an image here"
 msgstr "לגרור תמונה לכאן"
 
 #: src/imagesource/loadimagejob.cpp:93
-#, fuzzy, kde-format
-#| msgid "Could not load image from file %1."
+#, kde-format
 msgid "Could not load image from stdin."
-msgstr "לא ניתן לטעון תמונה מהקובץ %1."
+msgstr "לא ניתן לטעון תמונה מהקלט התקני (stdin)."
 
 #: src/imagesource/loadimagejob.cpp:95
 #, kde-format
 msgid "Could not load image from file %1."
 msgstr "לא ניתן לטעון תמונה מהקובץ %1."
 
-#: src/imagesource/tool.cpp:83
+#: src/imagesource/tool.cpp:82
 #, kde-format
 msgid "Could not scan code in the image."
 msgstr "לא ניתן לסרוק קוד מהתמונה."
 
-#: src/imagesource/tool.cpp:85
+#: src/imagesource/tool.cpp:84
 #, kde-format
 msgid "Code in the image successfully scanned."
 msgstr "הקוד שבתמונה נסרק בהצלחה."

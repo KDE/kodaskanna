@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-13 00:38+0000\n"
-"PO-Revision-Date: 2024-11-12 07:32+0100\n"
+"POT-Creation-Date: 2024-11-14 00:39+0000\n"
+"PO-Revision-Date: 2024-11-14 00:05+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: \n"
 "Language: sl\n"
@@ -61,37 +61,37 @@ msgstr "Avtor"
 msgid "Image file to open."
 msgstr "Slikovna datoteka za odprtje."
 
-#: src/clipboardexport/tool.cpp:38
+#: src/clipboardexport/tool.cpp:36
 #, kde-format
 msgctxt "@action"
 msgid "Copy Text to Clipboard"
 msgstr "Kopiraj besedilo na odložišče"
 
-#: src/clipboardexport/tool.cpp:41
+#: src/clipboardexport/tool.cpp:40
 #, kde-format
 msgctxt "@action"
 msgid "Copy Data to Clipboard"
 msgstr "Kopiraj podatke na odložišče"
 
-#: src/fileexport/tool.cpp:37
+#: src/fileexport/tool.cpp:35
 #, kde-format
 msgctxt "@action"
 msgid "Save Text As…"
 msgstr "Shrani besedilo kot…"
 
-#: src/fileexport/tool.cpp:40
+#: src/fileexport/tool.cpp:39
 #, kde-format
 msgctxt "@action"
 msgid "Save Data As…"
 msgstr "Shrani podatke kot…"
 
-#: src/fileexport/tool.cpp:65
+#: src/fileexport/tool.cpp:67
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Text As"
 msgstr "Shrani besedilo kot"
 
-#: src/fileexport/tool.cpp:82
+#: src/fileexport/tool.cpp:84
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Data As"
@@ -128,22 +128,21 @@ msgid "Drop an image here"
 msgstr "Sliko spustite semkaj"
 
 #: src/imagesource/loadimagejob.cpp:93
-#, fuzzy, kde-format
-#| msgid "Could not load image from file %1."
+#, kde-format
 msgid "Could not load image from stdin."
-msgstr "Ni moč naložiti slike iz datoteke %1."
+msgstr "Ni moč naložiti slike iz stdin."
 
 #: src/imagesource/loadimagejob.cpp:95
 #, kde-format
 msgid "Could not load image from file %1."
 msgstr "Ni moč naložiti slike iz datoteke %1."
 
-#: src/imagesource/tool.cpp:83
+#: src/imagesource/tool.cpp:82
 #, kde-format
 msgid "Could not scan code in the image."
 msgstr "Kode na sliki ni bilo mogoče optično prebrati."
 
-#: src/imagesource/tool.cpp:85
+#: src/imagesource/tool.cpp:84
 #, kde-format
 msgid "Code in the image successfully scanned."
 msgstr "Koda na sliki je uspešno optično prebrana."

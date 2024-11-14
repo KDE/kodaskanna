@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-13 00:38+0000\n"
+"POT-Creation-Date: 2024-11-14 00:39+0000\n"
 "PO-Revision-Date: 2024-11-12 23:41+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -60,37 +60,37 @@ msgstr "Autorius"
 msgid "Image file to open."
 msgstr "Paveikslo failas, kurį atverti."
 
-#: src/clipboardexport/tool.cpp:38
+#: src/clipboardexport/tool.cpp:36
 #, kde-format
 msgctxt "@action"
 msgid "Copy Text to Clipboard"
 msgstr "Kopijuoti tekstą į iškarpinę"
 
-#: src/clipboardexport/tool.cpp:41
+#: src/clipboardexport/tool.cpp:40
 #, kde-format
 msgctxt "@action"
 msgid "Copy Data to Clipboard"
 msgstr "Kopijuoti duomenis į iškarpinę"
 
-#: src/fileexport/tool.cpp:37
+#: src/fileexport/tool.cpp:35
 #, kde-format
 msgctxt "@action"
 msgid "Save Text As…"
 msgstr "Įrašyti tekstą kaip…"
 
-#: src/fileexport/tool.cpp:40
+#: src/fileexport/tool.cpp:39
 #, kde-format
 msgctxt "@action"
 msgid "Save Data As…"
 msgstr "Įrašyti duomenis kaip…"
 
-#: src/fileexport/tool.cpp:65
+#: src/fileexport/tool.cpp:67
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Text As"
 msgstr "Įrašyti tekstą kaip"
 
-#: src/fileexport/tool.cpp:82
+#: src/fileexport/tool.cpp:84
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Data As"
@@ -137,12 +137,12 @@ msgstr "Nepavyko įkelti paveikslo iš failo %1."
 msgid "Could not load image from file %1."
 msgstr "Nepavyko įkelti paveikslo iš failo %1."
 
-#: src/imagesource/tool.cpp:83
+#: src/imagesource/tool.cpp:82
 #, kde-format
 msgid "Could not scan code in the image."
 msgstr "Nepavyko nuskenuoti paveiksle esančio kodo."
 
-#: src/imagesource/tool.cpp:85
+#: src/imagesource/tool.cpp:84
 #, kde-format
 msgid "Code in the image successfully scanned."
 msgstr "Paveiksle esantis kodas sėkmingai nuskenuotas."

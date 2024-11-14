@@ -1,7 +1,7 @@
 # Translation for kodaskanna.po to Euskara/Basque (eu).
-# Copyright (C) 2023 This file is copyright:
+# Copyright (C) 2023-2024 This file is copyright:
 # This file is distributed under the same license as the kodaskanna package.
-# KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>
+# SPDX-FileCopyrightText: 2024 KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>
 #
 # Translators:
 # SPDX-FileCopyrightText: 2023 Iñigo Salvador Azurmendi <xalba@ni.eus>
@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-13 00:38+0000\n"
-"PO-Revision-Date: 2023-09-12 20:22+0200\n"
+"POT-Creation-Date: 2024-11-14 00:39+0000\n"
+"PO-Revision-Date: 2024-11-13 17:04+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.08.0\n"
+"X-Generator: Lokalize 24.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -60,41 +60,37 @@ msgstr "Egilea"
 msgid "Image file to open."
 msgstr "Ireki beharreko irudi-fitxategia."
 
-#: src/clipboardexport/tool.cpp:38
+#: src/clipboardexport/tool.cpp:36
 #, kde-format
 msgctxt "@action"
 msgid "Copy Text to Clipboard"
 msgstr "Kopiatu testua arbelera"
 
-#: src/clipboardexport/tool.cpp:41
+#: src/clipboardexport/tool.cpp:40
 #, kde-format
 msgctxt "@action"
 msgid "Copy Data to Clipboard"
 msgstr "Kopiatu datuak arbelera"
 
-#: src/fileexport/tool.cpp:37
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Save Text As"
+#: src/fileexport/tool.cpp:35
+#, kde-format
 msgctxt "@action"
 msgid "Save Text As…"
-msgstr "Gorde testua honela"
+msgstr "Gorde testua honela..."
 
-#: src/fileexport/tool.cpp:40
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Save Data As"
+#: src/fileexport/tool.cpp:39
+#, kde-format
 msgctxt "@action"
 msgid "Save Data As…"
-msgstr "Gorde datuak honela"
+msgstr "Gorde datuak honela..."
 
-#: src/fileexport/tool.cpp:65
+#: src/fileexport/tool.cpp:67
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Text As"
 msgstr "Gorde testua honela"
 
-#: src/fileexport/tool.cpp:82
+#: src/fileexport/tool.cpp:84
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Data As"
@@ -131,22 +127,21 @@ msgid "Drop an image here"
 msgstr "Jaregin irudi bat hemen"
 
 #: src/imagesource/loadimagejob.cpp:93
-#, fuzzy, kde-format
-#| msgid "Could not load image from file %1."
+#, kde-format
 msgid "Could not load image from stdin."
-msgstr "Izan izan du %1 fitxategitik irudi bat zamatu."
+msgstr "Ezin izan du «stdin»etik irudi bat zamatu."
 
 #: src/imagesource/loadimagejob.cpp:95
 #, kde-format
 msgid "Could not load image from file %1."
 msgstr "Izan izan du %1 fitxategitik irudi bat zamatu."
 
-#: src/imagesource/tool.cpp:83
+#: src/imagesource/tool.cpp:82
 #, kde-format
 msgid "Could not scan code in the image."
 msgstr "Ezin izan du irudiko kodea eskaneatu."
 
-#: src/imagesource/tool.cpp:85
+#: src/imagesource/tool.cpp:84
 #, kde-format
 msgid "Code in the image successfully scanned."
 msgstr "Irudiko kodea ondo eskaneatu da."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-13 00:38+0000\n"
+"POT-Creation-Date: 2024-11-14 00:39+0000\n"
 "PO-Revision-Date: 2024-03-24 10:34+0100\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-doc@kde.org>\n"
@@ -58,19 +58,19 @@ msgstr "Aŭtoro"
 msgid "Image file to open."
 msgstr "Bilddosiero por malfermi."
 
-#: src/clipboardexport/tool.cpp:38
+#: src/clipboardexport/tool.cpp:36
 #, kde-format
 msgctxt "@action"
 msgid "Copy Text to Clipboard"
 msgstr "Kopii tekston al tondujo"
 
-#: src/clipboardexport/tool.cpp:41
+#: src/clipboardexport/tool.cpp:40
 #, kde-format
 msgctxt "@action"
 msgid "Copy Data to Clipboard"
 msgstr "Kopii Datumojn al Tondujo"
 
-#: src/fileexport/tool.cpp:37
+#: src/fileexport/tool.cpp:35
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Save Text As"
@@ -78,7 +78,7 @@ msgctxt "@action"
 msgid "Save Text As…"
 msgstr "Konservi Tekston Kiel"
 
-#: src/fileexport/tool.cpp:40
+#: src/fileexport/tool.cpp:39
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Save Data As"
@@ -86,13 +86,13 @@ msgctxt "@action"
 msgid "Save Data As…"
 msgstr "Konservi Datumojn Kiel"
 
-#: src/fileexport/tool.cpp:65
+#: src/fileexport/tool.cpp:67
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Text As"
 msgstr "Konservi Tekston Kiel"
 
-#: src/fileexport/tool.cpp:82
+#: src/fileexport/tool.cpp:84
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Data As"
@@ -139,12 +139,12 @@ msgstr "Ne eblis ŝargi bildon el dosiero %1."
 msgid "Could not load image from file %1."
 msgstr "Ne eblis ŝargi bildon el dosiero %1."
 
-#: src/imagesource/tool.cpp:83
+#: src/imagesource/tool.cpp:82
 #, kde-format
 msgid "Could not scan code in the image."
 msgstr "Ne eblis skani kodon en la bildo."
 
-#: src/imagesource/tool.cpp:85
+#: src/imagesource/tool.cpp:84
 #, kde-format
 msgid "Code in the image successfully scanned."
 msgstr "Kodo en la bildo sukcese skanita."
