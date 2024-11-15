@@ -1,18 +1,18 @@
-# Xavier Besnard <xavier.besnard@kde.org>, 2022.
+# SPDX-FileCopyrightText: 2022, 2024 Xavier Besnard <xavier.besnard@kde.org>
 msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-14 00:39+0000\n"
-"PO-Revision-Date: 2022-03-05 20:16+0100\n"
+"PO-Revision-Date: 2024-11-13 12:06+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
-"Language-Team: French <kde-francophone@kde.org>\n"
+"Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 24.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -69,20 +69,16 @@ msgid "Copy Data to Clipboard"
 msgstr "Copier des données vers le presse-papier"
 
 #: src/fileexport/tool.cpp:35
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Save Text As"
+#, kde-format
 msgctxt "@action"
 msgid "Save Text As…"
-msgstr "Enregistrer le texte sous"
+msgstr "Enregistrer le texte sous..."
 
 #: src/fileexport/tool.cpp:39
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Save Data As"
+#, kde-format
 msgctxt "@action"
 msgid "Save Data As…"
-msgstr "Enregistrer les données sous"
+msgstr "Enregistrer les données sous..."
 
 #: src/fileexport/tool.cpp:67
 #, kde-format

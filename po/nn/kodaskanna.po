@@ -159,11 +159,3 @@ msgstr "Treng ei nettadresse."
 #, kde-format
 msgid "Could not find Kodaskanna."
 msgstr "Fann ikkje Kodaskanna."
-
-#~ msgctxt "@action"
-#~ msgid "Save Text As..."
-#~ msgstr "Lagra tekst som …"
-
-#~ msgctxt "@action"
-#~ msgid "Save Data As..."
-#~ msgstr "Lagra data som …"

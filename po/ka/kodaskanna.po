@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-14 00:39+0000\n"
-"PO-Revision-Date: 2024-11-12 03:21+0100\n"
+"PO-Revision-Date: 2024-11-14 02:48+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -125,10 +125,9 @@ msgid "Drop an image here"
 msgstr "დააგდეთ გამოსახულება აქ"
 
 #: src/imagesource/loadimagejob.cpp:93
-#, fuzzy, kde-format
-#| msgid "Could not load image from file %1."
+#, kde-format
 msgid "Could not load image from stdin."
-msgstr "გამოსახულების ჩატვირთვის შეცდომა ფაილიდან %1."
+msgstr "გამოსახულების ჩატვირთვის შეცდომა stdin-დან."
 
 #: src/imagesource/loadimagejob.cpp:95
 #, kde-format
