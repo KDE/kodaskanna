@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-14 00:39+0000\n"
-"PO-Revision-Date: 2024-11-12 12:40+0100\n"
+"PO-Revision-Date: 2024-11-13 14:34+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -125,10 +125,9 @@ msgid "Drop an image here"
 msgstr "Rilascia qui un'immagine"
 
 #: src/imagesource/loadimagejob.cpp:93
-#, fuzzy, kde-format
-#| msgid "Could not load image from file %1."
+#, kde-format
 msgid "Could not load image from stdin."
-msgstr "Impossibile caricare l'immagine dal file %1."
+msgstr "Impossibile caricare l'immagine da stdin."
 
 #: src/imagesource/loadimagejob.cpp:95
 #, kde-format

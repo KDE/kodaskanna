@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-14 00:39+0000\n"
-"PO-Revision-Date: 2024-11-12 19:23+0300\n"
+"PO-Revision-Date: 2024-11-15 21:27+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -124,10 +124,9 @@ msgid "Drop an image here"
 msgstr "Buraya bir görsel bırakın"
 
 #: src/imagesource/loadimagejob.cpp:93
-#, fuzzy, kde-format
-#| msgid "Could not load image from file %1."
+#, kde-format
 msgid "Could not load image from stdin."
-msgstr "%1 dosyasından görsel yüklenemedi."
+msgstr "Standart girişten görsel yüklenemedi."
 
 #: src/imagesource/loadimagejob.cpp:95
 #, kde-format
