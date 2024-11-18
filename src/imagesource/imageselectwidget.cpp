@@ -8,6 +8,8 @@
 
 // own
 #include "imageselecttool.hpp"
+// KF
+#include <KLocalizedString>
 // Qt
 #include <QApplication>
 #include <QClipboard>
@@ -29,8 +31,13 @@ ImageSelectWidget::ImageSelectWidget(ImageSelectTool *imageSelectTool, QWidget *
     m_ui.setupUi(this);
     setAcceptDrops(true);
 
+    updatePasteFromClipboardButton();
+
     connect(m_ui.openFileButton, &QPushButton::clicked, this, &ImageSelectWidget::openFile);
     connect(m_ui.pasteFromClipboardButton, &QPushButton::clicked, this, &ImageSelectWidget::pasteFromClipboard);
+
+    connect(QApplication::clipboard(), &QClipboard::dataChanged,
+            this, &ImageSelectWidget::updatePasteFromClipboardButton);
 }
 
 ImageSelectWidget::~ImageSelectWidget() = default;
@@ -75,6 +82,17 @@ void ImageSelectWidget::openFile()
 void ImageSelectWidget::pasteFromClipboard()
 {
     m_imageSelectTool->handleMimeData(QApplication::clipboard()->mimeData());
+}
+
+void ImageSelectWidget::updatePasteFromClipboardButton()
+{
+    const bool canHandleClipboardMimeData = m_imageSelectTool->canHandleMimeData(QApplication::clipboard()->mimeData());
+
+    m_ui.pasteFromClipboardButton->setEnabled(canHandleClipboardMimeData);
+
+    const QString toolTipText = canHandleClipboardMimeData ? QString() :
+        i18nc("@info:tooltip", "No suitable data on the clipboard.");
+    m_ui.pasteFromClipboardButton->setToolTip(toolTipText);
 }
 
 }

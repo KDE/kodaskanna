@@ -37,6 +37,9 @@ private:
     void openFile();
     void pasteFromClipboard();
 
+private Q_SLOTS:
+    void updatePasteFromClipboardButton();
+
 private:
     Ui::ImageSelectWidget m_ui;
     ImageSelectTool *const m_imageSelectTool;
