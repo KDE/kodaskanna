@@ -12,3 +12,6 @@ Dependencies:
     'frameworks/kwidgetsaddons': '@stable-kf6'
     'frameworks/kio': '@stable-kf6'
     'frameworks/purpose': '@stable-kf6'
+
+Options:
+  require-passing-tests-on: [ 'Linux', 'FreeBSD' ]
