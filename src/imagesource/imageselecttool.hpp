@@ -22,9 +22,8 @@ public:
 
 public:
     bool canHandleMimeData(const QMimeData *mimeData) const;
-    bool handleDroppedMimeData(const QMimeData *mimeData);
+    bool handleMimeData(const QMimeData *mimeData);
     void openFile();
-    void pasteFromClipboard();
 
 private:
     Tool *const m_tool;

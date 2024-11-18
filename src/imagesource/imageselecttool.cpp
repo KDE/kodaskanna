@@ -11,8 +11,6 @@
 // KF
 #include <KLocalizedString>
 // Qt
-#include <QApplication>
-#include <QClipboard>
 #include <QFileDialog>
 #include <QImage>
 #include <QMimeData>
@@ -44,7 +42,7 @@ bool ImageSelectTool::canHandleMimeData(const QMimeData *mimeData) const
     return false;
 }
 
-bool ImageSelectTool::handleDroppedMimeData(const QMimeData *mimeData)
+bool ImageSelectTool::handleMimeData(const QMimeData *mimeData)
 {
     if (mimeData->hasImage()) {
         const QImage image = qvariant_cast<QImage>(mimeData->imageData());
@@ -71,11 +69,6 @@ void ImageSelectTool::openFile()
     }
 
     m_tool->setOrigin(fileUrl);
-}
-
-void ImageSelectTool::pasteFromClipboard()
-{
-    handleDroppedMimeData(QApplication::clipboard()->mimeData());
 }
 
 }

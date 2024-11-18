@@ -9,10 +9,13 @@
 // own
 #include "imageselecttool.hpp"
 // Qt
+#include <QApplication>
+#include <QClipboard>
 #include <QDragEnterEvent>
 #include <QDragLeaveEvent>
 #include <QDragMoveEvent>
 #include <QDropEvent>
+#include <QMimeData>
 
 namespace Kodaskanna
 {
@@ -57,7 +60,7 @@ void ImageSelectWidget::dragLeaveEvent(QDragLeaveEvent *dragLeaveEvent)
 
 void ImageSelectWidget::dropEvent(QDropEvent *dropEvent)
 {
-    if (m_imageSelectTool->handleDroppedMimeData(dropEvent->mimeData())) {
+    if (m_imageSelectTool->handleMimeData(dropEvent->mimeData())) {
         dropEvent->accept();
     } else {
         dropEvent->ignore();
@@ -71,7 +74,7 @@ void ImageSelectWidget::openFile()
 
 void ImageSelectWidget::pasteFromClipboard()
 {
-    m_imageSelectTool->pasteFromClipboard();
+    m_imageSelectTool->handleMimeData(QApplication::clipboard()->mimeData());
 }
 
 }
