@@ -38,4 +38,4 @@ Name[x-test]=xxScan data codexx
 Name[zh_CN]=扫描数据码
 Name[zh_TW]=掃描資料條碼
 Icon=kodaskanna
-Exec=kodaskanna %u
+Exec=kodaskanna --onescan %u

@@ -34,6 +34,14 @@ public:
     void showSuccess(const QString &messageText);
     void showError(const QString &messageText);
     void showImageSelect(ImageSelectTool *imageSelectTool);
+    void switchToPickView();
+    bool isInPickView() const;
+
+Q_SIGNALS:
+    void isInPickViewChanged(bool isInPickView);
+
+private Q_SLOTS:
+    void handleCurrentViewChanged();
 
 private:
     Ui::Widget m_ui;

@@ -6,6 +6,7 @@ add_subdirectory(core)
 add_subdirectory(widgets)
 
 add_subdirectory(imagesource)
+add_subdirectory(sourcenavigation)
 add_subdirectory(plaintextdisplay)
 
 add_subdirectory(clipboardexport)

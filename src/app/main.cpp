@@ -45,6 +45,8 @@ int main(int argc, char **argv)
     QCommandLineParser parser;
     aboutData.setupCommandLine(&parser);
     parser.addPositionalArgument(QStringLiteral("URL"), i18n("Image file to open."), QStringLiteral("[URL}"));
+    const QCommandLineOption oneScanOption(QStringLiteral("onescan"), i18n("Enable only one scan."));
+    parser.addOption(oneScanOption);
 
     parser.process(application);
     aboutData.processCommandLine(&parser);
@@ -60,8 +62,11 @@ int main(int argc, char **argv)
             sourceFileUrl = QUrl(QStringLiteral("stdin:/"));
         }
     }
+    const bool isOneScanMode = parser.isSet(oneScanOption);
 
-    auto *window = new Kodaskanna::Window;
+    const Kodaskanna::Window::Modus windowModus = isOneScanMode ? Kodaskanna::Window::OneScanModus : Kodaskanna::Window::DefaultModus;
+
+    auto *window = new Kodaskanna::Window(windowModus);
     window->show();
 
     window->scanFromFile(sourceFileUrl);

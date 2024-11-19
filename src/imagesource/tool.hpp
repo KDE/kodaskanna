@@ -40,6 +40,8 @@ public:
 public: // AbstractSourceTool API
     void setOrigin(const QUrl &origin) override;
     QWidget *widget() const override;
+    void switchToPickView() override;
+    bool isInPickView() const override;
 
 private:
     void handleImageLoadResult(KJob *job);

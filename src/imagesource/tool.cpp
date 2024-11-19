@@ -25,6 +25,8 @@ namespace ImageSource
 Tool::Tool()
     : m_widget(std::make_unique<Widget>())
 {
+    connect(m_widget.get(), &Widget::isInPickViewChanged,
+            this, &AbstractSourceTool::isInPickViewChanged);
 }
 
 Tool::~Tool() = default;
@@ -61,6 +63,16 @@ void Tool::setImage(const QImage &image)
     connect(scanImageRunner, &ScanImageRunner::scanFinished, this, &Tool::handleScanFinished);
 
     QThreadPool::globalInstance()->start(scanImageRunner);
+}
+
+void Tool::switchToPickView()
+{
+    m_widget->switchToPickView();
+}
+
+bool Tool::isInPickView() const
+{
+    return m_widget->isInPickView();
 }
 
 void Tool::handleImageLoadResult(KJob *job)

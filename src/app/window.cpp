@@ -11,10 +11,12 @@
 #include "../fileexport/plugin.hpp"
 #include "../imagesource/plugin.hpp"
 #include "../plaintextdisplay/plugin.hpp"
+#include "../sourcenavigation/plugin.hpp"
 // widgets
 #include <abstractdisplaytool.hpp>
 #include <abstractexporttool.hpp>
 #include <abstractsourcetool.hpp>
+#include <abstractnavigatesourcetool.hpp>
 // KF
 #include <KLocalizedString>
 // Qt
@@ -23,7 +25,7 @@
 namespace Kodaskanna
 {
 
-Window::Window()
+Window::Window(Modus modus)
     : QDialog()
 {
     setAttribute(Qt::WA_DeleteOnClose);
@@ -36,6 +38,11 @@ Window::Window()
 
     m_displayTool = PlainTextDisplay::createDisplayTool();
     m_ui.displayWidgetStackLayout->addWidget(m_displayTool->widget());
+
+    if (modus != OneScanModus) {
+        m_sourceNavigationTool = SourceNavigation::createNavigateSourceTool(m_sourceTool.get());
+        m_sourceNavigationTool->setupButtonBox(m_ui.buttonBox);
+    }
 
     m_exportTools.reserve(2);
     m_exportTools.emplace_back(ClipboardExport::createExportTool());

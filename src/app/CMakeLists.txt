@@ -17,6 +17,7 @@ ki18n_wrap_ui(kodaskanna
 
 target_link_libraries(kodaskanna
     kodaskannaimagesource
+    kodaskannasourcenavigation
     kodaskannaplaintextpreview
     kodaskannaclipboardexport
     kodaskannafileexport

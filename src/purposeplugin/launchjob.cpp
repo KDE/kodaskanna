@@ -7,7 +7,7 @@
 #include "launchjob.hpp"
 
 // KF
-#include <KIO/ApplicationLauncherJob>
+#include <KIO/CommandLauncherJob>
 #include <KService>
 #include <KLocalizedString>
 // Qt
@@ -34,9 +34,10 @@ void LaunchJob::start()
         emitResult();
         return;
     }
-    const QUrl url(urls.at(0).toString());
+    const QString url = urls.at(0).toString();
 
-    KService::Ptr service = KService::serviceByDesktopName(QStringLiteral("org.kde.kodaskanna"));
+    const QString desktopName = QStringLiteral("org.kde.kodaskanna");
+    KService::Ptr service = KService::serviceByDesktopName(desktopName);
 
     if (!service) {
         setErrorText(i18n("Could not find Kodaskanna."));
@@ -44,9 +45,11 @@ void LaunchJob::start()
         return;
     }
 
-    auto *applicationLauncherJob = new KIO::ApplicationLauncherJob(service);
-    applicationLauncherJob->setUrls({url});
-    connect(applicationLauncherJob, &KIO::ApplicationLauncherJob::result,
+    // TODO: using CommandLauncherJob instead of ApplicationLauncherJob, due to additional arg
+    // Perhaps should get instead a dedicate separate service desktop file with NoDisplay?
+    auto *applicationLauncherJob = new KIO::CommandLauncherJob(service->exec(), {QStringLiteral("--onescan"), url});
+    applicationLauncherJob->setDesktopName(desktopName);
+    connect(applicationLauncherJob, &KIO::CommandLauncherJob::result,
             this, &LaunchJob::handleApplicationLaunchJobResult);
     applicationLauncherJob->start();
 }

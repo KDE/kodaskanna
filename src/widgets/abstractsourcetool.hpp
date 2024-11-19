@@ -29,9 +29,12 @@ public:
 public: // API to implement
     virtual void setOrigin(const QUrl &origin) = 0;
     virtual QWidget *widget() const = 0;
+    virtual void switchToPickView() = 0;
+    virtual bool isInPickView() const = 0;
 
 Q_SIGNALS:
     void scanFinished(const ScanResult &scanResult);
+    void isInPickViewChanged(bool isInPickView);
 
 private:
 };

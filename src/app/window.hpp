@@ -23,13 +23,20 @@ namespace Kodaskanna
 class AbstractSourceTool;
 class AbstractDisplayTool;
 class AbstractExportTool;
+class AbstractNavigateSourceTool;
 
 class Window : public QDialog
 {
     Q_OBJECT
 
 public:
-    Window();
+    enum Modus {
+        DefaultModus = 0,
+        OneScanModus = 1,
+    };
+
+public:
+    explicit Window(Modus modus);
 
     ~Window() override;
 
@@ -44,6 +51,7 @@ private:
 
     std::unique_ptr<AbstractSourceTool> m_sourceTool;
     std::unique_ptr<AbstractDisplayTool> m_displayTool;
+    std::unique_ptr<AbstractNavigateSourceTool> m_sourceNavigationTool;
     std::vector<std::unique_ptr<AbstractExportTool>> m_exportTools;
 
     ScanResult m_scanResult;
