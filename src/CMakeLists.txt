@@ -15,3 +15,9 @@ add_subdirectory(konqpopupmenu)
 add_subdirectory(purposeplugin)
 
 add_subdirectory(app)
+
+ecm_qt_install_logging_categories(
+    EXPORT KODASKANNA
+    FILE kodaskanna.categories
+    DESTINATION "${KDE_INSTALL_LOGGINGCATEGORIESDIR}"
+)

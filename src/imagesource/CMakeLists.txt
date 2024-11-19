@@ -4,6 +4,14 @@
 
 add_library(kodaskannaimagesource STATIC)
 
+ecm_qt_declare_logging_category(kodaskannaimagesource
+    HEADER "logging.hpp"
+    IDENTIFIER "LOG_KODASKANNA_IMAGESOURCE"
+    CATEGORY_NAME "kodaskanna.imagesource"
+    DESCRIPTION "Kodaskanna ImageSource library"
+    EXPORT KODASKANNA
+)
+
 ki18n_wrap_ui(kodaskannaimagesource
     imageselectwidget.ui
     widget.ui

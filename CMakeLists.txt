@@ -18,6 +18,7 @@ include(KDECompilerSettings NO_POLICY_SCOPE)
 
 include(ECMDeprecationSettings)
 include(ECMInstallIcons)
+include(ECMQtDeclareLoggingCategory)
 include(KDEClangFormat)
 include(FeatureSummary)
 
