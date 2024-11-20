@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-14 00:39+0000\n"
+"POT-Creation-Date: 2024-11-20 00:38+0000\n"
 "PO-Revision-Date: 2024-11-15 21:27+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -57,6 +57,11 @@ msgstr "Yazar"
 msgid "Image file to open."
 msgstr "Açılacak görsel dosyası."
 
+#: src/app/main.cpp:48
+#, kde-format
+msgid "Enable only one scan."
+msgstr ""
+
 #: src/clipboardexport/tool.cpp:36
 #, kde-format
 msgctxt "@action"
@@ -93,11 +98,17 @@ msgctxt "@title:window"
 msgid "Save Data As"
 msgstr "Veriyi Farklı Kaydet"
 
-#: src/imagesource/imageselecttool.cpp:68
+#: src/imagesource/imageselecttool.cpp:66
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Image"
 msgstr "Görsel Aç"
+
+#: src/imagesource/imageselectwidget.cpp:94
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "No suitable data on the clipboard."
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, openFileButton)
 #: src/imagesource/imageselectwidget.ui:49
@@ -133,12 +144,12 @@ msgstr "Standart girişten görsel yüklenemedi."
 msgid "Could not load image from file %1."
 msgstr "%1 dosyasından görsel yüklenemedi."
 
-#: src/imagesource/tool.cpp:82
+#: src/imagesource/tool.cpp:94
 #, kde-format
 msgid "Could not scan code in the image."
 msgstr "Görseldeki kod taranamadı."
 
-#: src/imagesource/tool.cpp:84
+#: src/imagesource/tool.cpp:96
 #, kde-format
 msgid "Code in the image successfully scanned."
 msgstr "Görseldeki kod başarıyla tarandı."
@@ -148,10 +159,16 @@ msgstr "Görseldeki kod başarıyla tarandı."
 msgid "Need one URL."
 msgstr "Bir URL gerek."
 
-#: src/purposeplugin/launchjob.cpp:42
+#: src/purposeplugin/launchjob.cpp:43
 #, kde-format
 msgid "Could not find Kodaskanna."
 msgstr "Kodaskanna bulunamadı."
+
+#: src/sourcenavigation/tool.cpp:33
+#, kde-format
+msgctxt "@action"
+msgid "Choose Another Source"
+msgstr ""
 
 #~ msgctxt "@action"
 #~ msgid "Save Text As..."

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-14 00:39+0000\n"
+"POT-Creation-Date: 2024-11-20 00:38+0000\n"
 "PO-Revision-Date: 2024-01-04 23:04+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -60,6 +60,11 @@ msgstr "作者"
 msgid "Image file to open."
 msgstr "要開啟的影像檔案"
 
+#: src/app/main.cpp:48
+#, kde-format
+msgid "Enable only one scan."
+msgstr ""
+
 #: src/clipboardexport/tool.cpp:36
 #, kde-format
 msgctxt "@action"
@@ -100,11 +105,17 @@ msgctxt "@title:window"
 msgid "Save Data As"
 msgstr "將資料另存為"
 
-#: src/imagesource/imageselecttool.cpp:68
+#: src/imagesource/imageselecttool.cpp:66
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Image"
 msgstr "開啟影像"
+
+#: src/imagesource/imageselectwidget.cpp:94
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "No suitable data on the clipboard."
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, openFileButton)
 #: src/imagesource/imageselectwidget.ui:49
@@ -141,12 +152,12 @@ msgstr "無法從檔案 %1 載入影像。"
 msgid "Could not load image from file %1."
 msgstr "無法從檔案 %1 載入影像。"
 
-#: src/imagesource/tool.cpp:82
+#: src/imagesource/tool.cpp:94
 #, kde-format
 msgid "Could not scan code in the image."
 msgstr "無法掃描影像中的條碼。"
 
-#: src/imagesource/tool.cpp:84
+#: src/imagesource/tool.cpp:96
 #, kde-format
 msgid "Code in the image successfully scanned."
 msgstr "成功掃描影像中的條碼。"
@@ -156,10 +167,16 @@ msgstr "成功掃描影像中的條碼。"
 msgid "Need one URL."
 msgstr "需要提供一個網址。"
 
-#: src/purposeplugin/launchjob.cpp:42
+#: src/purposeplugin/launchjob.cpp:43
 #, kde-format
 msgid "Could not find Kodaskanna."
 msgstr "找不到 Kodaskanna。"
+
+#: src/sourcenavigation/tool.cpp:33
+#, kde-format
+msgctxt "@action"
+msgid "Choose Another Source"
+msgstr ""
 
 #~ msgctxt "@action"
 #~ msgid "Save Text As..."

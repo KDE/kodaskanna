@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-14 00:39+0000\n"
+"POT-Creation-Date: 2024-11-20 00:38+0000\n"
 "PO-Revision-Date: 2024-11-13 21:25+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
@@ -57,6 +57,11 @@ msgstr "Autoría"
 msgid "Image file to open."
 msgstr "Ficheiro de imaxe para abrir."
 
+#: src/app/main.cpp:48
+#, kde-format
+msgid "Enable only one scan."
+msgstr ""
+
 #: src/clipboardexport/tool.cpp:36
 #, kde-format
 msgctxt "@action"
@@ -93,11 +98,17 @@ msgctxt "@title:window"
 msgid "Save Data As"
 msgstr "Gardar os datos como…"
 
-#: src/imagesource/imageselecttool.cpp:68
+#: src/imagesource/imageselecttool.cpp:66
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Image"
 msgstr "Abrir a imaxe"
+
+#: src/imagesource/imageselectwidget.cpp:94
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "No suitable data on the clipboard."
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, openFileButton)
 #: src/imagesource/imageselectwidget.ui:49
@@ -133,12 +144,12 @@ msgstr "Non foi posíbel cargar a imaxe da entrada estándar."
 msgid "Could not load image from file %1."
 msgstr "Non foi posíbel cargar a imaxe do ficheiro %1."
 
-#: src/imagesource/tool.cpp:82
+#: src/imagesource/tool.cpp:94
 #, kde-format
 msgid "Could not scan code in the image."
 msgstr "Non foi posíbel escanear o código da imaxe."
 
-#: src/imagesource/tool.cpp:84
+#: src/imagesource/tool.cpp:96
 #, kde-format
 msgid "Code in the image successfully scanned."
 msgstr "Escaneouse o código da imaxe."
@@ -148,10 +159,16 @@ msgstr "Escaneouse o código da imaxe."
 msgid "Need one URL."
 msgstr "Necesítase un URL."
 
-#: src/purposeplugin/launchjob.cpp:42
+#: src/purposeplugin/launchjob.cpp:43
 #, kde-format
 msgid "Could not find Kodaskanna."
 msgstr "Non foi posíbel atopar Kodaskanna."
+
+#: src/sourcenavigation/tool.cpp:33
+#, kde-format
+msgctxt "@action"
+msgid "Choose Another Source"
+msgstr ""
 
 #~ msgctxt "@action"
 #~ msgid "Save Text As..."

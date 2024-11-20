@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-14 00:39+0000\n"
+"POT-Creation-Date: 2024-11-20 00:38+0000\n"
 "PO-Revision-Date: 2022-01-20 17:18+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -57,6 +57,11 @@ msgstr "Upphovsman"
 msgid "Image file to open."
 msgstr "Bildfil att öppna"
 
+#: src/app/main.cpp:48
+#, kde-format
+msgid "Enable only one scan."
+msgstr ""
+
 #: src/clipboardexport/tool.cpp:36
 #, kde-format
 msgctxt "@action"
@@ -97,11 +102,17 @@ msgctxt "@title:window"
 msgid "Save Data As"
 msgstr "Spara data som"
 
-#: src/imagesource/imageselecttool.cpp:68
+#: src/imagesource/imageselecttool.cpp:66
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Image"
 msgstr "Öppna bild"
+
+#: src/imagesource/imageselectwidget.cpp:94
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "No suitable data on the clipboard."
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, openFileButton)
 #: src/imagesource/imageselectwidget.ui:49
@@ -138,12 +149,12 @@ msgstr "Kunde inte läsa in bild från filen %1."
 msgid "Could not load image from file %1."
 msgstr "Kunde inte läsa in bild från filen %1."
 
-#: src/imagesource/tool.cpp:82
+#: src/imagesource/tool.cpp:94
 #, kde-format
 msgid "Could not scan code in the image."
 msgstr "Kunde inte läsa koden på bilden."
 
-#: src/imagesource/tool.cpp:84
+#: src/imagesource/tool.cpp:96
 #, kde-format
 msgid "Code in the image successfully scanned."
 msgstr "Koden på bilden läst med lyckat resultat."
@@ -153,10 +164,16 @@ msgstr "Koden på bilden läst med lyckat resultat."
 msgid "Need one URL."
 msgstr "Behöver en webbadress."
 
-#: src/purposeplugin/launchjob.cpp:42
+#: src/purposeplugin/launchjob.cpp:43
 #, kde-format
 msgid "Could not find Kodaskanna."
 msgstr "Kunde inte hitta Kodaskanna."
+
+#: src/sourcenavigation/tool.cpp:33
+#, kde-format
+msgctxt "@action"
+msgid "Choose Another Source"
+msgstr ""
 
 #~ msgctxt "@action"
 #~ msgid "Save Text As..."

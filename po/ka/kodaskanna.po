@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-14 00:39+0000\n"
+"POT-Creation-Date: 2024-11-20 00:38+0000\n"
 "PO-Revision-Date: 2024-11-14 02:48+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -58,6 +58,11 @@ msgstr "ავტორი"
 msgid "Image file to open."
 msgstr "გასახსნელი გამოსახულების ფაილი."
 
+#: src/app/main.cpp:48
+#, kde-format
+msgid "Enable only one scan."
+msgstr ""
+
 #: src/clipboardexport/tool.cpp:36
 #, kde-format
 msgctxt "@action"
@@ -94,11 +99,17 @@ msgctxt "@title:window"
 msgid "Save Data As"
 msgstr "მონაცემების შენახვა, როგორც"
 
-#: src/imagesource/imageselecttool.cpp:68
+#: src/imagesource/imageselecttool.cpp:66
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Image"
 msgstr "გამოსახულების გახსნა"
+
+#: src/imagesource/imageselectwidget.cpp:94
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "No suitable data on the clipboard."
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, openFileButton)
 #: src/imagesource/imageselectwidget.ui:49
@@ -134,12 +145,12 @@ msgstr "გამოსახულების ჩატვირთვის �
 msgid "Could not load image from file %1."
 msgstr "გამოსახულების ჩატვირთვის შეცდომა ფაილიდან %1."
 
-#: src/imagesource/tool.cpp:82
+#: src/imagesource/tool.cpp:94
 #, kde-format
 msgid "Could not scan code in the image."
 msgstr "გამოსახულებიდან კოდის სკანირება შეუძლებელია."
 
-#: src/imagesource/tool.cpp:84
+#: src/imagesource/tool.cpp:96
 #, kde-format
 msgid "Code in the image successfully scanned."
 msgstr "გამოსახულებიდან კოდი წარმატებით წავიკითხე."
@@ -149,10 +160,16 @@ msgstr "გამოსახულებიდან კოდი წარმ�
 msgid "Need one URL."
 msgstr "საჭიროა ერთი URL."
 
-#: src/purposeplugin/launchjob.cpp:42
+#: src/purposeplugin/launchjob.cpp:43
 #, kde-format
 msgid "Could not find Kodaskanna."
 msgstr "Kodaskanna ვერ ვიპოვე."
+
+#: src/sourcenavigation/tool.cpp:33
+#, kde-format
+msgctxt "@action"
+msgid "Choose Another Source"
+msgstr ""
 
 #~ msgctxt "@action"
 #~ msgid "Save Text As..."
