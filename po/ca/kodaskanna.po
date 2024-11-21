@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-20 00:38+0000\n"
-"PO-Revision-Date: 2024-11-13 10:32+0100\n"
+"PO-Revision-Date: 2024-11-20 11:15+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -62,7 +62,7 @@ msgstr "Fitxer d'imatge a obrir."
 #: src/app/main.cpp:48
 #, kde-format
 msgid "Enable only one scan."
-msgstr ""
+msgstr "Activa només un escaneig."
 
 #: src/clipboardexport/tool.cpp:36
 #, kde-format
@@ -110,7 +110,7 @@ msgstr "Obre una imatge"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "No suitable data on the clipboard."
-msgstr ""
+msgstr "No hi ha dades adequades al porta-retalls."
 
 #. i18n: ectx: property (text), widget (QPushButton, openFileButton)
 #: src/imagesource/imageselectwidget.ui:49
@@ -170,7 +170,7 @@ msgstr "No s'ha pogut trobar el Kodaskanna."
 #, kde-format
 msgctxt "@action"
 msgid "Choose Another Source"
-msgstr ""
+msgstr "Trieu una altra font"
 
 #~ msgctxt "@action"
 #~ msgid "Save Text As..."

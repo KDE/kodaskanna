@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-20 00:38+0000\n"
-"PO-Revision-Date: 2024-11-13 11:47+0100\n"
+"PO-Revision-Date: 2024-11-21 00:11+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -60,7 +60,7 @@ msgstr "Te openen afbeeldingsbestand."
 #: src/app/main.cpp:48
 #, kde-format
 msgid "Enable only one scan."
-msgstr ""
+msgstr "Slechts één scan inschakelen."
 
 #: src/clipboardexport/tool.cpp:36
 #, kde-format
@@ -108,7 +108,7 @@ msgstr "Afbeelding openen"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "No suitable data on the clipboard."
-msgstr ""
+msgstr "Geen geschikte gegevens in het klembord."
 
 #. i18n: ectx: property (text), widget (QPushButton, openFileButton)
 #: src/imagesource/imageselectwidget.ui:49
@@ -168,7 +168,7 @@ msgstr "Kon Kodaskanna niet vinden."
 #, kde-format
 msgctxt "@action"
 msgid "Choose Another Source"
-msgstr ""
+msgstr "Kies een andere bron"
 
 #~ msgctxt "@action"
 #~ msgid "Save Text As..."

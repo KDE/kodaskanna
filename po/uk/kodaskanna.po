@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-20 00:38+0000\n"
-"PO-Revision-Date: 2024-11-13 16:47+0200\n"
+"PO-Revision-Date: 2024-11-20 17:13+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -61,7 +61,7 @@ msgstr "Файл зображення, який слід відкрити."
 #: src/app/main.cpp:48
 #, kde-format
 msgid "Enable only one scan."
-msgstr ""
+msgstr "Увімкнути лише одне сканування."
 
 #: src/clipboardexport/tool.cpp:36
 #, kde-format
@@ -109,7 +109,7 @@ msgstr "Відкриття зображення"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "No suitable data on the clipboard."
-msgstr ""
+msgstr "У буфері обміну даними немає відповідних даних."
 
 #. i18n: ectx: property (text), widget (QPushButton, openFileButton)
 #: src/imagesource/imageselectwidget.ui:49
@@ -170,7 +170,7 @@ msgstr "Не вдалося знайти Kodaskanna."
 #, kde-format
 msgctxt "@action"
 msgid "Choose Another Source"
-msgstr ""
+msgstr "Вибрати інше джерело"
 
 #~ msgctxt "@action"
 #~ msgid "Save Text As..."

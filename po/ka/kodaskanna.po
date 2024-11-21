@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-20 00:38+0000\n"
-"PO-Revision-Date: 2024-11-14 02:48+0100\n"
+"PO-Revision-Date: 2024-11-20 07:09+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -61,7 +61,7 @@ msgstr "გასახსნელი გამოსახულების �
 #: src/app/main.cpp:48
 #, kde-format
 msgid "Enable only one scan."
-msgstr ""
+msgstr "მხოლოდ, ერთი სკანირების ჩართვა."
 
 #: src/clipboardexport/tool.cpp:36
 #, kde-format
@@ -109,7 +109,7 @@ msgstr "გამოსახულების გახსნა"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "No suitable data on the clipboard."
-msgstr ""
+msgstr "ბუფერში შესაფერისი მონაცემები არაა."
 
 #. i18n: ectx: property (text), widget (QPushButton, openFileButton)
 #: src/imagesource/imageselectwidget.ui:49
@@ -169,7 +169,7 @@ msgstr "Kodaskanna ვერ ვიპოვე."
 #, kde-format
 msgctxt "@action"
 msgid "Choose Another Source"
-msgstr ""
+msgstr "სხვა წყაროს არჩევა"
 
 #~ msgctxt "@action"
 #~ msgid "Save Text As..."
