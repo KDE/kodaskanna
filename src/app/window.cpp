@@ -12,11 +12,13 @@
 #include "../imagesource/plugin.hpp"
 #include "../plaintextdisplay/plugin.hpp"
 #include "../sourcenavigation/plugin.hpp"
+#include "../helpmenu/plugin.hpp"
 // widgets
 #include <abstractdisplaytool.hpp>
 #include <abstractexporttool.hpp>
 #include <abstractsourcetool.hpp>
 #include <abstractnavigatesourcetool.hpp>
+#include <abstractmenutool.hpp>
 // KF
 #include <KLocalizedString>
 // Qt
@@ -49,6 +51,11 @@ Window::Window(Modus modus)
     m_exportTools.emplace_back(FileExport::createExportTool());
     for (const auto& tool : std::as_const(m_exportTools)) {
         tool->setupButtonBox(m_ui.buttonBox);
+    }
+
+    if (modus != OneScanModus) {
+        m_helpMenuTool = HelpMenu::createMenuTool();
+        m_helpMenuTool->setupButtonBox(m_ui.buttonBox);
     }
 
     connect(m_ui.buttonBox, &QDialogButtonBox::accepted, this, &QDialog::accepted);

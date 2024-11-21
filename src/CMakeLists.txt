@@ -12,6 +12,8 @@ add_subdirectory(plaintextdisplay)
 add_subdirectory(clipboardexport)
 add_subdirectory(fileexport)
 
+add_subdirectory(helpmenu)
+
 add_subdirectory(konqpopupmenu)
 add_subdirectory(purposeplugin)
 

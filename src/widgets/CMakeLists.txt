@@ -9,6 +9,7 @@ target_sources(kodaskannawidgets PRIVATE
     abstractdisplaytool.cpp
     abstractexporttool.cpp
     abstractnavigatesourcetool.cpp
+    abstractmenutool.cpp
 )
 
 target_link_libraries(kodaskannawidgets

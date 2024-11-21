@@ -23,6 +23,7 @@ namespace Kodaskanna
 class AbstractSourceTool;
 class AbstractDisplayTool;
 class AbstractExportTool;
+class AbstractMenuTool;
 class AbstractNavigateSourceTool;
 
 class Window : public QDialog
@@ -53,6 +54,7 @@ private:
     std::unique_ptr<AbstractDisplayTool> m_displayTool;
     std::unique_ptr<AbstractNavigateSourceTool> m_sourceNavigationTool;
     std::vector<std::unique_ptr<AbstractExportTool>> m_exportTools;
+    std::unique_ptr<AbstractMenuTool> m_helpMenuTool;
 
     ScanResult m_scanResult;
 };

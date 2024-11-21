@@ -11,6 +11,7 @@ Dependencies:
     'frameworks/ki18n': '@stable-kf6'
     'frameworks/kwidgetsaddons': '@stable-kf6'
     'frameworks/kio': '@stable-kf6'
+    'frameworks/kxmlgui': '@stable-kf6'
     'frameworks/purpose': '@stable-kf6'
 
 Options:

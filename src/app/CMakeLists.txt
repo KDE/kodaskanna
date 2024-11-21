@@ -21,6 +21,7 @@ target_link_libraries(kodaskanna
     kodaskannaplaintextpreview
     kodaskannaclipboardexport
     kodaskannafileexport
+    kodaskannahelpmenu
     kodaskannawidgets
     kodaskannacore
     KF6::CoreAddons
