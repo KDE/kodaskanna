@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-20 00:38+0000\n"
+"POT-Creation-Date: 2024-11-22 00:39+0000\n"
 "PO-Revision-Date: 2023-02-22 16:43+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -38,8 +38,9 @@ msgid "Utility to scan data from codes in graphical sources."
 msgstr ""
 
 #: src/app/main.cpp:34
-#, kde-format
-msgid "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+#, fuzzy, kde-format
+#| msgid "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+msgid "Copyright 2022, 2024, Friedrich W. H. Kossebau"
 msgstr "Autorská práva 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
 
 #: src/app/main.cpp:38
