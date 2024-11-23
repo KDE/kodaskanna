@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-22 00:39+0000\n"
-"PO-Revision-Date: 2024-11-14 13:02+0100\n"
+"PO-Revision-Date: 2024-11-21 09:11+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -60,7 +60,7 @@ msgstr "Fichier d'image à ouvrir."
 #: src/app/main.cpp:48
 #, kde-format
 msgid "Enable only one scan."
-msgstr ""
+msgstr "N'autoriser qu'une seule numérisation."
 
 #: src/clipboardexport/tool.cpp:36
 #, kde-format
@@ -108,7 +108,7 @@ msgstr "Ouvrir une image"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "No suitable data on the clipboard."
-msgstr ""
+msgstr "Aucune donnée appropriée dans le presse-papier."
 
 #. i18n: ectx: property (text), widget (QPushButton, openFileButton)
 #: src/imagesource/imageselectwidget.ui:49
@@ -168,7 +168,7 @@ msgstr "Impossible de trouver Kodaskanna."
 #, kde-format
 msgctxt "@action"
 msgid "Choose Another Source"
-msgstr ""
+msgstr "Sélectionner une autre source"
 
 #~ msgctxt "@action"
 #~ msgid "Save Text As..."
