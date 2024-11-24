@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-22 00:39+0000\n"
-"PO-Revision-Date: 2024-11-16 12:54+0000\n"
+"PO-Revision-Date: 2024-11-23 12:10+0000\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English\n"
 "Language: en_GB\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.08.2\n"
+"X-Generator: Lokalize 24.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -38,10 +38,9 @@ msgid "Utility to scan data from codes in graphical sources."
 msgstr "Utility to scan data from codes in graphical sources."
 
 #: src/app/main.cpp:34
-#, fuzzy, kde-format
-#| msgid "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+#, kde-format
 msgid "Copyright 2022, 2024, Friedrich W. H. Kossebau"
-msgstr "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+msgstr "Copyright 2022, 2024, Friedrich W. H. Kossebau"
 
 #: src/app/main.cpp:38
 #, kde-format
@@ -61,7 +60,7 @@ msgstr "Image file to open."
 #: src/app/main.cpp:48
 #, kde-format
 msgid "Enable only one scan."
-msgstr ""
+msgstr "Enable only one scan."
 
 #: src/clipboardexport/tool.cpp:36
 #, kde-format
@@ -109,7 +108,7 @@ msgstr "Open Image"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "No suitable data on the clipboard."
-msgstr ""
+msgstr "No suitable data on the clipboard."
 
 #. i18n: ectx: property (text), widget (QPushButton, openFileButton)
 #: src/imagesource/imageselectwidget.ui:49
@@ -169,7 +168,7 @@ msgstr "Could not find Kodaskanna."
 #, kde-format
 msgctxt "@action"
 msgid "Choose Another Source"
-msgstr ""
+msgstr "Choose Another Source"
 
 #~ msgctxt "@action"
 #~ msgid "Save Text As..."

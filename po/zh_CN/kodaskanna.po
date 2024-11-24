@@ -38,10 +38,9 @@ msgid "Utility to scan data from codes in graphical sources."
 msgstr "扫描图形源码数据的工具。"
 
 #: src/app/main.cpp:34
-#, fuzzy, kde-format
-#| msgid "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+#, kde-format
 msgid "Copyright 2022, 2024, Friedrich W. H. Kossebau"
-msgstr "版权所有 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+msgstr ""
 
 #: src/app/main.cpp:38
 #, kde-format
