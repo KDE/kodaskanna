@@ -109,6 +109,7 @@
         "X-Purpose-ActionDisplay[lt]": "Skenuoti duomenų kodą naudojant Kodaskanna…",
         "X-Purpose-ActionDisplay[nl]": "Gegevenscode scannen met Kodaskanna…",
         "X-Purpose-ActionDisplay[sl]": "Optično preberi podatkovno kodo s Kodaskanno…",
+        "X-Purpose-ActionDisplay[sv]": "Läs datakod med Kodaskanna…",
         "X-Purpose-ActionDisplay[tr]": "Kodaskanna ile Veri Kodu Tara…",
         "X-Purpose-ActionDisplay[uk]": "Сканувати дата-код за допомогою Kodaskanna…",
         "X-Purpose-ActionDisplay[x-test]": "xxScan Data Code with Kodaskanna…xx"
