@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-22 00:39+0000\n"
-"PO-Revision-Date: 2024-11-13 14:34+0100\n"
+"PO-Revision-Date: 2024-11-22 17:31+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -39,10 +39,9 @@ msgstr ""
 "Strumento per eseguire la scansione di dati dai codici nelle fonti grafiche."
 
 #: src/app/main.cpp:34
-#, fuzzy, kde-format
-#| msgid "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+#, kde-format
 msgid "Copyright 2022, 2024, Friedrich W. H. Kossebau"
-msgstr "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+msgstr "Copyright 2022, 2024, Friedrich W. H. Kossebau"
 
 #: src/app/main.cpp:38
 #, kde-format
@@ -62,7 +61,7 @@ msgstr "File immagine da aprire."
 #: src/app/main.cpp:48
 #, kde-format
 msgid "Enable only one scan."
-msgstr ""
+msgstr "Abilitare una sola scansione."
 
 #: src/clipboardexport/tool.cpp:36
 #, kde-format
@@ -110,7 +109,7 @@ msgstr "Apri immagine"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "No suitable data on the clipboard."
-msgstr ""
+msgstr "Nessun dato idoneo negli appunti."
 
 #. i18n: ectx: property (text), widget (QPushButton, openFileButton)
 #: src/imagesource/imageselectwidget.ui:49
@@ -170,7 +169,7 @@ msgstr "Impossibile trovare Kodaskanna."
 #, kde-format
 msgctxt "@action"
 msgid "Choose Another Source"
-msgstr ""
+msgstr "Scegli un'altra fonte"
 
 #~ msgctxt "@action"
 #~ msgid "Save Text As..."
