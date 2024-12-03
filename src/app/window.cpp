@@ -22,6 +22,9 @@
 // KF
 #include <KLocalizedString>
 // Qt
+#include <QCoreApplication>
+#include <QKeySequence>
+#include <QShortcut>
 #include <QUrl>
 
 namespace Kodaskanna
@@ -60,6 +63,13 @@ Window::Window(Modus modus)
 
     connect(m_ui.buttonBox, &QDialogButtonBox::accepted, this, &QDialog::accepted);
     connect(m_ui.buttonBox, &QDialogButtonBox::rejected, this, &QDialog::rejected);
+
+    if (modus != OneScanModus) {
+        // TODO: turn into tool? or treat as dialog tuning? also close dialog instead only?
+        // added here for now to give users the feature
+        auto* quitShortcut = new QShortcut(QKeySequence::Quit, this);
+        connect(quitShortcut, &QShortcut::activated, qApp, &QCoreApplication::quit);
+    }
 }
 
 Window::~Window()
