@@ -31,7 +31,7 @@ void Tool::setupButtonBox(QDialogButtonBox *buttonBox)
 {
     if (!m_switchToSourcePickAction) {
         m_switchToSourcePickAction = new QAction(QIcon::fromTheme(QStringLiteral("view-refresh")), i18nc("@action", "Choose Another Source"), this);
-        m_switchToSourcePickAction->setEnabled(m_sourceTool->isInPickView());
+        m_switchToSourcePickAction->setEnabled(!m_sourceTool->isInPickView());
         connect(m_switchToSourcePickAction, &QAction::triggered,
                 m_sourceTool, &AbstractSourceTool::switchToPickView);
         connect(m_sourceTool, &AbstractSourceTool::isInPickViewChanged,
