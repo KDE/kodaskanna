@@ -62,8 +62,6 @@ void ScanImageRunner::run()
 #if ZXING_VERSION >= QT_VERSION_CHECK(2, 2, 0)
     ZXing::ReaderOptions readerOptions;
     readerOptions.setFormats(ZXing::BarcodeFormat::Any);
-    readerOptions.setTryRotate(false);
-    readerOptions.setBinarizer(ZXing::Binarizer::FixedThreshold);
 
     const bool isSupportedQImageFormat = (zxingImageFormatFromQImage(m_image) == ZXing::ImageFormat::None);
     ZXing::Result result =
@@ -71,8 +69,6 @@ void ScanImageRunner::run()
 #else
     ZXing::DecodeHints decodeHints;
     decodeHints.setFormats(ZXing::BarcodeFormat::Any);
-    decodeHints.setTryRotate(false);
-    decodeHints.setBinarizer(ZXing::Binarizer::FixedThreshold);
 
     const bool isSupportedQImageFormat = (zxingImageFormatFromQImage(m_image) == ZXing::ImageFormat::None);
     ZXing::Result result =
