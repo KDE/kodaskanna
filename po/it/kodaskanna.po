@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-22 00:39+0000\n"
+"POT-Creation-Date: 2024-12-04 00:38+0000\n"
 "PO-Revision-Date: 2024-11-22 17:31+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -145,12 +145,12 @@ msgstr "Impossibile caricare l'immagine da stdin."
 msgid "Could not load image from file %1."
 msgstr "Impossibile caricare l'immagine dal file %1."
 
-#: src/imagesource/tool.cpp:94
+#: src/imagesource/tool.cpp:96
 #, kde-format
 msgid "Could not scan code in the image."
 msgstr "Impossibile eseguire la scansione del codice nell'immagine."
 
-#: src/imagesource/tool.cpp:96
+#: src/imagesource/tool.cpp:98
 #, kde-format
 msgid "Code in the image successfully scanned."
 msgstr "Scansione del codice nell'immagine eseguita correttamente."
