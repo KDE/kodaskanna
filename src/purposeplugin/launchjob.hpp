@@ -28,6 +28,9 @@ public: // Purpose::Job API
 
 private:
     void handleApplicationLaunchJobResult(KJob *job);
+
+private:
+    int m_applicationLaunchJobsWaitedFor = 0;
 };
 
 }

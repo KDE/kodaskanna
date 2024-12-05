@@ -28,13 +28,13 @@ LaunchJob::LaunchJob(QObject *parent)
 
 void LaunchJob::start()
 {
-    const QJsonArray urls = data().value(QStringLiteral("urls")).toArray();
-    if (urls.size() != 1) {
+    const QJsonArray jsonUrls = data().value(QStringLiteral("urls")).toArray();
+    if (jsonUrls.size() < 1) {
+        // TODO: after string unfreeze change to "Need at least one URL."
         setErrorText(i18n("Need one URL."));
         emitResult();
         return;
     }
-    const QString url = urls.at(0).toString();
 
     const QString desktopName = QStringLiteral("org.kde.kodaskanna");
     KService::Ptr service = KService::serviceByDesktopName(desktopName);
@@ -45,20 +45,32 @@ void LaunchJob::start()
         return;
     }
 
-    // TODO: using CommandLauncherJob instead of ApplicationLauncherJob, due to additional arg
-    // Perhaps should get instead a dedicate separate service desktop file with NoDisplay?
-    auto *applicationLauncherJob = new KIO::CommandLauncherJob(service->exec(), {QStringLiteral("--onescan"), url});
-    applicationLauncherJob->setDesktopName(desktopName);
-    connect(applicationLauncherJob, &KIO::CommandLauncherJob::result,
-            this, &LaunchJob::handleApplicationLaunchJobResult);
-    applicationLauncherJob->start();
+    m_applicationLaunchJobsWaitedFor = jsonUrls.size();
+
+    for (const auto &jsonUrl : jsonUrls)  {
+        const QString url = jsonUrl.toString();
+        // TODO: using CommandLauncherJob instead of ApplicationLauncherJob, due to additional arg
+        // Perhaps should get instead a dedicate separate service desktop file with NoDisplay?
+        auto *applicationLauncherJob = new KIO::CommandLauncherJob(service->exec(), {QStringLiteral("--onescan"), url});
+        applicationLauncherJob->setDesktopName(desktopName);
+        connect(applicationLauncherJob, &KIO::CommandLauncherJob::result,
+                this, &LaunchJob::handleApplicationLaunchJobResult);
+        applicationLauncherJob->start();
+    }
 }
 
 void LaunchJob::handleApplicationLaunchJobResult(KJob *job)
 {
+    // TODO: for now just reporting last error on multiple jobs, find a good way to report all
     if (job->error()) {
         setError(job->error());
         setErrorText(job->errorString());
+    }
+
+    --m_applicationLaunchJobsWaitedFor;
+
+    if (m_applicationLaunchJobsWaitedFor > 0) {
+        return;
     }
 
     emitResult();
