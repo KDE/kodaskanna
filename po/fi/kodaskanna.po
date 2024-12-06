@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-04 00:38+0000\n"
+"POT-Creation-Date: 2024-12-06 00:39+0000\n"
 "PO-Revision-Date: 2022-01-27 21:18+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -159,7 +159,7 @@ msgstr "Kuvasta ei voitu lukea koodia."
 msgid "Code in the image successfully scanned."
 msgstr "Kuvan koodin lukeminen onnistui."
 
-#: src/purposeplugin/launchjob.cpp:33
+#: src/purposeplugin/launchjob.cpp:34
 #, kde-format
 msgid "Need one URL."
 msgstr "Tarvitaan yksi verkko-osoite."

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-04 00:38+0000\n"
+"POT-Creation-Date: 2024-12-06 00:39+0000\n"
 "PO-Revision-Date: 2022-01-21 17:08+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -158,7 +158,7 @@ msgstr "Nemôžem skenovať kód v obrázku."
 msgid "Code in the image successfully scanned."
 msgstr "Kód v obrázku bol úspešne načítaný."
 
-#: src/purposeplugin/launchjob.cpp:33
+#: src/purposeplugin/launchjob.cpp:34
 #, kde-format
 msgid "Need one URL."
 msgstr "Potrebujem jedno URL."

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-04 00:38+0000\n"
+"POT-Creation-Date: 2024-12-06 00:39+0000\n"
 "PO-Revision-Date: 2024-11-24 18:07+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -154,7 +154,7 @@ msgstr "Kunde inte läsa koden på bilden."
 msgid "Code in the image successfully scanned."
 msgstr "Koden på bilden läst med lyckat resultat."
 
-#: src/purposeplugin/launchjob.cpp:33
+#: src/purposeplugin/launchjob.cpp:34
 #, kde-format
 msgid "Need one URL."
 msgstr "Behöver en webbadress."

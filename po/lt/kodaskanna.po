@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-04 00:38+0000\n"
+"POT-Creation-Date: 2024-12-06 00:39+0000\n"
 "PO-Revision-Date: 2024-11-12 23:41+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -159,7 +159,7 @@ msgstr "Nepavyko nuskenuoti paveiksle esančio kodo."
 msgid "Code in the image successfully scanned."
 msgstr "Paveiksle esantis kodas sėkmingai nuskenuotas."
 
-#: src/purposeplugin/launchjob.cpp:33
+#: src/purposeplugin/launchjob.cpp:34
 #, kde-format
 msgid "Need one URL."
 msgstr "Reikia vieno URL."

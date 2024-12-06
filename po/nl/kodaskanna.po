@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-04 00:38+0000\n"
+"POT-Creation-Date: 2024-12-06 00:39+0000\n"
 "PO-Revision-Date: 2024-11-22 11:25+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -154,7 +154,7 @@ msgstr "Kon code in de afbeelding niet scannen."
 msgid "Code in the image successfully scanned."
 msgstr "Code in de afbeelding met succes gescand."
 
-#: src/purposeplugin/launchjob.cpp:33
+#: src/purposeplugin/launchjob.cpp:34
 #, kde-format
 msgid "Need one URL."
 msgstr "Een URL-adres is nodig."
