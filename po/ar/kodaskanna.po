@@ -1,21 +1,22 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kodaskanna package.
+# SPDX-FileCopyrightText: 2022, 2024 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
 #
-# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-06 00:39+0000\n"
-"PO-Revision-Date: 2022-02-12 19:31+0400\n"
+"PO-Revision-Date: 2024-12-06 07:42+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
-"Language-Team: Arabic <kde-l10n-ar@kde.org>\n"
+"Language-Team: ar\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -38,15 +39,14 @@ msgid "Utility to scan data from codes in graphical sources."
 msgstr "أداة مساعدة لمسح البيانات من الرموز في المصادر الرسومية."
 
 #: src/app/main.cpp:34
-#, fuzzy, kde-format
-#| msgid "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+#, kde-format
 msgid "Copyright 2022, 2024, Friedrich W. H. Kossebau"
-msgstr "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+msgstr "حقوق الطبع والنشر 2022، 2024، فريدريش دبليو إتش كوسيباو"
 
 #: src/app/main.cpp:38
 #, kde-format
 msgid "Friedrich W. H. Kossebau"
-msgstr "Friedrich W. H. Kossebau"
+msgstr "فريدريش دبليو اتش كوسباو"
 
 #: src/app/main.cpp:38
 #, kde-format
@@ -61,7 +61,7 @@ msgstr "ملف الصورة لفتحه."
 #: src/app/main.cpp:48
 #, kde-format
 msgid "Enable only one scan."
-msgstr ""
+msgstr "مكّن مسح واحد فقط."
 
 #: src/clipboardexport/tool.cpp:36
 #, kde-format
@@ -76,20 +76,16 @@ msgid "Copy Data to Clipboard"
 msgstr "انسخ البيانات للحافظة"
 
 #: src/fileexport/tool.cpp:35
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Save Text As"
+#, kde-format
 msgctxt "@action"
 msgid "Save Text As…"
 msgstr "احفظ النص كـ…"
 
 #: src/fileexport/tool.cpp:39
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Save Data As"
+#, kde-format
 msgctxt "@action"
 msgid "Save Data As…"
-msgstr "احفظ البيانات كـ"
+msgstr "احفظ البيانات كـ…"
 
 #: src/fileexport/tool.cpp:67
 #, kde-format
@@ -113,7 +109,7 @@ msgstr "افتح صورة"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "No suitable data on the clipboard."
-msgstr ""
+msgstr "لا توجد بيانات مناسبة في الحافظة."
 
 #. i18n: ectx: property (text), widget (QPushButton, openFileButton)
 #: src/imagesource/imageselectwidget.ui:49
@@ -140,10 +136,9 @@ msgid "Drop an image here"
 msgstr "أفلت صورة هنا"
 
 #: src/imagesource/loadimagejob.cpp:93
-#, fuzzy, kde-format
-#| msgid "Could not load image from file %1."
+#, kde-format
 msgid "Could not load image from stdin."
-msgstr "لا يمكن تحميل الصورة من ملف %1."
+msgstr "لا يمكن تحميل الصورة من stdin."
 
 #: src/imagesource/loadimagejob.cpp:95
 #, kde-format
@@ -174,7 +169,7 @@ msgstr "لا يمكن العثور على ماسح الرمز."
 #, kde-format
 msgctxt "@action"
 msgid "Choose Another Source"
-msgstr ""
+msgstr "اختر مصدر أخر"
 
 #~ msgctxt "@action"
 #~ msgid "Save Text As..."
