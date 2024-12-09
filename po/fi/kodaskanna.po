@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kodaskanna package.
-# Tommi Nieminen <translator@legisign.org>, 2022.
+# SPDX-FileCopyrightText: 2022, 2024 Tommi Nieminen <translator@legisign.org>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-06 00:39+0000\n"
-"PO-Revision-Date: 2022-01-27 21:18+0200\n"
+"PO-Revision-Date: 2024-12-07 15:13+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -37,10 +38,9 @@ msgid "Utility to scan data from codes in graphical sources."
 msgstr "Työkalu kuvalähteiden koodien lukemiseksi."
 
 #: src/app/main.cpp:34
-#, fuzzy, kde-format
-#| msgid "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+#, kde-format
 msgid "Copyright 2022, 2024, Friedrich W. H. Kossebau"
-msgstr "Tekijänoikeudet 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+msgstr "Tekijänoikeudet 2022, 2024 Friedrich W. H. Kossebau"
 
 #: src/app/main.cpp:38
 #, kde-format
@@ -57,10 +57,11 @@ msgstr "Tekijä"
 msgid "Image file to open."
 msgstr "Avattava kuvatiedosto."
 
+# Tämä on epäselvä – pitäisi tietää, mitä tämä tekee. Oletan, että ”one scan” = luetaan vain kerran.
 #: src/app/main.cpp:48
 #, kde-format
 msgid "Enable only one scan."
-msgstr ""
+msgstr "Käytä vain kertalukua."
 
 #: src/clipboardexport/tool.cpp:36
 #, kde-format
@@ -75,20 +76,16 @@ msgid "Copy Data to Clipboard"
 msgstr "Kopioi tiedot leikepöydälle"
 
 #: src/fileexport/tool.cpp:35
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Save Text As"
+#, kde-format
 msgctxt "@action"
 msgid "Save Text As…"
-msgstr "Tallenna teksti nimellä"
+msgstr "Tallenna teksti nimellä…"
 
 #: src/fileexport/tool.cpp:39
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Save Data As"
+#, kde-format
 msgctxt "@action"
 msgid "Save Data As…"
-msgstr "Tallenna tiedot nimellä"
+msgstr "Tallenna tieto nimellä…"
 
 #: src/fileexport/tool.cpp:67
 #, kde-format
@@ -112,7 +109,7 @@ msgstr "Avaa kuva"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "No suitable data on the clipboard."
-msgstr ""
+msgstr "Leikepöydällä ei ole soveltuvaa tietoa."
 
 #. i18n: ectx: property (text), widget (QPushButton, openFileButton)
 #: src/imagesource/imageselectwidget.ui:49
@@ -139,10 +136,9 @@ msgid "Drop an image here"
 msgstr "Pudota kuva tähän"
 
 #: src/imagesource/loadimagejob.cpp:93
-#, fuzzy, kde-format
-#| msgid "Could not load image from file %1."
+#, kde-format
 msgid "Could not load image from stdin."
-msgstr "Tiedostosta %1 ei voitu avata kuvaa."
+msgstr "Vakiosyötteestä ei voitu ladata kuvaa."
 
 #: src/imagesource/loadimagejob.cpp:95
 #, kde-format
@@ -173,7 +169,7 @@ msgstr "Kodaskannaa ei löytynyt."
 #, kde-format
 msgctxt "@action"
 msgid "Choose Another Source"
-msgstr ""
+msgstr "Valitse toinen lähde"
 
 #~ msgctxt "@action"
 #~ msgid "Save Text As..."
