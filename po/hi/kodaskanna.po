@@ -1,173 +1,170 @@
-# Sanskrit translations for kodaskanna package.
+# Hindi translations for kodaskanna package.
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kodaskanna package.
 # Kali <EMAIL@ADDRESS>, 2024.
 #
-# SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-06 00:39+0000\n"
-"PO-Revision-Date: 2024-12-14 01:48+0530\n"
-"Last-Translator: kali <skkalwar999@gmail.com>\n"
-"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
-"Language: sa\n"
+"PO-Revision-Date: 2024-12-15 17:36+0530\n"
+"Last-Translator: Kali <EMAIL@ADDRESS>\n"
+"Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
+"Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n>2);\n"
-"X-Generator: Lokalize 24.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "भवतः नामानि"
+msgstr "तुम्हारे नाम"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
+msgstr "आपके ईमेल"
 
 #: src/app/main.cpp:30
 #, kde-format
 msgid "Kodaskanna"
-msgstr "देशज्वर"
+msgstr "देहाती बुखार"
 
 #: src/app/main.cpp:32
 #, kde-format
 msgid "Utility to scan data from codes in graphical sources."
-msgstr "चित्रात्मकस्रोतेषु कोड् तः आँकडानां स्कैनिङ्गं कर्तुं उपयोगिता ।"
+msgstr "ग्राफ़िकल स्रोतों में कोड से डेटा स्कैन करने की उपयोगिता।"
 
 #: src/app/main.cpp:34
 #, kde-format
 msgid "Copyright 2022, 2024, Friedrich W. H. Kossebau"
-msgstr "प्रतिलिपि अधिकार 2022, 2024, Friedrich W. H. Kossebau"
+msgstr "कॉपीराइट 2022, 2024, फ्रेडरिक डब्ल्यू. एच. कोसेबाऊ"
 
 #: src/app/main.cpp:38
 #, kde-format
 msgid "Friedrich W. H. Kossebau"
-msgstr "फ्रेडरिक डब्ल्यू एच कोस्सेबाउ"
+msgstr "फ्रेडरिक डब्ल्यू. एच. कोसेबाउ"
 
 #: src/app/main.cpp:38
 #, kde-format
 msgid "Author"
-msgstr "लेखकः"
+msgstr "लेखक"
 
 #: src/app/main.cpp:47
 #, kde-format
 msgid "Image file to open."
-msgstr "चित्रसञ्चिकां उद्घाटयितुं।"
+msgstr "छवि फ़ाइल खोलने के लिए."
 
 #: src/app/main.cpp:48
 #, kde-format
 msgid "Enable only one scan."
-msgstr "केवलं एकं स्कैन् सक्षमं कुर्वन्तु।"
+msgstr "केवल एक स्कैन सक्षम करें."
 
 #: src/clipboardexport/tool.cpp:36
 #, kde-format
 msgctxt "@action"
 msgid "Copy Text to Clipboard"
-msgstr "पाठं क्लिप्बोर्ड् प्रति प्रतिलिख्यताम्"
+msgstr "टेक्स्ट को क्लिपबोर्ड पर कॉपी करें"
 
 #: src/clipboardexport/tool.cpp:40
 #, kde-format
 msgctxt "@action"
 msgid "Copy Data to Clipboard"
-msgstr "Data प्रतिलिपिं Clipboard मध्ये कुर्वन्तु"
+msgstr "डेटा को क्लिपबोर्ड पर कॉपी करें"
 
 #: src/fileexport/tool.cpp:35
 #, kde-format
 msgctxt "@action"
 msgid "Save Text As…"
-msgstr "पाठं रक्षन्तु यथा…"
+msgstr "पाठ को इस रूप में सहेजें…"
 
 #: src/fileexport/tool.cpp:39
 #, kde-format
 msgctxt "@action"
 msgid "Save Data As…"
-msgstr "दत्तांशं रक्षन्तु यथा…"
+msgstr "डेटा को इस रूप में सहेजें…"
 
 #: src/fileexport/tool.cpp:67
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Text As"
-msgstr "पाठं रक्षन्तु यथा"
+msgstr "पाठ को इस रूप में सहेजें"
 
 #: src/fileexport/tool.cpp:84
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Data As"
-msgstr "Save Data As"
+msgstr "डेटा को इस रूप में सहेजें"
 
 #: src/imagesource/imageselecttool.cpp:66
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Image"
-msgstr "चित्रं उद्घाटयतु"
+msgstr "छवि खोलें"
 
 #: src/imagesource/imageselectwidget.cpp:94
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "No suitable data on the clipboard."
-msgstr "क्लिप्बोर्ड् मध्ये उपयुक्तः दत्तांशः नास्ति ।"
+msgstr "क्लिपबोर्ड पर कोई उपयुक्त डेटा नहीं है."
 
 #. i18n: ectx: property (text), widget (QPushButton, openFileButton)
 #: src/imagesource/imageselectwidget.ui:49
 #, kde-format
 msgid "Select a File"
-msgstr "एकं सञ्चिकां चिनोतु"
+msgstr "किसी फाइल का चयन करें"
 
 #. i18n: ectx: property (text), widget (QPushButton, pasteFromClipboardButton)
 #: src/imagesource/imageselectwidget.ui:89
 #, kde-format
 msgid "Paste from Clipboard"
-msgstr "क्लिप्बोर्डतः पेस्ट् कुर्वन्तु"
+msgstr "क्लिपबोर्ड से चिपकाएँ"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/imagesource/imageselectwidget.ui:114
 #, kde-format
 msgid "or"
-msgstr "वा"
+msgstr "या"
 
 #. i18n: ectx: property (text), widget (QLabel, dropMessage)
 #: src/imagesource/imageselectwidget.ui:121
 #, kde-format
 msgid "Drop an image here"
-msgstr "अत्र एकं चित्रं पातयन्तु"
+msgstr "यहाँ एक छवि डालें"
 
 #: src/imagesource/loadimagejob.cpp:93
 #, kde-format
 msgid "Could not load image from stdin."
-msgstr "stdin तः चित्रं लोड् कर्तुं न शक्तम् ।"
+msgstr "stdin से छवि लोड नहीं की जा सकी."
 
 #: src/imagesource/loadimagejob.cpp:95
 #, kde-format
 msgid "Could not load image from file %1."
-msgstr "%1 सञ्चिकातः चित्रं लोड् कर्तुं न शक्तम् ।"
+msgstr "फ़ाइल %1 से छवि लोड नहीं की जा सकी."
 
 #: src/imagesource/tool.cpp:96
 #, kde-format
 msgid "Could not scan code in the image."
-msgstr "चित्रे कोडं स्कैन कर्तुं न शक्तवान् ।"
+msgstr "छवि में कोड स्कैन नहीं किया जा सका."
 
 #: src/imagesource/tool.cpp:98
 #, kde-format
 msgid "Code in the image successfully scanned."
-msgstr "सफलतया स्कैन् कृतः चित्रे कोडः ।"
+msgstr "छवि में कोड सफलतापूर्वक स्कैन किया गया."
 
 #: src/purposeplugin/launchjob.cpp:34
 #, kde-format
 msgid "Need one URL."
-msgstr "एकं URL आवश्यकम्।"
+msgstr "एक यूआरएल की जरूरत है."
 
 #: src/purposeplugin/launchjob.cpp:43
 #, kde-format
 msgid "Could not find Kodaskanna."
-msgstr "कोडस्कन्नां न प्राप्नोत्।"
+msgstr "कोडस्कन्ना नहीं मिल सका."
 
 #: src/sourcenavigation/tool.cpp:33
 #, kde-format
 msgctxt "@action"
 msgid "Choose Another Source"
-msgstr "अन्यं स्रोतं चिनोतु"
+msgstr "कोई अन्य स्रोत चुनें"
