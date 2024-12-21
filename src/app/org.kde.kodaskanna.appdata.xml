@@ -25,6 +25,7 @@ SPDX-License-Identifier: CC0-1.0
   <name xml:lang="gl">Kodaskanna</name>
   <name xml:lang="he">Kodaskanna</name>
   <name xml:lang="hi">देहाती बुखार</name>
+  <name xml:lang="ia">Kodaskanna</name>
   <name xml:lang="id">Kodaskanna</name>
   <name xml:lang="it">Kodaskanna</name>
   <name xml:lang="ka">Kodaskanna</name>
@@ -56,6 +57,7 @@ SPDX-License-Identifier: CC0-1.0
   <summary xml:lang="gl">Un escáner de código 1D e 2D de varios formatos</summary>
   <summary xml:lang="he">סורק ברקודים חד או דו־ממדיים ממגוון סוגים</summary>
   <summary xml:lang="hi">एक बहु-प्रारूप 1D/2D कोड स्कैनर</summary>
+  <summary xml:lang="ia">Un scanditor de codice multi-formato 1D/2D</summary>
   <summary xml:lang="id">Sebuah pemindai kode multi format 1D/2D</summary>
   <summary xml:lang="it">Uno scanner di codici 1D/2D a più fattori</summary>
   <summary xml:lang="ka">მრავალფორმატიანი 1D/2D კოდის სკანერი</summary>
@@ -88,6 +90,7 @@ SPDX-License-Identifier: CC0-1.0
     <p xml:lang="gl">Kodaskanna é unha ferramenta para ler data de códigos 1D e 2D codes (p. ex. códigos QR ou códigos de barras) e poñer os datos a disposición para procesamento posterior.</p>
     <p xml:lang="he">Kodaskanna הוא כלי לקריאת נתונים מברקודים חד או דו־ממדיים (למשל QR או ברקודים) והפיכת הנתונים לנגישים להמשך עיבוד.</p>
     <p xml:lang="hi">कोडस्कन्ना 1D/2D कोड (जैसे क्यूआर कोड या बार कोड) से डेटा पढ़ने और डेटा को आगे की प्रक्रिया के लिए उपलब्ध कराने के लिए एक उपयोगिता है।</p>
+    <p xml:lang="ia">Kodaskanna es un utilitate  per leger datos ex codices 1D/2D (p.ex. codices QR o codices a barras) e facer lòe datos disponibile per processar los ulteriormente.</p>
     <p xml:lang="id">Kodaskanna adalah utilitas untuk membaca data dari kode 1D/2D (misalnya kode QR atau kode bilah) dan menyediakan data untuk diproses lebih lanjut.</p>
     <p xml:lang="it">Kodaskanna è uno strumento per leggere i dati da codici 1D/2D (ad es. codici QR o codici a barre) e rendere i dati disponibili per ulteriori elaborazioni.</p>
     <p xml:lang="ka">Kodaskanna პროგრამაა 1D/2D კოდების წასაკითხად (მაგ: QR ან ბარკოდები) და მონაცემების შემდგომი დამუშავებისთვის გადმოსაცემად.</p>
