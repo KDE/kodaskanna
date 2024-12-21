@@ -1,0 +1,171 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the kodaskanna package.
+#
+# SPDX-FileCopyrightText: 2024 giovanni <g.sora@tiscali.it>
+msgid ""
+msgstr ""
+"Project-Id-Version: kodaskanna\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-12-06 00:39+0000\n"
+"PO-Revision-Date: 2024-12-20 15:16+0100\n"
+"Last-Translator: giovanni <g.sora@tiscali.it>\n"
+"Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
+"Language: ia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 23.08.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Giovanni Sora"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "g.sora@tiscali.it"
+
+#: src/app/main.cpp:30
+#, kde-format
+msgid "Kodaskanna"
+msgstr "Kodaskanna"
+
+#: src/app/main.cpp:32
+#, kde-format
+msgid "Utility to scan data from codes in graphical sources."
+msgstr "Utilitate per scander datos ex codices in fontes graphic."
+
+#: src/app/main.cpp:34
+#, kde-format
+msgid "Copyright 2022, 2024, Friedrich W. H. Kossebau"
+msgstr "Copyright 2022, 2024, Friedrich W. H. Kossebau"
+
+#: src/app/main.cpp:38
+#, kde-format
+msgid "Friedrich W. H. Kossebau"
+msgstr "Friedrich W. H. Kossebau"
+
+#: src/app/main.cpp:38
+#, kde-format
+msgid "Author"
+msgstr "Autor"
+
+#: src/app/main.cpp:47
+#, kde-format
+msgid "Image file to open."
+msgstr "File de imagine a aperir."
+
+#: src/app/main.cpp:48
+#, kde-format
+msgid "Enable only one scan."
+msgstr "Habilita solmente un scansion."
+
+#: src/clipboardexport/tool.cpp:36
+#, kde-format
+msgctxt "@action"
+msgid "Copy Text to Clipboard"
+msgstr "Copia texto in area de transferentia"
+
+#: src/clipboardexport/tool.cpp:40
+#, kde-format
+msgctxt "@action"
+msgid "Copy Data to Clipboard"
+msgstr "Copia datos a area de transferentia"
+
+#: src/fileexport/tool.cpp:35
+#, kde-format
+msgctxt "@action"
+msgid "Save Text As…"
+msgstr "Salveguarda texto  como…"
+
+#: src/fileexport/tool.cpp:39
+#, kde-format
+msgctxt "@action"
+msgid "Save Data As…"
+msgstr "Salveguarda datos como…"
+
+#: src/fileexport/tool.cpp:67
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Text As"
+msgstr "Salveguarda texto  como"
+
+#: src/fileexport/tool.cpp:84
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Data As"
+msgstr "Salveguarda datos como"
+
+#: src/imagesource/imageselecttool.cpp:66
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Image"
+msgstr "Aperi imagine"
+
+#: src/imagesource/imageselectwidget.cpp:94
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "No suitable data on the clipboard."
+msgstr "Nulle datos disponibile sur le area de tranìsferentia."
+
+#. i18n: ectx: property (text), widget (QPushButton, openFileButton)
+#: src/imagesource/imageselectwidget.ui:49
+#, kde-format
+msgid "Select a File"
+msgstr "Selige un file"
+
+#. i18n: ectx: property (text), widget (QPushButton, pasteFromClipboardButton)
+#: src/imagesource/imageselectwidget.ui:89
+#, kde-format
+msgid "Paste from Clipboard"
+msgstr "Colla ex area de transferentia"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/imagesource/imageselectwidget.ui:114
+#, kde-format
+msgid "or"
+msgstr "o"
+
+#. i18n: ectx: property (text), widget (QLabel, dropMessage)
+#: src/imagesource/imageselectwidget.ui:121
+#, kde-format
+msgid "Drop an image here"
+msgstr "Trahe un image hic"
+
+#: src/imagesource/loadimagejob.cpp:93
+#, kde-format
+msgid "Could not load image from stdin."
+msgstr "Non poteva incargar image ab stdin."
+
+#: src/imagesource/loadimagejob.cpp:95
+#, kde-format
+msgid "Could not load image from file %1."
+msgstr "Non poteva incargar image ab file  %1."
+
+#: src/imagesource/tool.cpp:96
+#, kde-format
+msgid "Could not scan code in the image."
+msgstr "Non poteva scander codice in le image ."
+
+#: src/imagesource/tool.cpp:98
+#, kde-format
+msgid "Code in the image successfully scanned."
+msgstr "Codice in le imagine scandite con successo."
+
+#: src/purposeplugin/launchjob.cpp:34
+#, kde-format
+msgid "Need one URL."
+msgstr "Necessita un URL."
+
+#: src/purposeplugin/launchjob.cpp:43
+#, kde-format
+msgid "Could not find Kodaskanna."
+msgstr "Non poteva trovar Kodaskanna."
+
+#: src/sourcenavigation/tool.cpp:33
+#, kde-format
+msgctxt "@action"
+msgid "Choose Another Source"
+msgstr "Selige un altere fonte"
