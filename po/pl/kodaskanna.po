@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kodaskanna package.
+# SPDX-FileCopyrightText: 2022, 2024 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
 #
-# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-06 00:39+0000\n"
-"PO-Revision-Date: 2022-01-25 20:47+0100\n"
+"PO-Revision-Date: 2024-12-21 11:33+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 24.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -38,10 +39,9 @@ msgid "Utility to scan data from codes in graphical sources."
 msgstr "Narzędzie do skanowania danych z kodów w źródłach graficznych."
 
 #: src/app/main.cpp:34
-#, fuzzy, kde-format
-#| msgid "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+#, kde-format
 msgid "Copyright 2022, 2024, Friedrich W. H. Kossebau"
-msgstr "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+msgstr "Copyright 2022, 2024, Friedrich W. H. Kossebau"
 
 #: src/app/main.cpp:38
 #, kde-format
@@ -61,7 +61,7 @@ msgstr "Plik obrazu do otwarcia."
 #: src/app/main.cpp:48
 #, kde-format
 msgid "Enable only one scan."
-msgstr ""
+msgstr "Włącz tylko jedno skanowanie."
 
 #: src/clipboardexport/tool.cpp:36
 #, kde-format
@@ -76,20 +76,16 @@ msgid "Copy Data to Clipboard"
 msgstr "Skopiuj dane do schowka"
 
 #: src/fileexport/tool.cpp:35
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Save Text As"
+#, kde-format
 msgctxt "@action"
 msgid "Save Text As…"
-msgstr "Zapisz tekst jako"
+msgstr "Zapisz tekst jako…"
 
 #: src/fileexport/tool.cpp:39
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Save Data As"
+#, kde-format
 msgctxt "@action"
 msgid "Save Data As…"
-msgstr "Zapisz dane jako"
+msgstr "Zapisz dane jako…"
 
 #: src/fileexport/tool.cpp:67
 #, kde-format
@@ -113,13 +109,13 @@ msgstr "Otwórz obraz"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "No suitable data on the clipboard."
-msgstr ""
+msgstr "W schowku nie ma żadnych nadających się danych."
 
 #. i18n: ectx: property (text), widget (QPushButton, openFileButton)
 #: src/imagesource/imageselectwidget.ui:49
 #, kde-format
 msgid "Select a File"
-msgstr "Wybierz plik"
+msgstr "Wskaż plik"
 
 #. i18n: ectx: property (text), widget (QPushButton, pasteFromClipboardButton)
 #: src/imagesource/imageselectwidget.ui:89
@@ -140,10 +136,9 @@ msgid "Drop an image here"
 msgstr "Upuść tutaj obraz"
 
 #: src/imagesource/loadimagejob.cpp:93
-#, fuzzy, kde-format
-#| msgid "Could not load image from file %1."
+#, kde-format
 msgid "Could not load image from stdin."
-msgstr "Nie można wczytać obrazu z pliku %1."
+msgstr "Nie można wczytać obrazu z stdin."
 
 #: src/imagesource/loadimagejob.cpp:95
 #, kde-format
@@ -174,7 +169,7 @@ msgstr "Nie można znaleźć Kodaskanna."
 #, kde-format
 msgctxt "@action"
 msgid "Choose Another Source"
-msgstr ""
+msgstr "Wskaż inne źródło"
 
 #~ msgctxt "@action"
 #~ msgid "Save Text As..."
