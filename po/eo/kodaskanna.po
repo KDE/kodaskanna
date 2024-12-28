@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-06 00:39+0000\n"
-"PO-Revision-Date: 2024-03-24 10:34+0100\n"
+"PO-Revision-Date: 2024-12-27 17:40+0100\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-doc@kde.org>\n"
 "Language: eo\n"
@@ -21,12 +21,12 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Oliver Kellogg"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "olivermkellogg@gmail.com"
 
 #: src/app/main.cpp:30
 #, kde-format
@@ -39,10 +39,9 @@ msgid "Utility to scan data from codes in graphical sources."
 msgstr "Utilo por skani datumojn de kodoj en grafikaj fontoj."
 
 #: src/app/main.cpp:34
-#, fuzzy, kde-format
-#| msgid "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+#, kde-format
 msgid "Copyright 2022, 2024, Friedrich W. H. Kossebau"
-msgstr "Kopirajto 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+msgstr "Kopirajto 2022, 2024, Friedrich W. H. Kossebau"
 
 #: src/app/main.cpp:38
 #, kde-format
@@ -62,7 +61,7 @@ msgstr "Bilddosiero por malfermi."
 #: src/app/main.cpp:48
 #, kde-format
 msgid "Enable only one scan."
-msgstr ""
+msgstr "Ebligi nur unu skanon."
 
 #: src/clipboardexport/tool.cpp:36
 #, kde-format
@@ -77,20 +76,16 @@ msgid "Copy Data to Clipboard"
 msgstr "Kopii Datumojn al Tondujo"
 
 #: src/fileexport/tool.cpp:35
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Save Text As"
+#, kde-format
 msgctxt "@action"
 msgid "Save Text As…"
-msgstr "Konservi Tekston Kiel"
+msgstr "Konservi Tekston Kiel…"
 
 #: src/fileexport/tool.cpp:39
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Save Data As"
+#, kde-format
 msgctxt "@action"
 msgid "Save Data As…"
-msgstr "Konservi Datumojn Kiel"
+msgstr "Konservi Datumojn Kiel…"
 
 #: src/fileexport/tool.cpp:67
 #, kde-format
@@ -114,7 +109,7 @@ msgstr "Malfermi Bildon"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "No suitable data on the clipboard."
-msgstr ""
+msgstr "Neniu taŭga datumo en la tondujo."
 
 #. i18n: ectx: property (text), widget (QPushButton, openFileButton)
 #: src/imagesource/imageselectwidget.ui:49
@@ -141,10 +136,9 @@ msgid "Drop an image here"
 msgstr "Faligi bildon ĉi tie"
 
 #: src/imagesource/loadimagejob.cpp:93
-#, fuzzy, kde-format
-#| msgid "Could not load image from file %1."
+#, kde-format
 msgid "Could not load image from stdin."
-msgstr "Ne eblis ŝargi bildon el dosiero %1."
+msgstr "Ne eblis ŝargi bildon el stdin."
 
 #: src/imagesource/loadimagejob.cpp:95
 #, kde-format
@@ -175,12 +169,4 @@ msgstr "Ne eblis trovi Kodaskanna."
 #, kde-format
 msgctxt "@action"
 msgid "Choose Another Source"
-msgstr ""
-
-#~ msgctxt "@action"
-#~ msgid "Save Text As..."
-#~ msgstr "Konservi tekston kiel..."
-
-#~ msgctxt "@action"
-#~ msgid "Save Data As..."
-#~ msgstr "Konservi datumojn kiel..."
+msgstr "Elekti Alian Fonton"
