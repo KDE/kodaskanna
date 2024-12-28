@@ -10,8 +10,6 @@
 #include "imageselectwidget.hpp"
 #include "imageview.hpp"
 #include <logging.hpp>
-// Qt
-#include <QImage>
 
 namespace Kodaskanna
 {

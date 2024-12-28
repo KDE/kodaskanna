@@ -8,7 +8,6 @@
 #define KODASKANNA_IMAGESOURCE_READIMAGEFILERUNNER_HPP
 
 // Qt
-#include <QImage>
 #include <QObject>
 #include <QRunnable>
 

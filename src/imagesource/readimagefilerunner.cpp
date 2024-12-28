@@ -9,13 +9,9 @@
 // own
 #include "imagereadresult.hpp"
 #include "imagereadresult_p.hpp"
-// KF
-#include <KLocalizedString>
 // Qt
 #include <QFile>
 #include <QImageReader>
-// Std
-#include <unistd.h>
 
 namespace Kodaskanna
 {

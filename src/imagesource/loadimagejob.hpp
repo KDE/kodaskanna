@@ -11,7 +11,6 @@
 #include <KJob>
 // Qt
 #include <QImage>
-#include <QObject>
 #include <QUrl>
 // Std
 #include <memory>

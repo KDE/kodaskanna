@@ -17,7 +17,6 @@
 #include <QDragLeaveEvent>
 #include <QDragMoveEvent>
 #include <QDropEvent>
-#include <QMimeData>
 
 namespace Kodaskanna
 {

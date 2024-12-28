@@ -14,7 +14,6 @@
 #include <scanimagerunner.hpp>
 #include <scanresult.hpp>
 // Qt
-#include <QImage>
 #include <QThreadPool>
 
 namespace Kodaskanna

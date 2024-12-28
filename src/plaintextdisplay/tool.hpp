@@ -9,8 +9,6 @@
 
 // widgets
 #include <abstractdisplaytool.hpp>
-// Qt
-#include <QImage>
 // Std
 #include <memory>
 

@@ -19,13 +19,10 @@
 #include <abstractsourcetool.hpp>
 #include <abstractnavigatesourcetool.hpp>
 #include <abstractmenutool.hpp>
-// KF
-#include <KLocalizedString>
 // Qt
 #include <QCoreApplication>
 #include <QKeySequence>
 #include <QShortcut>
-#include <QUrl>
 
 namespace Kodaskanna
 {
