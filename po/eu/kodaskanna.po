@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-06 00:39+0000\n"
+"POT-Creation-Date: 2024-12-29 00:39+0000\n"
 "PO-Revision-Date: 2024-11-22 17:42+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -107,7 +107,7 @@ msgctxt "@title:window"
 msgid "Open Image"
 msgstr "Ireki irudia"
 
-#: src/imagesource/imageselectwidget.cpp:94
+#: src/imagesource/imageselectwidget.cpp:93
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "No suitable data on the clipboard."
@@ -147,12 +147,12 @@ msgstr "Ezin izan du «stdin»etik irudi bat zamatu."
 msgid "Could not load image from file %1."
 msgstr "Izan izan du %1 fitxategitik irudi bat zamatu."
 
-#: src/imagesource/tool.cpp:96
+#: src/imagesource/tool.cpp:95
 #, kde-format
 msgid "Could not scan code in the image."
 msgstr "Ezin izan du irudiko kodea eskaneatu."
 
-#: src/imagesource/tool.cpp:98
+#: src/imagesource/tool.cpp:97
 #, kde-format
 msgid "Code in the image successfully scanned."
 msgstr "Irudiko kodea ondo eskaneatu da."

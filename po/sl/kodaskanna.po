@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-06 00:39+0000\n"
+"POT-Creation-Date: 2024-12-29 00:39+0000\n"
 "PO-Revision-Date: 2024-11-22 07:45+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: \n"
@@ -107,7 +107,7 @@ msgctxt "@title:window"
 msgid "Open Image"
 msgstr "Odpri sliko"
 
-#: src/imagesource/imageselectwidget.cpp:94
+#: src/imagesource/imageselectwidget.cpp:93
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "No suitable data on the clipboard."
@@ -147,12 +147,12 @@ msgstr "Ni moč naložiti slike iz stdin."
 msgid "Could not load image from file %1."
 msgstr "Ni moč naložiti slike iz datoteke %1."
 
-#: src/imagesource/tool.cpp:96
+#: src/imagesource/tool.cpp:95
 #, kde-format
 msgid "Could not scan code in the image."
 msgstr "Kode na sliki ni bilo mogoče optično prebrati."
 
-#: src/imagesource/tool.cpp:98
+#: src/imagesource/tool.cpp:97
 #, kde-format
 msgid "Code in the image successfully scanned."
 msgstr "Koda na sliki je uspešno optično prebrana."

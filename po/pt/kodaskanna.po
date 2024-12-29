@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-06 00:39+0000\n"
+"POT-Creation-Date: 2024-12-29 00:39+0000\n"
 "PO-Revision-Date: 2022-03-25 16:18+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -110,7 +110,7 @@ msgctxt "@title:window"
 msgid "Open Image"
 msgstr "Abrir a Imagem"
 
-#: src/imagesource/imageselectwidget.cpp:94
+#: src/imagesource/imageselectwidget.cpp:93
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "No suitable data on the clipboard."
@@ -151,12 +151,12 @@ msgstr "Não foi possível carregar a imagem do ficheiro %1."
 msgid "Could not load image from file %1."
 msgstr "Não foi possível carregar a imagem do ficheiro %1."
 
-#: src/imagesource/tool.cpp:96
+#: src/imagesource/tool.cpp:95
 #, kde-format
 msgid "Could not scan code in the image."
 msgstr "Não foi possível digitalizar o código na imagem."
 
-#: src/imagesource/tool.cpp:98
+#: src/imagesource/tool.cpp:97
 #, kde-format
 msgid "Code in the image successfully scanned."
 msgstr "O código na imagem foi digitalizado com sucesso."
