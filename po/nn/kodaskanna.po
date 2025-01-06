@@ -41,7 +41,6 @@ msgstr "Verktøy for å skanna data frå strekkodar."
 
 #: src/app/main.cpp:34
 #, fuzzy, kde-format
-#| msgid "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
 msgid "Copyright 2022, 2024, Friedrich W. H. Kossebau"
 msgstr "© 2022 Friedrich W.H. Kossebau <kossebau@kde.org>"
 
@@ -79,16 +78,12 @@ msgstr "Kopier data til utklippstavle"
 
 #: src/fileexport/tool.cpp:35
 #, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Save Text As"
 msgctxt "@action"
 msgid "Save Text As…"
 msgstr "Lagra tekst som"
 
 #: src/fileexport/tool.cpp:39
 #, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Save Data As"
 msgctxt "@action"
 msgid "Save Data As…"
 msgstr "Lagra data som"
@@ -143,7 +138,6 @@ msgstr "Slepp eit bilete her"
 
 #: src/imagesource/loadimagejob.cpp:93
 #, fuzzy, kde-format
-#| msgid "Could not load image from file %1."
 msgid "Could not load image from stdin."
 msgstr "Klarte ikkje lasta bilete frå fila %1."
 
