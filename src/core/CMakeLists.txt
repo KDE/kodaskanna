@@ -9,6 +9,8 @@ target_sources(kodaskannacore PRIVATE
     scanresult.cpp
 )
 
+kde_source_files_enable_exceptions(scanimagerunner.cpp)
+
 target_link_libraries(kodaskannacore
     PUBLIC
         Qt6::Gui
