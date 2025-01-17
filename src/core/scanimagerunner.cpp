@@ -32,16 +32,28 @@ ZXing::ImageFormat zxingImageFormatFromQImage(const QImage &image)
     switch (image.format()) {
     case QImage::Format_ARGB32:
     case QImage::Format_RGB32:
+#if ZXING_VERSION >= QT_VERSION_CHECK(2, 3, 0)
+#if Q_BYTE_ORDER == Q_LITTLE_ENDIAN
+        return ZXing::ImageFormat::BGRA;
+#else
+        return ZXing::ImageFormat::ARGB;
+#endif
+#else
 #if Q_BYTE_ORDER == Q_LITTLE_ENDIAN
         return ZXing::ImageFormat::BGRX;
 #else
         return ZXing::ImageFormat::XRGB;
 #endif
+#endif
     case QImage::Format_RGB888:
         return ZXing::ImageFormat::RGB;
     case QImage::Format_RGBX8888:
     case QImage::Format_RGBA8888:
+#if ZXING_VERSION >= QT_VERSION_CHECK(2, 3, 0)
+        return ZXing::ImageFormat::RGBA;
+#else
         return ZXing::ImageFormat::RGBX;
+#endif
     case QImage::Format_Grayscale8:
         return ZXing::ImageFormat::Lum;
     default:
