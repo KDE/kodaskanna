@@ -12,6 +12,8 @@ target_sources(kodaskannacore PRIVATE
 if(ZXing_VERSION VERSION_GREATER_EQUAL 2.3)
     # ZXing::ImageView inline methods throw exceptions
     kde_source_files_enable_exceptions(scanimagerunner.cpp)
+
+    set_source_files_properties(scanimagerunner.cpp PROPERTIES COMPILE_DEFINITIONS USE_NEW_ZXING_VERSION_HEADER)
 endif()
 
 target_link_libraries(kodaskannacore

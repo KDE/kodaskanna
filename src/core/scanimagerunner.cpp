@@ -11,7 +11,11 @@
 #include "scanresult_p.hpp"
 // ZXing
 #include <ZXing/ReadBarcode.h>
+#ifdef USE_NEW_ZXING_VERSION_HEADER
+#include <ZXing/Version.h>
+#else
 #include <ZXing/ZXVersion.h>
+#endif
 
 #define ZXING_VERSION ((ZXING_VERSION_MAJOR<<16)|(ZXING_VERSION_MINOR<<8)|(ZXING_VERSION_PATCH))
 
