@@ -9,6 +9,11 @@ target_sources(kodaskannacore PRIVATE
     scanresult.cpp
 )
 
+if(ZXing_VERSION VERSION_GREATER_EQUAL 2.3)
+    # ZXing::ImageView inline methods throw exceptions
+    kde_source_files_enable_exceptions(scanimagerunner.cpp)
+endif()
+
 target_link_libraries(kodaskannacore
     PUBLIC
         Qt6::Gui
