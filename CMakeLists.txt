@@ -4,7 +4,7 @@
 
 cmake_minimum_required(VERSION 3.16)
 
-project(Kodaskanna VERSION "0.2.1")
+project(Kodaskanna VERSION "0.2.2")
 
 set(QT_MIN_VERSION "6.5")
 set(KF_MIN_VERSION "6.0")
