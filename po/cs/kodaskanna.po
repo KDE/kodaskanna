@@ -38,10 +38,9 @@ msgid "Utility to scan data from codes in graphical sources."
 msgstr ""
 
 #: src/app/main.cpp:34
-#, fuzzy, kde-format
-#| msgid "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+#, kde-format
 msgid "Copyright 2022, 2024, Friedrich W. H. Kossebau"
-msgstr "Autorská práva 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+msgstr ""
 
 #: src/app/main.cpp:38
 #, kde-format
@@ -76,20 +75,16 @@ msgid "Copy Data to Clipboard"
 msgstr "Zkopírovat data do schránky"
 
 #: src/fileexport/tool.cpp:35
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Save Text As"
+#, kde-format
 msgctxt "@action"
 msgid "Save Text As…"
-msgstr "Uložit text jako"
+msgstr ""
 
 #: src/fileexport/tool.cpp:39
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Save Data As"
+#, kde-format
 msgctxt "@action"
 msgid "Save Data As…"
-msgstr "Uložit data jako"
+msgstr ""
 
 #: src/fileexport/tool.cpp:67
 #, kde-format
@@ -174,11 +169,3 @@ msgstr ""
 msgctxt "@action"
 msgid "Choose Another Source"
 msgstr ""
-
-#~ msgctxt "@action"
-#~ msgid "Save Text As..."
-#~ msgstr "Uložit text jako..."
-
-#~ msgctxt "@action"
-#~ msgid "Save Data As..."
-#~ msgstr "Uložit data jako..."
