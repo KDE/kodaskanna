@@ -40,7 +40,7 @@ find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS
     I18n
 )
 
-find_package(ZXing 2.0)
+find_package(ZXing 2.0 REQUIRED)
 
 ecm_set_disabled_deprecation_versions(
     QT 6.5
