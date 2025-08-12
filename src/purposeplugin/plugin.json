@@ -130,6 +130,7 @@
         "X-Purpose-ActionDisplay[tr]": "Kodaskanna ile Veri Kodu Tara…",
         "X-Purpose-ActionDisplay[uk]": "Сканувати дата-код за допомогою Kodaskanna…",
         "X-Purpose-ActionDisplay[x-test]": "xxScan Data Code with Kodaskanna…xx",
+        "X-Purpose-ActionDisplay[zh_CN]": "通过 Kodaskanna 扫描数据码...",
         "X-Purpose-ActionDisplay[zh_TW]": "用 Kodaskanna 掃描資料條碼…"
     },
     "X-Purpose-Configuration": [],
