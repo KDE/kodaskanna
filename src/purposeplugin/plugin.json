@@ -33,7 +33,6 @@
                 "Name[sv]": "Friedrich W. H. Kossebau",
                 "Name[tr]": "Friedrich W. H. Kossebau",
                 "Name[uk]": "Friedrich W. H. Kossebau",
-                "Name[x-test]": "xxFriedrich W. H. Kossebauxx",
                 "Name[zh_CN]": "Friedrich W. H. Kossebau",
                 "Name[zh_TW]": "Friedrich W. H. Kossebau"
             }
@@ -68,7 +67,6 @@
         "Description[sv]": "Läs datakod med Kodaskanna",
         "Description[tr]": "Kodaskanna ile Veri Kodu Tara",
         "Description[uk]": "Сканувати дата-код за допомогою Kodaskanna",
-        "Description[x-test]": "xxScan Data Code with Kodaskannaxx",
         "Description[zh_CN]": "通过 Kodaskanna 扫描数据码",
         "Description[zh_TW]": "用 Kodaskanna 掃描資料條碼",
         "Icon": "kodaskanna",
@@ -104,7 +102,6 @@
         "Name[sv]": "Kodaskanna",
         "Name[tr]": "Kodaskanna",
         "Name[uk]": "Kodaskanna",
-        "Name[x-test]": "xxKodaskannaxx",
         "Name[zh_CN]": "Kodaskanna",
         "Name[zh_TW]": "Kodaskanna 條碼掃描",
         "X-Purpose-ActionDisplay": "Scan Data Code with Kodaskanna…",
@@ -133,7 +130,6 @@
         "X-Purpose-ActionDisplay[sv]": "Läs datakod med Kodaskanna…",
         "X-Purpose-ActionDisplay[tr]": "Kodaskanna ile Veri Kodu Tara…",
         "X-Purpose-ActionDisplay[uk]": "Сканувати дата-код за допомогою Kodaskanna…",
-        "X-Purpose-ActionDisplay[x-test]": "xxScan Data Code with Kodaskanna…xx",
         "X-Purpose-ActionDisplay[zh_CN]": "通过 Kodaskanna 扫描数据码...",
         "X-Purpose-ActionDisplay[zh_TW]": "用 Kodaskanna 掃描資料條碼…"
     },
