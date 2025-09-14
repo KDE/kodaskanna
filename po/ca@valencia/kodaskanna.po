@@ -98,7 +98,7 @@ msgstr "Guarda el text com a"
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Data As"
-msgstr "Guarda les dades com a"
+msgstr "Anomeneu i guardeu les dades"
 
 #: src/imagesource/imageselecttool.cpp:66
 #, kde-format
@@ -116,7 +116,7 @@ msgstr "No hi ha dades adequades al porta-retalls."
 #: src/imagesource/imageselectwidget.ui:49
 #, kde-format
 msgid "Select a File"
-msgstr "Seleccioneu un fitxer"
+msgstr "Trieu un fitxer"
 
 #. i18n: ectx: property (text), widget (QPushButton, pasteFromClipboardButton)
 #: src/imagesource/imageselectwidget.ui:89
@@ -170,4 +170,4 @@ msgstr "No s'ha pogut trobar Kodaskanna."
 #, kde-format
 msgctxt "@action"
 msgid "Choose Another Source"
-msgstr "Seleccioneu una altra font"
+msgstr "Trieu una altra font"
