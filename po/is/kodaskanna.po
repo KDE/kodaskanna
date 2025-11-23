@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kodaskanna package.
 #
-# Sveinn í Felli <sv1@fellsnet.is>, 2022.
+# SPDX-FileCopyrightText: 2022, 2025 Sveinn í Felli <sv1@fellsnet.is>
 msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:50+0000\n"
-"PO-Revision-Date: 2022-08-22 18:00+0000\n"
+"PO-Revision-Date: 2025-11-22 09:30+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic\n"
 "Language: is\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -38,10 +38,9 @@ msgid "Utility to scan data from codes in graphical sources."
 msgstr "Tól til að skanna kóða af myndgerðum uppruna."
 
 #: src/app/main.cpp:34
-#, fuzzy, kde-format
-#| msgid "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+#, kde-format
 msgid "Copyright 2022, 2024, Friedrich W. H. Kossebau"
-msgstr "Höfundarréttur 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+msgstr "Höfundarréttur 2022, 2024, Friedrich W. H. Kossebau"
 
 #: src/app/main.cpp:38
 #, kde-format
@@ -61,7 +60,7 @@ msgstr "Myndskrá sem skal opna."
 #: src/app/main.cpp:48
 #, kde-format
 msgid "Enable only one scan."
-msgstr ""
+msgstr "Virkja aðeins eina skönnun"
 
 #: src/clipboardexport/tool.cpp:36
 #, kde-format
@@ -76,20 +75,16 @@ msgid "Copy Data to Clipboard"
 msgstr "Afrita Gögn á klippispjald"
 
 #: src/fileexport/tool.cpp:35
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Save Text As"
+#, kde-format
 msgctxt "@action"
 msgid "Save Text As…"
-msgstr "Vista texta sem"
+msgstr "Vista texta sem…"
 
 #: src/fileexport/tool.cpp:39
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Save Data As"
+#, kde-format
 msgctxt "@action"
 msgid "Save Data As…"
-msgstr "Vista gögn sem"
+msgstr "Vista gögn sem…"
 
 #: src/fileexport/tool.cpp:67
 #, kde-format
@@ -113,7 +108,7 @@ msgstr "Opna mynd"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "No suitable data on the clipboard."
-msgstr ""
+msgstr "Engin hentug gögn á klippispjaldinu."
 
 #. i18n: ectx: property (text), widget (QPushButton, openFileButton)
 #: src/imagesource/imageselectwidget.ui:49
@@ -140,10 +135,9 @@ msgid "Drop an image here"
 msgstr "Slepptu mynd hér"
 
 #: src/imagesource/loadimagejob.cpp:93
-#, fuzzy, kde-format
-#| msgid "Could not load image from file %1."
+#, kde-format
 msgid "Could not load image from stdin."
-msgstr "Gat ekki hlaðið inn mynd úr skránni %1."
+msgstr "Gat ekki hlaðið inn mynd úr stdin."
 
 #: src/imagesource/loadimagejob.cpp:95
 #, kde-format
@@ -174,7 +168,7 @@ msgstr "Gat ekki fundið Kodaskanna."
 #, kde-format
 msgctxt "@action"
 msgid "Choose Another Source"
-msgstr ""
+msgstr "Veldu önnur upptök"
 
 #~ msgctxt "@action"
 #~ msgid "Save Text As..."
