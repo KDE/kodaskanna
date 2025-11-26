@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:50+0000\n"
-"PO-Revision-Date: 2025-11-22 09:30+0000\n"
+"PO-Revision-Date: 2025-11-25 09:12+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic\n"
 "Language: is\n"
@@ -30,7 +30,7 @@ msgstr "sv1@fellsnet.is"
 #: src/app/main.cpp:30
 #, kde-format
 msgid "Kodaskanna"
-msgstr "Kodaskanna"
+msgstr "Kóðaskanni"
 
 #: src/app/main.cpp:32
 #, kde-format
@@ -72,7 +72,7 @@ msgstr "Afrita texta á klippispjald"
 #, kde-format
 msgctxt "@action"
 msgid "Copy Data to Clipboard"
-msgstr "Afrita Gögn á klippispjald"
+msgstr "Afrita gögn á klippispjald"
 
 #: src/fileexport/tool.cpp:35
 #, kde-format
@@ -162,7 +162,7 @@ msgstr "Þarf eina slóð."
 #: src/purposeplugin/launchjob.cpp:43
 #, kde-format
 msgid "Could not find Kodaskanna."
-msgstr "Gat ekki fundið Kodaskanna."
+msgstr "Gat ekki fundið Kóðaskanna."
 
 #: src/sourcenavigation/tool.cpp:33
 #, kde-format
