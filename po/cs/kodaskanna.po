@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kodaskanna package.
-# Vit Pelcak <vit@pelcak.org>, 2022, 2023.
+# SPDX-FileCopyrightText: 2022, 2023, 2025 Vit Pelcak <vit@pelcak.org>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:50+0000\n"
-"PO-Revision-Date: 2023-02-22 16:43+0100\n"
+"PO-Revision-Date: 2025-12-05 10:45+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 22.12.2\n"
+"X-Generator: Lokalize 25.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -40,7 +40,7 @@ msgstr ""
 #: src/app/main.cpp:34
 #, kde-format
 msgid "Copyright 2022, 2024, Friedrich W. H. Kossebau"
-msgstr ""
+msgstr "Copyright 2022, 2024, Friedrich W. H. Kossebau"
 
 #: src/app/main.cpp:38
 #, kde-format
@@ -60,7 +60,7 @@ msgstr ""
 #: src/app/main.cpp:48
 #, kde-format
 msgid "Enable only one scan."
-msgstr ""
+msgstr "Povolit pouze jeden sken."
 
 #: src/clipboardexport/tool.cpp:36
 #, kde-format
@@ -78,13 +78,13 @@ msgstr "Zkopírovat data do schránky"
 #, kde-format
 msgctxt "@action"
 msgid "Save Text As…"
-msgstr ""
+msgstr "Uložit text jako…"
 
 #: src/fileexport/tool.cpp:39
 #, kde-format
 msgctxt "@action"
 msgid "Save Data As…"
-msgstr ""
+msgstr "Uložit data jako…"
 
 #: src/fileexport/tool.cpp:67
 #, kde-format
@@ -108,7 +108,7 @@ msgstr "Otevřít obrázek"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "No suitable data on the clipboard."
-msgstr ""
+msgstr "Ve schránce nejsou žádná použitelná data."
 
 #. i18n: ectx: property (text), widget (QPushButton, openFileButton)
 #: src/imagesource/imageselectwidget.ui:49
@@ -137,7 +137,7 @@ msgstr ""
 #: src/imagesource/loadimagejob.cpp:93
 #, kde-format
 msgid "Could not load image from stdin."
-msgstr ""
+msgstr "Nelze načíst obrázek se standardního vstupu."
 
 #: src/imagesource/loadimagejob.cpp:95
 #, kde-format
@@ -168,4 +168,4 @@ msgstr ""
 #, kde-format
 msgctxt "@action"
 msgid "Choose Another Source"
-msgstr ""
+msgstr "Vyberte jiný zdroj"
