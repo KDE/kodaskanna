@@ -12,8 +12,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 21.12.1\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 21.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -36,8 +36,7 @@ msgid "Utility to scan data from codes in graphical sources."
 msgstr "Nástroj na skenovanie dát z kódov v grafických zdrojoch."
 
 #: src/app/main.cpp:34
-#, fuzzy, kde-format
-#| msgid "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
+#, kde-format
 msgid "Copyright 2022, 2024, Friedrich W. H. Kossebau"
 msgstr "Copyright 2022, Friedrich W. H. Kossebau <kossebau@kde.org>"
 
@@ -59,7 +58,7 @@ msgstr "Súbor obrázku na otvorenie."
 #: src/app/main.cpp:48
 #, kde-format
 msgid "Enable only one scan."
-msgstr ""
+msgstr "Povoliť iba jedno skenovanie."
 
 #: src/clipboardexport/tool.cpp:36
 #, kde-format
@@ -74,17 +73,13 @@ msgid "Copy Data to Clipboard"
 msgstr "Kopírovať dáta do schránky"
 
 #: src/fileexport/tool.cpp:35
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Save Text As"
+#, kde-format
 msgctxt "@action"
 msgid "Save Text As…"
 msgstr "Uložiť text ako"
 
 #: src/fileexport/tool.cpp:39
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Save Data As"
+#, kde-format
 msgctxt "@action"
 msgid "Save Data As…"
 msgstr "Uložiť dáta ako"
@@ -111,7 +106,7 @@ msgstr "Otvoriť obrázok"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "No suitable data on the clipboard."
-msgstr ""
+msgstr "No suitable data on the clipboard."
 
 #. i18n: ectx: property (text), widget (QPushButton, openFileButton)
 #: src/imagesource/imageselectwidget.ui:49
@@ -138,10 +133,9 @@ msgid "Drop an image here"
 msgstr "Sem pretiahnite obrázok"
 
 #: src/imagesource/loadimagejob.cpp:93
-#, fuzzy, kde-format
-#| msgid "Could not load image from file %1."
+#, kde-format
 msgid "Could not load image from stdin."
-msgstr "Nemôžem načítať obrázok zo súboru %1."
+msgstr "Nepodarilo sa load image from stdin."
 
 #: src/imagesource/loadimagejob.cpp:95
 #, kde-format
@@ -172,7 +166,7 @@ msgstr "Nemôžem nájsť Kodaskanna."
 #, kde-format
 msgctxt "@action"
 msgid "Choose Another Source"
-msgstr ""
+msgstr "Choose Another Source"
 
 #~ msgctxt "@action"
 #~ msgid "Save Text As..."
