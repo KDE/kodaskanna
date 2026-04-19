@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
 set(kodaskanna_ICONS
-    48-apps-kodaskanna.svg
+    sc-apps-kodaskanna.svg
 )
 
 ecm_install_icons(ICONS ${kodaskanna_ICONS} DESTINATION ${KDE_INSTALL_ICONDIR} THEME hicolor)
