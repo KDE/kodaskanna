@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:50+0000\n"
-"PO-Revision-Date: 2026-02-26 18:42+0100\n"
+"PO-Revision-Date: 2026-04-26 13:16+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
 "Language: nn\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 26.03.70\n"
+"X-Generator: Lokalize 26.04.0\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -61,7 +61,7 @@ msgstr "Biletfil å opna."
 #: src/app/main.cpp:48
 #, kde-format
 msgid "Enable only one scan."
-msgstr ""
+msgstr "Bruk berre enkeltskanning."
 
 #: src/clipboardexport/tool.cpp:36
 #, kde-format
@@ -109,7 +109,7 @@ msgstr "Opna bilete"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "No suitable data on the clipboard."
-msgstr ""
+msgstr "Ingen høvelege data på utklippstavla."
 
 #. i18n: ectx: property (text), widget (QPushButton, openFileButton)
 #: src/imagesource/imageselectwidget.ui:49
@@ -136,9 +136,9 @@ msgid "Drop an image here"
 msgstr "Slepp eit bilete her"
 
 #: src/imagesource/loadimagejob.cpp:93
-#, fuzzy, kde-format
+#, kde-format
 msgid "Could not load image from stdin."
-msgstr "Klarte ikkje lasta bilete frå fila %1."
+msgstr "Klarte ikkje lasta bilete frå standard-inn («stdin»)."
 
 #: src/imagesource/loadimagejob.cpp:95
 #, kde-format
