@@ -47,8 +47,13 @@ void LoadImageJob::start()
 
     // create a unique temporary file we use for the download
     m_tmpFile = std::make_unique<QTemporaryFile>();
-    m_tmpFile->open();
-
+    const bool isOpended = m_tmpFile->open();
+    if (!isOpended) {
+        setError(KJob::UserDefinedError);
+        setErrorText(m_tmpFile->errorString());
+        emitResult();
+        return;
+    }
     m_fileCopyJob = KIO::file_copy(m_fileUrl, QUrl::fromLocalFile(m_tmpFile->fileName()), -1, KIO::Overwrite);
 
     connect(m_fileCopyJob, &KJob::finished, this, &LoadImageJob::handleFileCopyFinished);
