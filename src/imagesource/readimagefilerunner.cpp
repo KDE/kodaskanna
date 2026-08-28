@@ -26,25 +26,32 @@ ReadImageFileRunner::ReadImageFileRunner(const QString &localFileName)
 
 void ReadImageFileRunner::run()
 {
+    bool isOpened;
     QFile input;
     if (m_localFileName.isEmpty()) {
-        input.open(stdin, QIODevice::ReadOnly | QIODevice::Unbuffered);
+        isOpened = input.open(stdin, QIODevice::ReadOnly | QIODevice::Unbuffered);
     } else {
         input.setFileName(m_localFileName);
-        input.open(QIODevice::ReadOnly);
+        isOpened = input.open(QIODevice::ReadOnly);
     }
-    QImageReader reader(&input);
-    reader.setAutoTransform(true);
-    const QImage loadedImage = reader.read();
 
     auto *resultData = new ImageReadResultPrivate;
     ImageReadResult imageReadResult(resultData);
 
-    resultData->isSuccess = !loadedImage.isNull();
-    if (resultData->isSuccess) {
-        resultData->image = loadedImage;
+    if (isOpened) {
+        QImageReader reader(&input);
+        reader.setAutoTransform(true);
+        const QImage loadedImage = reader.read();
+
+        resultData->isSuccess = !loadedImage.isNull();
+        if (resultData->isSuccess) {
+            resultData->image = loadedImage;
+        }
+    } else {
+        resultData->isSuccess = false;
     }
 
+    // TODO: add error message if no success
     Q_EMIT readFinished(imageReadResult);
 }
 
