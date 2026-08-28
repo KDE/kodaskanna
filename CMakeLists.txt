@@ -51,8 +51,8 @@ set_package_properties(ZXing PROPERTIES
 )
 
 ecm_set_disabled_deprecation_versions(
-    QT 6.5
-    KF 6.8
+    QT 6.10
+    KF 6.29
 )
 
 add_subdirectory(src)
