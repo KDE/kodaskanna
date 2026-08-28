@@ -62,7 +62,12 @@ ZXing::ImageFormat zxingImageFormatFromQImage(const QImage &image)
 }
 
 #if ZXING_VERSION >= QT_VERSION_CHECK(2, 2, 0)
-ZXing::Result readBarcode(const QImage &image, const ZXing::ReaderOptions &readerOptions)
+#if ZXING_VERSION >= QT_VERSION_CHECK(3, 0, 0)
+ZXing::Barcode
+#else
+ZXing::Result
+#endif
+readBarcode(const QImage &image, const ZXing::ReaderOptions &readerOptions)
 {
     return ZXing::ReadBarcode({image.bits(), image.width(), image.height(), zxingImageFormatFromQImage(image), static_cast<int>(image.bytesPerLine())}, readerOptions);
 }
@@ -77,10 +82,20 @@ void ScanImageRunner::run()
 {
 #if ZXING_VERSION >= QT_VERSION_CHECK(2, 2, 0)
     ZXing::ReaderOptions readerOptions;
-    readerOptions.setFormats(ZXing::BarcodeFormat::Any);
+    readerOptions.setFormats(
+#if ZXING_VERSION >= QT_VERSION_CHECK(3, 0, 0)
+        ZXing::BarcodeFormat::All
+#else
+        ZXing::BarcodeFormat::Any
+#endif
+    );
 
     const bool isSupportedQImageFormat = (zxingImageFormatFromQImage(m_image) == ZXing::ImageFormat::None);
+#if ZXING_VERSION >= QT_VERSION_CHECK(3, 0, 0)
+    ZXing::Barcode result =
+#else
     ZXing::Result result =
+#endif
         isSupportedQImageFormat ? readBarcode(m_image.convertToFormat(QImage::Format_RGBX8888), readerOptions) : readBarcode(m_image, readerOptions);
 #else
     ZXing::DecodeHints decodeHints;
