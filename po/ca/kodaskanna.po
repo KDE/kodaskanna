@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"POT-Creation-Date: 2026-08-29 00:43+0000\n"
 "PO-Revision-Date: 2024-11-22 10:10+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -136,12 +136,12 @@ msgstr "o"
 msgid "Drop an image here"
 msgstr "Deixeu anar aquí una imatge"
 
-#: src/imagesource/loadimagejob.cpp:93
+#: src/imagesource/loadimagejob.cpp:98
 #, kde-format
 msgid "Could not load image from stdin."
 msgstr "No s'ha pogut carregar la imatge des de «stdin»."
 
-#: src/imagesource/loadimagejob.cpp:95
+#: src/imagesource/loadimagejob.cpp:100
 #, kde-format
 msgid "Could not load image from file %1."
 msgstr "No s'ha pogut carregar la imatge des del fitxer %1."
