@@ -135,6 +135,7 @@ SPDX-License-Identifier: CC0-1.0
   <launchable type="desktop-id">org.kde.kodaskanna.desktop</launchable>
   <project_group>KDE</project_group>
   <releases>
+    <release version="0.2.3" date="2026-08-29"/>
     <release version="0.2.2" date="2025-01-17"/>
     <release version="0.2.1" date="2024-12-31"/>
     <release version="0.2.0" date="2024-12-06"/>
