@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-08-29 00:43+0000\n"
-"PO-Revision-Date: 2026-05-31 19:09-0400\n"
+"PO-Revision-Date: 2026-09-22 18:03+0900\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
 "Language: ug\n"
@@ -31,7 +31,7 @@ msgstr "sahranbay@gmail.com, gheyret@gmail.com"
 #: src/app/main.cpp:30
 #, kde-format
 msgid "Kodaskanna"
-msgstr "Kodaskanna"
+msgstr ""
 
 #: src/app/main.cpp:32
 #, kde-format
@@ -46,7 +46,7 @@ msgstr ""
 #: src/app/main.cpp:38
 #, kde-format
 msgid "Friedrich W. H. Kossebau"
-msgstr "Friedrich W. H. Kossebau"
+msgstr ""
 
 #: src/app/main.cpp:38
 #, kde-format
