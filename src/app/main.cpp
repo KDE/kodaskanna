@@ -17,8 +17,6 @@
 #include <QDir>
 #include <QUrl>
 #include <QIcon>
-// Std
-#include <unistd.h>
 
 int main(int argc, char **argv)
 {
@@ -55,11 +53,11 @@ int main(int argc, char **argv)
     QUrl sourceFileUrl;
     const QStringList positionalArguments = parser.positionalArguments();
     if (positionalArguments.size() > 0) {
-        const QString currentPath = QDir::currentPath();
-        sourceFileUrl = QUrl::fromUserInput(positionalArguments.first(), currentPath, QUrl::AssumeLocalFile);
-    } else {
-        if (!isatty(STDIN_FILENO)) {
+        if (positionalArguments.first() == QLatin1String("-")) {
             sourceFileUrl = QUrl(QStringLiteral("stdin:/"));
+        } else {
+            const QString currentPath = QDir::currentPath();
+            sourceFileUrl = QUrl::fromUserInput(positionalArguments.first(), currentPath, QUrl::AssumeLocalFile);
         }
     }
     const bool isOneScanMode = parser.isSet(oneScanOption);
