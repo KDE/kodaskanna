@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-29 00:43+0000\n"
+"POT-Creation-Date: 2026-11-25 01:23+0000\n"
 "PO-Revision-Date: 2025-02-09 21:20+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -28,37 +28,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde-l10n-he@kde.org"
 
-#: src/app/main.cpp:30
+#: src/app/main.cpp:28
 #, kde-format
 msgid "Kodaskanna"
 msgstr "Kodaskanna"
 
-#: src/app/main.cpp:32
+#: src/app/main.cpp:30
 #, kde-format
 msgid "Utility to scan data from codes in graphical sources."
 msgstr "כלי עזר לסריקת נתונים מקודים ממקורות גרפיים."
 
-#: src/app/main.cpp:34
+#: src/app/main.cpp:32
 #, kde-format
 msgid "Copyright 2022, 2024, Friedrich W. H. Kossebau"
 msgstr "כל הזכויות שמורות 2022, 2024, לפרידריך ו. ה. קוסבאו"
 
-#: src/app/main.cpp:38
+#: src/app/main.cpp:36
 #, kde-format
 msgid "Friedrich W. H. Kossebau"
 msgstr "פרידריך ו. ה. קוסבאו"
 
-#: src/app/main.cpp:38
+#: src/app/main.cpp:36
 #, kde-format
 msgid "Author"
 msgstr "יוצר"
 
-#: src/app/main.cpp:47
+#: src/app/main.cpp:45
 #, kde-format
 msgid "Image file to open."
 msgstr "קובץ תמונה לפתיחה."
 
-#: src/app/main.cpp:48
+#: src/app/main.cpp:46
 #, kde-format
 msgid "Enable only one scan."
 msgstr "הפעלת סריקה אחת בלבד."

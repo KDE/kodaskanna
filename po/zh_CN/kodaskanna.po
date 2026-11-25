@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-29 00:43+0000\n"
+"POT-Creation-Date: 2026-11-25 01:23+0000\n"
 "PO-Revision-Date: 2024-04-23 19:32\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -27,37 +27,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "slreycn@outlook.com"
 
-#: src/app/main.cpp:30
+#: src/app/main.cpp:28
 #, kde-format
 msgid "Kodaskanna"
 msgstr "Kodaskanna"
 
-#: src/app/main.cpp:32
+#: src/app/main.cpp:30
 #, kde-format
 msgid "Utility to scan data from codes in graphical sources."
 msgstr "扫描图形源码数据的工具。"
 
-#: src/app/main.cpp:34
+#: src/app/main.cpp:32
 #, kde-format
 msgid "Copyright 2022, 2024, Friedrich W. H. Kossebau"
 msgstr "Copyright 2022, 2024, Friedrich W. H. Kossebau"
 
-#: src/app/main.cpp:38
+#: src/app/main.cpp:36
 #, kde-format
 msgid "Friedrich W. H. Kossebau"
 msgstr "Friedrich W. H. Kossebau"
 
-#: src/app/main.cpp:38
+#: src/app/main.cpp:36
 #, kde-format
 msgid "Author"
 msgstr "作者"
 
-#: src/app/main.cpp:47
+#: src/app/main.cpp:45
 #, kde-format
 msgid "Image file to open."
 msgstr "要打开的图像文件。"
 
-#: src/app/main.cpp:48
+#: src/app/main.cpp:46
 #, kde-format
 msgid "Enable only one scan."
 msgstr "仅启用一次扫描。"

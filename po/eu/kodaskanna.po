@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-29 00:43+0000\n"
+"POT-Creation-Date: 2026-11-25 01:23+0000\n"
 "PO-Revision-Date: 2024-11-22 17:42+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -30,37 +30,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "xalba@ni.eus"
 
-#: src/app/main.cpp:30
+#: src/app/main.cpp:28
 #, kde-format
 msgid "Kodaskanna"
 msgstr "Kodaskanna"
 
-#: src/app/main.cpp:32
+#: src/app/main.cpp:30
 #, kde-format
 msgid "Utility to scan data from codes in graphical sources."
 msgstr "Sorburu grafikoetako kodeetako datuak eskaneatzeko utilitate-programa."
 
-#: src/app/main.cpp:34
+#: src/app/main.cpp:32
 #, kde-format
 msgid "Copyright 2022, 2024, Friedrich W. H. Kossebau"
 msgstr "Copyright 2022, 2024, Friedrich W. H. Kossebau"
 
-#: src/app/main.cpp:38
+#: src/app/main.cpp:36
 #, kde-format
 msgid "Friedrich W. H. Kossebau"
 msgstr "Friedrich W. H. Kossebau"
 
-#: src/app/main.cpp:38
+#: src/app/main.cpp:36
 #, kde-format
 msgid "Author"
 msgstr "Egilea"
 
-#: src/app/main.cpp:47
+#: src/app/main.cpp:45
 #, kde-format
 msgid "Image file to open."
 msgstr "Ireki beharreko irudi-fitxategia."
 
-#: src/app/main.cpp:48
+#: src/app/main.cpp:46
 #, kde-format
 msgid "Enable only one scan."
 msgstr "Gaitu eskaneatze bakarra."

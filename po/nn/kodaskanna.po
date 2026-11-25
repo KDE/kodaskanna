@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-29 00:43+0000\n"
+"POT-Creation-Date: 2026-11-25 01:23+0000\n"
 "PO-Revision-Date: 2026-04-26 13:16+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@nuug.no>\n"
@@ -29,37 +29,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "karl@huftis.org"
 
-#: src/app/main.cpp:30
+#: src/app/main.cpp:28
 #, kde-format
 msgid "Kodaskanna"
 msgstr "Kodaskanna"
 
-#: src/app/main.cpp:32
+#: src/app/main.cpp:30
 #, kde-format
 msgid "Utility to scan data from codes in graphical sources."
 msgstr "Verktøy for å skanna data frå strekkodar."
 
-#: src/app/main.cpp:34
+#: src/app/main.cpp:32
 #, kde-format
 msgid "Copyright 2022, 2024, Friedrich W. H. Kossebau"
 msgstr "© 2020, 2024 Friedrich W.H. Kossebau"
 
-#: src/app/main.cpp:38
+#: src/app/main.cpp:36
 #, kde-format
 msgid "Friedrich W. H. Kossebau"
 msgstr "Friedrich W.H. Kossebau"
 
-#: src/app/main.cpp:38
+#: src/app/main.cpp:36
 #, kde-format
 msgid "Author"
 msgstr "Opphavsperson"
 
-#: src/app/main.cpp:47
+#: src/app/main.cpp:45
 #, kde-format
 msgid "Image file to open."
 msgstr "Biletfil å opna."
 
-#: src/app/main.cpp:48
+#: src/app/main.cpp:46
 #, kde-format
 msgid "Enable only one scan."
 msgstr "Bruk berre enkeltskanning."
