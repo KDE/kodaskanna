@@ -42,7 +42,7 @@ int main(int argc, char **argv)
 
     QCommandLineParser parser;
     aboutData.setupCommandLine(&parser);
-    parser.addPositionalArgument(QStringLiteral("URL"), i18n("Image file to open."), QStringLiteral("[URL}"));
+    parser.addPositionalArgument(QStringLiteral("URL"), i18n("Image file to open. When URL is -, read standard input."), QStringLiteral("[URL]"));
     const QCommandLineOption oneScanOption(QStringLiteral("onescan"), i18n("Enable only one scan."));
     parser.addOption(oneScanOption);
 
