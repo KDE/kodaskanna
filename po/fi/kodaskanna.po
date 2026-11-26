@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-25 01:23+0000\n"
+"POT-Creation-Date: 2026-11-26 01:00+0000\n"
 "PO-Revision-Date: 2024-12-07 15:13+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -54,8 +54,8 @@ msgstr "Tekijä"
 
 #: src/app/main.cpp:45
 #, kde-format
-msgid "Image file to open."
-msgstr "Avattava kuvatiedosto."
+msgid "Image file to open. When URL is -, read standard input."
+msgstr ""
 
 # Tämä on epäselvä – pitäisi tietää, mitä tämä tekee. Oletan, että ”one scan” = luetaan vain kerran.
 #: src/app/main.cpp:46
@@ -170,6 +170,9 @@ msgstr "Kodaskannaa ei löytynyt."
 msgctxt "@action"
 msgid "Choose Another Source"
 msgstr "Valitse toinen lähde"
+
+#~ msgid "Image file to open."
+#~ msgstr "Avattava kuvatiedosto."
 
 #~ msgctxt "@action"
 #~ msgid "Save Text As..."

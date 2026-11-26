@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-25 01:23+0000\n"
+"POT-Creation-Date: 2026-11-26 01:00+0000\n"
 "PO-Revision-Date: 2024-04-23 19:32\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -54,8 +54,8 @@ msgstr "作者"
 
 #: src/app/main.cpp:45
 #, kde-format
-msgid "Image file to open."
-msgstr "要打开的图像文件。"
+msgid "Image file to open. When URL is -, read standard input."
+msgstr ""
 
 #: src/app/main.cpp:46
 #, kde-format
@@ -169,3 +169,6 @@ msgstr "未找到 Kodaskanna。"
 msgctxt "@action"
 msgid "Choose Another Source"
 msgstr "选择另一个来源"
+
+#~ msgid "Image file to open."
+#~ msgstr "要打开的图像文件。"

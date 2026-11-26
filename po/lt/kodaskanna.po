@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-25 01:23+0000\n"
+"POT-Creation-Date: 2026-11-26 01:00+0000\n"
 "PO-Revision-Date: 2025-11-19 20:14+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -57,8 +57,8 @@ msgstr "Autorius"
 
 #: src/app/main.cpp:45
 #, kde-format
-msgid "Image file to open."
-msgstr "Paveikslo failas, kurį atverti."
+msgid "Image file to open. When URL is -, read standard input."
+msgstr ""
 
 #: src/app/main.cpp:46
 #, kde-format
@@ -172,3 +172,6 @@ msgstr "Nepavyko rasti Kodaskanna."
 msgctxt "@action"
 msgid "Choose Another Source"
 msgstr "Pasirinkti kitą šaltinį"
+
+#~ msgid "Image file to open."
+#~ msgstr "Paveikslo failas, kurį atverti."

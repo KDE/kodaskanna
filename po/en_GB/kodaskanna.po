@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-25 01:23+0000\n"
+"POT-Creation-Date: 2026-11-26 01:00+0000\n"
 "PO-Revision-Date: 2024-11-23 12:10+0000\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English\n"
@@ -54,8 +54,8 @@ msgstr "Author"
 
 #: src/app/main.cpp:45
 #, kde-format
-msgid "Image file to open."
-msgstr "Image file to open."
+msgid "Image file to open. When URL is -, read standard input."
+msgstr ""
 
 #: src/app/main.cpp:46
 #, kde-format
@@ -169,6 +169,9 @@ msgstr "Could not find Kodaskanna."
 msgctxt "@action"
 msgid "Choose Another Source"
 msgstr "Choose Another Source"
+
+#~ msgid "Image file to open."
+#~ msgstr "Image file to open."
 
 #~ msgctxt "@action"
 #~ msgid "Save Text As..."

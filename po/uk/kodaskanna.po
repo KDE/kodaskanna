@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-25 01:23+0000\n"
+"POT-Creation-Date: 2026-11-26 01:00+0000\n"
 "PO-Revision-Date: 2024-11-22 09:25+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -55,8 +55,8 @@ msgstr "Автор"
 
 #: src/app/main.cpp:45
 #, kde-format
-msgid "Image file to open."
-msgstr "Файл зображення, який слід відкрити."
+msgid "Image file to open. When URL is -, read standard input."
+msgstr ""
 
 #: src/app/main.cpp:46
 #, kde-format
@@ -171,6 +171,9 @@ msgstr "Не вдалося знайти Kodaskanna."
 msgctxt "@action"
 msgid "Choose Another Source"
 msgstr "Вибрати інше джерело"
+
+#~ msgid "Image file to open."
+#~ msgstr "Файл зображення, який слід відкрити."
 
 #~ msgctxt "@action"
 #~ msgid "Save Text As..."

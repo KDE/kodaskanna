@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-25 01:23+0000\n"
+"POT-Creation-Date: 2026-11-26 01:00+0000\n"
 "PO-Revision-Date: 2026-04-26 13:16+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@nuug.no>\n"
@@ -56,8 +56,8 @@ msgstr "Opphavsperson"
 
 #: src/app/main.cpp:45
 #, kde-format
-msgid "Image file to open."
-msgstr "Biletfil å opna."
+msgid "Image file to open. When URL is -, read standard input."
+msgstr ""
 
 #: src/app/main.cpp:46
 #, kde-format
@@ -171,3 +171,6 @@ msgstr "Fann ikkje Kodaskanna."
 msgctxt "@action"
 msgid "Choose Another Source"
 msgstr "Vel ei anna kjelde"
+
+#~ msgid "Image file to open."
+#~ msgstr "Biletfil å opna."

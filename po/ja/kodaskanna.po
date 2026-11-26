@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-25 01:23+0000\n"
+"POT-Creation-Date: 2026-11-26 01:00+0000\n"
 "PO-Revision-Date: 2022-01-26 21:41-0800\n"
 "Last-Translator: Japanese KDE translation team <kde-jp@kde.org>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -51,7 +51,7 @@ msgstr ""
 
 #: src/app/main.cpp:45
 #, kde-format
-msgid "Image file to open."
+msgid "Image file to open. When URL is -, read standard input."
 msgstr ""
 
 #: src/app/main.cpp:46

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-25 01:23+0000\n"
+"POT-Creation-Date: 2026-11-26 01:00+0000\n"
 "PO-Revision-Date: 2024-12-06 07:42+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -55,8 +55,8 @@ msgstr "المؤلف"
 
 #: src/app/main.cpp:45
 #, kde-format
-msgid "Image file to open."
-msgstr "ملف الصورة لفتحه."
+msgid "Image file to open. When URL is -, read standard input."
+msgstr ""
 
 #: src/app/main.cpp:46
 #, kde-format
@@ -170,6 +170,9 @@ msgstr "لا يمكن العثور على ماسح الرمز."
 msgctxt "@action"
 msgid "Choose Another Source"
 msgstr "اختر مصدر أخر"
+
+#~ msgid "Image file to open."
+#~ msgstr "ملف الصورة لفتحه."
 
 #~ msgctxt "@action"
 #~ msgid "Save Text As..."

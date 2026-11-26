@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-25 01:23+0000\n"
+"POT-Creation-Date: 2026-11-26 01:00+0000\n"
 "PO-Revision-Date: 2024-12-27 17:40+0100\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-doc@kde.org>\n"
@@ -55,8 +55,8 @@ msgstr "Aŭtoro"
 
 #: src/app/main.cpp:45
 #, kde-format
-msgid "Image file to open."
-msgstr "Bilddosiero por malfermi."
+msgid "Image file to open. When URL is -, read standard input."
+msgstr ""
 
 #: src/app/main.cpp:46
 #, kde-format
@@ -170,3 +170,6 @@ msgstr "Ne eblis trovi Kodaskanna."
 msgctxt "@action"
 msgid "Choose Another Source"
 msgstr "Elekti Alian Fonton"
+
+#~ msgid "Image file to open."
+#~ msgstr "Bilddosiero por malfermi."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-25 01:23+0000\n"
+"POT-Creation-Date: 2026-11-26 01:00+0000\n"
 "PO-Revision-Date: 2024-12-15 17:36+0530\n"
 "Last-Translator: Kali <EMAIL@ADDRESS>\n"
 "Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
@@ -54,8 +54,8 @@ msgstr "लेखक"
 
 #: src/app/main.cpp:45
 #, kde-format
-msgid "Image file to open."
-msgstr "छवि फ़ाइल खोलने के लिए."
+msgid "Image file to open. When URL is -, read standard input."
+msgstr ""
 
 #: src/app/main.cpp:46
 #, kde-format
@@ -169,3 +169,6 @@ msgstr "कोडस्कन्ना नहीं मिल सका."
 msgctxt "@action"
 msgid "Choose Another Source"
 msgstr "कोई अन्य स्रोत चुनें"
+
+#~ msgid "Image file to open."
+#~ msgstr "छवि फ़ाइल खोलने के लिए."

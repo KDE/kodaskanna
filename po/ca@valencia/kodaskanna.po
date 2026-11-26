@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-25 01:23+0000\n"
+"POT-Creation-Date: 2026-11-26 01:00+0000\n"
 "PO-Revision-Date: 2024-11-22 10:10+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -56,8 +56,8 @@ msgstr "Autoria"
 
 #: src/app/main.cpp:45
 #, kde-format
-msgid "Image file to open."
-msgstr "Fitxer d'imatge que s'obrirà."
+msgid "Image file to open. When URL is -, read standard input."
+msgstr ""
 
 #: src/app/main.cpp:46
 #, kde-format
@@ -171,3 +171,6 @@ msgstr "No s'ha pogut trobar Kodaskanna."
 msgctxt "@action"
 msgid "Choose Another Source"
 msgstr "Trieu una altra font"
+
+#~ msgid "Image file to open."
+#~ msgstr "Fitxer d'imatge que s'obrirà."
