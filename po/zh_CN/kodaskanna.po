@@ -169,6 +169,3 @@ msgstr "未找到 Kodaskanna。"
 msgctxt "@action"
 msgid "Choose Another Source"
 msgstr "选择另一个来源"
-
-#~ msgid "Image file to open."
-#~ msgstr "要打开的图像文件。"

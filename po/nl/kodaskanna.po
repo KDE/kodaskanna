@@ -1,26 +1,26 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kodaskanna package.
 #
-# SPDX-FileCopyrightText: 2022, 2024 Freek de Kruijf <freekdekruijf@kde.nl>
+# SPDX-FileCopyrightText: 2022, 2024, 2026 Freek de Kruijf <freekdekruijf@kde.nl>
 msgid ""
 msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-26 01:00+0000\n"
-"PO-Revision-Date: 2024-11-22 11:25+0100\n"
-"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+"PO-Revision-Date: 2026-11-26 14:32+0100\n"
+"Last-Translator: freek <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.08.3\n"
+"X-Generator: Lokalize 26.04.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Freek de Kruijf - 2022 t/m 2024"
+msgstr "Freek de Kruijf - 2022 t/m 2026"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
@@ -56,6 +56,7 @@ msgstr "Auteur"
 #, kde-format
 msgid "Image file to open. When URL is -, read standard input."
 msgstr ""
+"Te openen afbeeldingsbestand. Wanneer URL is -, lees van standaard invoer."
 
 #: src/app/main.cpp:46
 #, kde-format
