@@ -171,6 +171,3 @@ msgstr "Fann ikkje Kodaskanna."
 msgctxt "@action"
 msgid "Choose Another Source"
 msgstr "Vel ei anna kjelde"
-
-#~ msgid "Image file to open."
-#~ msgstr "Biletfil å opna."

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kodaskanna\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-26 01:00+0000\n"
-"PO-Revision-Date: 2026-10-10 13:02+0200\n"
+"PO-Revision-Date: 2026-11-27 07:57+0200\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -56,6 +56,7 @@ msgstr "Автор"
 #, kde-format
 msgid "Image file to open. When URL is -, read standard input."
 msgstr ""
+"Открываемый файл изображения. Если указан адрес «-», читать стандартный ввод."
 
 #: src/app/main.cpp:46
 #, kde-format

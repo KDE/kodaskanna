@@ -169,6 +169,8 @@ msgctxt "@action"
 msgid "Choose Another Source"
 msgstr "Sélectionner une autre source"
 
+#, fuzzy
+#~| msgid "Image file to open."
 #~ msgid "Image file to open."
 #~ msgstr "Fichier d'image à ouvrir."
 
